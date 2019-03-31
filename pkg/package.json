@@ -1,0 +1,15 @@
+{
+  "name": "canvas",
+  "collaborators": [
+    "The wasm-bindgen Developers"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "canvas_bg.wasm",
+    "canvas.js",
+    "canvas.d.ts"
+  ],
+  "module": "canvas.js",
+  "types": "canvas.d.ts",
+  "sideEffects": "false"
+}
