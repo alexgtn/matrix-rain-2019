@@ -1,15 +1,14 @@
-# 2D Canvas
+# Matrix rain
+## 31.03.2019
 
-[View documentation for this example online][dox] or [View compiled example
-online][compiled]
-
-[compiled]: https://rustwasm.github.io/wasm-bindgen/exbuild/canvas/
-[dox]: https://rustwasm.github.io/wasm-bindgen/examples/2d-canvas.html
-
-You can build the example locally with:
+```
+wasm-pack build --debug
+```
 
 ```
 $ npm run serve
 ```
 
-and then visiting http://localhost:8080 in a browser should run the example!
+```
+http://localhost:8080
+```
