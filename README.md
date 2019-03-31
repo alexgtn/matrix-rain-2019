@@ -2,7 +2,7 @@
 ## 31.03.2019
 
 ```
-wasm-pack build --debug
+$ wasm-pack build --debug
 ```
 
 ```
