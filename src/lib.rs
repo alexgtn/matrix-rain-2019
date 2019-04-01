@@ -149,9 +149,9 @@ pub fn get_canvas(
         .dyn_into::<web_sys::CanvasRenderingContext2d>()
         .unwrap();
 
-    context.set_fill_style(&JsValue::from_str("white"));
-    context.fill_rect(0.0, 0.0, width as f64, height as f64);
     context.set_fill_style(&JsValue::from_str("black"));
+    context.fill_rect(0.0, 0.0, width as f64, height as f64);
+    context.set_fill_style(&JsValue::from_str("#a4f442"));
 
     let mut alphabet = vec![
         '田', '@', '由', '甲', '申', '甴', '电', '甶', '男', '甸', '甹', '町', '画',
