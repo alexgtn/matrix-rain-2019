@@ -23831,3 +23831,2135 @@ Apr 01 23:14:20.594 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-
 Apr 01 23:14:20.669 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
 Apr 01 23:14:20.669 INFO Done in 0 seconds.
 Apr 01 23:14:20.669 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:18:31.035 INFO Running build command...
+Apr 01 23:18:31.035 INFO Checking rustc version...
+Apr 01 23:18:31.048 INFO Running build command...
+Apr 01 23:18:31.048 INFO Checking rustc version...
+Apr 01 23:18:31.054 INFO rustc version is 35.
+Apr 01 23:18:31.054 INFO Checking crate configuration...
+Apr 01 23:18:31.054 INFO Crate is correctly configured.
+Apr 01 23:18:31.054 INFO Adding wasm-target...
+Apr 01 23:18:31.054 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:18:31.062 INFO rustc version is 35.
+Apr 01 23:18:31.062 INFO Checking crate configuration...
+Apr 01 23:18:31.062 INFO Crate is correctly configured.
+Apr 01 23:18:31.062 INFO Adding wasm-target...
+Apr 01 23:18:31.062 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:18:31.122 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:18:31.123 INFO Adding wasm-target was successful.
+Apr 01 23:18:31.123 INFO Building wasm...
+Apr 01 23:18:31.123 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:18:31.136 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:18:31.137 INFO Adding wasm-target was successful.
+Apr 01 23:18:31.137 INFO Building wasm...
+Apr 01 23:18:31.137 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:18:31.219 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:18:31.222 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:18:31.472 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:18:31.472 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:18:31.472 INFO cargo build (stderr):    |
+Apr 01 23:18:31.472 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:18:31.472 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:18:31.472 INFO cargo build (stderr):    |         |
+Apr 01 23:18:31.472 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:18:31.472 INFO cargo build (stderr):    |
+Apr 01 23:18:31.472 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:18:31.472 INFO cargo build (stderr): 
+Apr 01 23:18:31.476 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:18:31.476 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:18:31.476 INFO cargo build (stderr):    |
+Apr 01 23:18:31.477 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:18:31.477 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:18:31.477 INFO cargo build (stderr):    |
+Apr 01 23:18:31.477 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:18:31.477 INFO cargo build (stderr): 
+Apr 01 23:18:31.477 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:18:31.477 INFO cargo build (stderr):    --> src/lib.rs:115:17
+Apr 01 23:18:31.477 INFO cargo build (stderr):     |
+Apr 01 23:18:31.477 INFO cargo build (stderr): 115 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:18:31.477 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:18:31.477 INFO cargo build (stderr):     |
+Apr 01 23:18:31.477 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:18:31.477 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:18:31.478 INFO cargo build (stderr): 
+Apr 01 23:18:31.478 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:18:31.478 INFO cargo build (stderr):    --> src/lib.rs:155:13
+Apr 01 23:18:31.478 INFO cargo build (stderr):     |
+Apr 01 23:18:31.478 INFO cargo build (stderr): 155 | /             context.fill_text(
+Apr 01 23:18:31.478 INFO cargo build (stderr): 156 | |                 &char_lists[cl].chars[ch].value.to_string(),
+Apr 01 23:18:31.478 INFO cargo build (stderr): 157 | |                 (14 * cl) as f64,
+Apr 01 23:18:31.478 INFO cargo build (stderr): 158 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:18:31.478 INFO cargo build (stderr): 159 | |             );
+Apr 01 23:18:31.478 INFO cargo build (stderr):     | |______________^
+Apr 01 23:18:31.478 INFO cargo build (stderr):     |
+Apr 01 23:18:31.478 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:18:31.478 INFO cargo build (stderr): 
+Apr 01 23:18:31.748 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.61s
+Apr 01 23:18:31.749 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:18:31.759 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:18:31.760 INFO Creating a pkg directory...
+Apr 01 23:18:31.760 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:18:31.760 INFO Writing a package.json...
+Apr 01 23:18:31.760 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:18:31.760 INFO Copying readme from crate...
+Apr 01 23:18:31.760 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:18:31.760 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:18:31.777 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.63s
+Apr 01 23:18:31.780 INFO Installing wasm-bindgen-cli...
+Apr 01 23:18:31.780 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:18:31.783 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:18:31.783 INFO Creating a pkg directory...
+Apr 01 23:18:31.783 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:18:31.783 INFO Writing a package.json...
+Apr 01 23:18:31.783 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:18:31.783 INFO Copying readme from crate...
+Apr 01 23:18:31.784 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:18:31.784 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:18:31.785 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:18:31.785 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:18:31.785 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:18:31.785 INFO Getting the crate name from the manifest...
+Apr 01 23:18:31.785 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:18:31.785 INFO Building the wasm bindings...
+Apr 01 23:18:31.785 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:18:31.799 INFO Installing wasm-bindgen-cli...
+Apr 01 23:18:31.799 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:18:31.805 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:18:31.805 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:18:31.805 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:18:31.805 INFO Getting the crate name from the manifest...
+Apr 01 23:18:31.805 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:18:31.805 INFO Building the wasm bindings...
+Apr 01 23:18:31.805 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:18:31.872 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:18:31.872 INFO Done in 0 seconds.
+Apr 01 23:18:31.872 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:18:31.915 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:18:31.915 INFO Done in 0 seconds.
+Apr 01 23:18:31.915 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:18:59.091 INFO Running build command...
+Apr 01 23:18:59.091 INFO Checking rustc version...
+Apr 01 23:18:59.114 INFO rustc version is 35.
+Apr 01 23:18:59.114 INFO Checking crate configuration...
+Apr 01 23:18:59.114 INFO Crate is correctly configured.
+Apr 01 23:18:59.114 INFO Adding wasm-target...
+Apr 01 23:18:59.114 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:18:59.192 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:18:59.193 INFO Adding wasm-target was successful.
+Apr 01 23:18:59.193 INFO Building wasm...
+Apr 01 23:18:59.193 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:18:59.293 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:18:59.474 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:18:59.474 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:18:59.474 INFO cargo build (stderr):    |
+Apr 01 23:18:59.474 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:18:59.474 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:18:59.474 INFO cargo build (stderr):    |         |
+Apr 01 23:18:59.474 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:18:59.474 INFO cargo build (stderr):    |
+Apr 01 23:18:59.474 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:18:59.474 INFO cargo build (stderr): 
+Apr 01 23:18:59.475 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:18:59.475 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:18:59.475 INFO cargo build (stderr):    |
+Apr 01 23:18:59.475 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:18:59.475 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:18:59.475 INFO cargo build (stderr):    |
+Apr 01 23:18:59.475 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:18:59.475 INFO cargo build (stderr): 
+Apr 01 23:18:59.475 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:18:59.476 INFO cargo build (stderr):    --> src/lib.rs:115:17
+Apr 01 23:18:59.476 INFO cargo build (stderr):     |
+Apr 01 23:18:59.476 INFO cargo build (stderr): 115 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:18:59.476 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:18:59.476 INFO cargo build (stderr):     |
+Apr 01 23:18:59.476 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:18:59.476 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:18:59.476 INFO cargo build (stderr): 
+Apr 01 23:18:59.476 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:18:59.476 INFO cargo build (stderr):    --> src/lib.rs:155:13
+Apr 01 23:18:59.476 INFO cargo build (stderr):     |
+Apr 01 23:18:59.476 INFO cargo build (stderr): 155 | /             context.fill_text(
+Apr 01 23:18:59.477 INFO cargo build (stderr): 156 | |                 &char_lists[cl].chars[ch].value.to_string(),
+Apr 01 23:18:59.477 INFO cargo build (stderr): 157 | |                 (14 * cl) as f64,
+Apr 01 23:18:59.477 INFO cargo build (stderr): 158 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:18:59.477 INFO cargo build (stderr): 159 | |             );
+Apr 01 23:18:59.477 INFO cargo build (stderr):     | |______________^
+Apr 01 23:18:59.477 INFO cargo build (stderr):     |
+Apr 01 23:18:59.477 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:18:59.477 INFO cargo build (stderr): 
+Apr 01 23:18:59.749 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.54s
+Apr 01 23:18:59.756 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:18:59.756 INFO Creating a pkg directory...
+Apr 01 23:18:59.756 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:18:59.756 INFO Writing a package.json...
+Apr 01 23:18:59.756 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:18:59.756 INFO Copying readme from crate...
+Apr 01 23:18:59.756 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:18:59.757 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:18:59.775 INFO Installing wasm-bindgen-cli...
+Apr 01 23:18:59.776 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:18:59.780 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:18:59.780 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:18:59.780 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:18:59.780 INFO Getting the crate name from the manifest...
+Apr 01 23:18:59.780 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:18:59.780 INFO Building the wasm bindings...
+Apr 01 23:18:59.780 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:18:59.850 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:18:59.850 INFO Done in 0 seconds.
+Apr 01 23:18:59.850 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:19:34.855 INFO Running build command...
+Apr 01 23:19:34.855 INFO Checking rustc version...
+Apr 01 23:19:34.863 INFO Running build command...
+Apr 01 23:19:34.863 INFO Checking rustc version...
+Apr 01 23:19:34.870 INFO Running build command...
+Apr 01 23:19:34.870 INFO Checking rustc version...
+Apr 01 23:19:34.875 INFO rustc version is 35.
+Apr 01 23:19:34.875 INFO Checking crate configuration...
+Apr 01 23:19:34.875 INFO Crate is correctly configured.
+Apr 01 23:19:34.875 INFO Adding wasm-target...
+Apr 01 23:19:34.875 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:19:34.878 INFO rustc version is 35.
+Apr 01 23:19:34.879 INFO Checking crate configuration...
+Apr 01 23:19:34.879 INFO Crate is correctly configured.
+Apr 01 23:19:34.879 INFO Adding wasm-target...
+Apr 01 23:19:34.879 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:19:34.891 INFO rustc version is 35.
+Apr 01 23:19:34.891 INFO Checking crate configuration...
+Apr 01 23:19:34.891 INFO Crate is correctly configured.
+Apr 01 23:19:34.891 INFO Adding wasm-target...
+Apr 01 23:19:34.892 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:19:34.956 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:19:34.957 INFO Adding wasm-target was successful.
+Apr 01 23:19:34.957 INFO Building wasm...
+Apr 01 23:19:34.957 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:19:34.966 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:19:34.968 INFO Adding wasm-target was successful.
+Apr 01 23:19:34.968 INFO Building wasm...
+Apr 01 23:19:34.968 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:19:34.970 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:19:34.972 INFO Adding wasm-target was successful.
+Apr 01 23:19:34.972 INFO Building wasm...
+Apr 01 23:19:34.972 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:19:35.043 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:19:35.044 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:19:35.053 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:19:35.221 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:19:35.221 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:19:35.222 INFO cargo build (stderr):    |
+Apr 01 23:19:35.222 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:19:35.222 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:19:35.222 INFO cargo build (stderr):    |         |
+Apr 01 23:19:35.222 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:19:35.222 INFO cargo build (stderr):    |
+Apr 01 23:19:35.222 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:19:35.222 INFO cargo build (stderr): 
+Apr 01 23:19:35.222 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:19:35.222 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:19:35.222 INFO cargo build (stderr):    |
+Apr 01 23:19:35.222 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:19:35.223 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:19:35.223 INFO cargo build (stderr):    |
+Apr 01 23:19:35.223 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:19:35.223 INFO cargo build (stderr): 
+Apr 01 23:19:35.223 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:19:35.223 INFO cargo build (stderr):    --> src/lib.rs:115:17
+Apr 01 23:19:35.223 INFO cargo build (stderr):     |
+Apr 01 23:19:35.223 INFO cargo build (stderr): 115 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:19:35.223 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:19:35.223 INFO cargo build (stderr):     |
+Apr 01 23:19:35.223 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:19:35.223 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:19:35.223 INFO cargo build (stderr): 
+Apr 01 23:19:35.223 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:19:35.223 INFO cargo build (stderr):    --> src/lib.rs:155:13
+Apr 01 23:19:35.223 INFO cargo build (stderr):     |
+Apr 01 23:19:35.224 INFO cargo build (stderr): 155 | /             context.fill_text(
+Apr 01 23:19:35.224 INFO cargo build (stderr): 156 | |                 &char_lists[cl].chars[ch].value.to_string(),
+Apr 01 23:19:35.224 INFO cargo build (stderr): 157 | |                 (14 * cl) as f64,
+Apr 01 23:19:35.224 INFO cargo build (stderr): 158 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:19:35.224 INFO cargo build (stderr): 159 | |             );
+Apr 01 23:19:35.224 INFO cargo build (stderr):     | |______________^
+Apr 01 23:19:35.224 INFO cargo build (stderr):     |
+Apr 01 23:19:35.224 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:19:35.224 INFO cargo build (stderr): 
+Apr 01 23:19:35.359 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.39s
+Apr 01 23:19:35.369 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:19:35.369 INFO Creating a pkg directory...
+Apr 01 23:19:35.369 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:19:35.369 INFO Writing a package.json...
+Apr 01 23:19:35.370 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:19:35.370 INFO Copying readme from crate...
+Apr 01 23:19:35.370 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:19:35.370 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:19:35.388 INFO Installing wasm-bindgen-cli...
+Apr 01 23:19:35.389 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:19:35.390 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.41s
+Apr 01 23:19:35.392 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:19:35.393 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:19:35.393 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:19:35.393 INFO Getting the crate name from the manifest...
+Apr 01 23:19:35.393 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:19:35.393 INFO Building the wasm bindings...
+Apr 01 23:19:35.393 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:19:35.396 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:19:35.396 INFO Creating a pkg directory...
+Apr 01 23:19:35.396 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:19:35.396 INFO Writing a package.json...
+Apr 01 23:19:35.397 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:19:35.397 INFO Copying readme from crate...
+Apr 01 23:19:35.397 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:19:35.397 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:19:35.419 INFO Installing wasm-bindgen-cli...
+Apr 01 23:19:35.419 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:19:35.419 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.44s
+Apr 01 23:19:35.423 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:19:35.424 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:19:35.424 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:19:35.425 INFO Getting the crate name from the manifest...
+Apr 01 23:19:35.425 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:19:35.425 INFO Building the wasm bindings...
+Apr 01 23:19:35.426 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:19:35.435 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:19:35.436 INFO Creating a pkg directory...
+Apr 01 23:19:35.436 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:19:35.436 INFO Writing a package.json...
+Apr 01 23:19:35.436 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:19:35.436 INFO Copying readme from crate...
+Apr 01 23:19:35.436 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:19:35.436 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:19:35.461 INFO Installing wasm-bindgen-cli...
+Apr 01 23:19:35.461 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:19:35.466 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:19:35.468 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:19:35.468 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:19:35.468 INFO Getting the crate name from the manifest...
+Apr 01 23:19:35.469 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:19:35.469 INFO Building the wasm bindings...
+Apr 01 23:19:35.470 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:19:35.490 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:19:35.490 INFO Done in 0 seconds.
+Apr 01 23:19:35.490 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:19:35.524 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:19:35.524 INFO Done in 0 seconds.
+Apr 01 23:19:35.524 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:19:35.563 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:19:35.563 INFO Done in 0 seconds.
+Apr 01 23:19:35.563 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:20:07.334 INFO Running build command...
+Apr 01 23:20:07.335 INFO Checking rustc version...
+Apr 01 23:20:07.343 INFO Running build command...
+Apr 01 23:20:07.343 INFO Checking rustc version...
+Apr 01 23:20:07.356 INFO rustc version is 35.
+Apr 01 23:20:07.356 INFO Checking crate configuration...
+Apr 01 23:20:07.356 INFO Crate is correctly configured.
+AprApr  0011  2323::2020::0077..356356  INFOINFO  Adding wasm-target...Running build command...
+
+Apr 0Apr1  0231: 2023::0207:.03567 .INFO356  Running "rustup" "target" "add" "wasm32-unknown-unknown"INFO
+ Checking rustc version...
+Apr 01 23:20:07.366 INFO rustc version is 35.
+Apr 01 23:20:07.366 INFO Checking crate configuration...
+Apr 01 23:20:07.366 INFO Crate is correctly configured.
+Apr 01 23:20:07.367 INFO Adding wasm-target...
+Apr 01 23:20:07.367 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:20:07.378 INFO rustc version is 35.
+Apr 01 23:20:07.378 INFO Checking crate configuration...
+Apr 01 23:20:07.378 INFO Crate is correctly configured.
+Apr 01 23:20:07.378 INFO Adding wasm-target...
+Apr 01 23:20:07.379 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:20:07.446 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:20:07.447 INFO Adding wasm-target was successful.
+Apr 01 23:20:07.447 INFO Building wasm...
+Apr 01 23:20:07.447 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:20:07.458 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:20:07.460 INFO Adding wasm-target was successful.
+Apr 01 23:20:07.460 INFO Building wasm...
+Apr 01 23:20:07.460 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:20:07.468 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:20:07.470 INFO Adding wasm-target was successful.
+Apr 01 23:20:07.470 INFO Building wasm...
+Apr 01 23:20:07.470 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:20:07.531 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:20:07.537 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:20:07.546 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:20:07.714 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:20:07.714 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:20:07.714 INFO cargo build (stderr):    |
+Apr 01 23:20:07.714 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:20:07.714 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:20:07.714 INFO cargo build (stderr):    |         |
+Apr 01 23:20:07.714 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:20:07.714 INFO cargo build (stderr):    |
+Apr 01 23:20:07.714 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:20:07.714 INFO cargo build (stderr): 
+Apr 01 23:20:07.714 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:20:07.714 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:20:07.714 INFO cargo build (stderr):    |
+Apr 01 23:20:07.714 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:20:07.715 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:20:07.715 INFO cargo build (stderr):    |
+Apr 01 23:20:07.715 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:20:07.715 INFO cargo build (stderr): 
+Apr 01 23:20:07.715 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:20:07.715 INFO cargo build (stderr):    --> src/lib.rs:115:17
+Apr 01 23:20:07.715 INFO cargo build (stderr):     |
+Apr 01 23:20:07.715 INFO cargo build (stderr): 115 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:20:07.715 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:20:07.715 INFO cargo build (stderr):     |
+Apr 01 23:20:07.715 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:20:07.715 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:20:07.715 INFO cargo build (stderr): 
+Apr 01 23:20:07.716 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:20:07.716 INFO cargo build (stderr):    --> src/lib.rs:155:13
+Apr 01 23:20:07.716 INFO cargo build (stderr):     |
+Apr 01 23:20:07.716 INFO cargo build (stderr): 155 | /             context.fill_text(
+Apr 01 23:20:07.716 INFO cargo build (stderr): 156 | |                 &char_lists[cl].chars[ch].value.to_string(),
+Apr 01 23:20:07.716 INFO cargo build (stderr): 157 | |                 (14 * cl) as f64,
+Apr 01 23:20:07.716 INFO cargo build (stderr): 158 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:20:07.716 INFO cargo build (stderr): 159 | |             );
+Apr 01 23:20:07.716 INFO cargo build (stderr):     | |______________^
+Apr 01 23:20:07.716 INFO cargo build (stderr):     |
+Apr 01 23:20:07.716 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:20:07.716 INFO cargo build (stderr): 
+Apr 01 23:20:07.987 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.53s
+Apr 01 23:20:07.993 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:20:07.993 INFO Creating a pkg directory...
+Apr 01 23:20:07.993 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:20:07.994 INFO Writing a package.json...
+Apr 01 23:20:07.994 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:20:07.994 INFO Copying readme from crate...
+Apr 01 23:20:07.994 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:20:07.994 INFO Identifying wasm-bindgen dependency...
+Apr 01 Apr23 :0201: 0238:.200:150 8INFO. 015Installing wasm-bindgen-cli... INFO
+ cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.53s
+Apr 01 23:20:08.015 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:20:08.019 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:20:08.019 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:20:08.019 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:20:08.019 INFO Getting the crate name from the manifest...
+Apr 01 23:20:08.019 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:20:08.019 INFO Building the wasm bindings...
+Apr 01 23:20:08.019 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:20:08.021 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:20:08.021 INFO Creating a pkg directory...
+Apr 01 23:20:08.021 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:20:08.021 INFO Writing a package.json...
+Apr 01 23:20:08.035 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:20:08.035 INFO Copying readme from crate...
+Apr 01 23:20:08.035 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:20:08.035 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:20:08.045 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.57s
+Apr 01 23:20:08.051 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:20:08.051 INFO Creating a pkg directory...
+Apr 01 23:20:08.052 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:20:08.052 INFO Writing a package.json...
+Apr 01 23:20:08.052 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:20:08.052 INFO Copying readme from crate...
+Apr 01 23:20:08.052 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:20:08.052 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:20:08.069 INFO Installing wasm-bindgen-cli...
+Apr 01 23:20:08.070 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:20:08.078 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:20:08.078 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:20:08.078 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:20:08.078 INFO Getting the crate name from the manifest...
+Apr 01 23:20:08.078 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:20:08.078 INFO Building the wasm bindings...
+Apr 01 23:20:08.078 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:20:08.086 INFO Installing wasm-bindgen-cli...
+Apr 01 23:20:08.086 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:20:08.091 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:20:08.092 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:20:08.092 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:20:08.092 INFO Getting the crate name from the manifest...
+Apr 01 23:20:08.092 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:20:08.092 INFO Building the wasm bindings...
+Apr 01 23:20:08.092 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:20:08.107 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:20:08.107 INFO Done in 0 seconds.
+Apr 01 23:20:08.107 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:20:08.171 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:20:08.171 INFO Done in 0 seconds.
+Apr 01 23:20:08.171 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:20:08.190 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:20:08.190 INFO Done in 0 seconds.
+Apr 01 23:20:08.190 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:00.308 INFO Running build command...
+Apr 01 23:21:00.309 INFO Checking rustc version...
+Apr 01 23:21:00.316 INFO Running build command...
+Apr 01 23:21:00.316 INFO Checking rustc version...
+Apr 01 23:21:00.327 INFO Running build command...
+Apr 01 23:21:00.327 INFO Checking rustc version...
+Apr 01 23:21:00.329 INFO rustc version is 35.
+Apr 01 23:21:00.330 INFO Checking crate configuration...
+Apr 01 23:21:00.330 INFO Crate is correctly configured.
+Apr 01 23:21:00.330 INFO Adding wasm-target...
+Apr 01 23:21:00.330 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:21:00.337 INFO rustc version is 35.
+Apr 01 23:21:00.337 INFO Checking crate configuration...
+Apr 01 23:21:00.337 INFO Crate is correctly configured.
+Apr 01 23:21:00.338 INFO Adding wasm-target...
+Apr 01 23:21:00.338 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:21:00.344 INFO rustc version is 35.
+Apr 01 23:21:00.344 INFO Checking crate configuration...
+Apr 01 23:21:00.344 INFO Crate is correctly configured.
+Apr 01 23:21:00.344 INFO Adding wasm-target...
+Apr 01 23:21:00.344 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:21:00.405 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:21:00.406 INFO Adding wasm-target was successful.
+Apr 01 23:21:00.406 INFO Building wasm...
+Apr 01 23:21:00.406 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:21:00.438 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:21:00.440 INFO Adding wasm-target was successful.
+Apr 01 23:21:00.440 INFO Building wasm...
+Apr 01 23:21:00.440 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:21:00.443 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:21:00.444 INFO Adding wasm-target was successful.
+Apr 01 23:21:00.444 INFO Building wasm...
+Apr 01 23:21:00.444 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:21:00.504 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:21:00.507 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:21:00.524 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:21:00.683 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:21:00.683 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:21:00.683 INFO cargo build (stderr):    |
+Apr 01 23:21:00.683 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:21:00.683 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:21:00.683 INFO cargo build (stderr):    |         |
+Apr 01 23:21:00.684 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:21:00.684 INFO cargo build (stderr):    |
+Apr 01 23:21:00.684 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:21:00.684 INFO cargo build (stderr): 
+Apr 01 23:21:00.684 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:21:00.684 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:21:00.684 INFO cargo build (stderr):    |
+Apr 01 23:21:00.684 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:21:00.684 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:21:00.684 INFO cargo build (stderr):    |
+Apr 01 23:21:00.684 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:21:00.684 INFO cargo build (stderr): 
+Apr 01 23:21:00.684 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:21:00.684 INFO cargo build (stderr):    --> src/lib.rs:115:17
+Apr 01 23:21:00.685 INFO cargo build (stderr):     |
+Apr 01 23:21:00.685 INFO cargo build (stderr): 115 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:21:00.685 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:21:00.685 INFO cargo build (stderr):     |
+Apr 01 23:21:00.685 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:21:00.685 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:21:00.685 INFO cargo build (stderr): 
+Apr 01 23:21:00.685 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:21:00.685 INFO cargo build (stderr):    --> src/lib.rs:155:13
+Apr 01 23:21:00.686 INFO cargo build (stderr):     |
+Apr 01 23:21:00.686 INFO cargo build (stderr): 155 | /             context.fill_text(
+Apr 01 23:21:00.686 INFO cargo build (stderr): 156 | |                 &char_lists[cl].chars[ch].value.to_string(),
+Apr 01 23:21:00.686 INFO cargo build (stderr): 157 | |                 (14 * cl) as f64,
+Apr 01 23:21:00.686 INFO cargo build (stderr): 158 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:21:00.686 INFO cargo build (stderr): 159 | |             );
+Apr 01 23:21:00.686 INFO cargo build (stderr):     | |______________^
+Apr 01 23:21:00.686 INFO cargo build (stderr):     |
+Apr 01 23:21:00.686 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:21:00.687 INFO cargo build (stderr): 
+Apr 01 23:21:00.948 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.53s
+Apr 01 23:21:00.956 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:21:00.956 INFO Creating a pkg directory...
+Apr 01 23:21:00.956 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:21:00.956 INFO Writing a package.json...
+Apr 01 23:21:00.956 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:21:00.957 INFO Copying readme from crate...
+Apr 01 23:21:00.957 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:00.957 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:21:00.974 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.52s
+Apr 01 23:21:00.979 INFO Installing wasm-bindgen-cli...
+Apr 01 23:21:00.979 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:21:00.980 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:21:00.980 INFO Creating a pkg directory...
+Apr 01 23:21:00.980 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:21:00.980 INFO Writing a package.json...
+Apr 01 23:21:00.984 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:21:00.984 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:21:00.984 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:21:00.984 INFO Getting the crate name from the manifest...
+Apr 01 23:21:00.984 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:21:00.984 INFO Building the wasm bindings...
+Apr 01 23:21:00.984 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:21:00.993 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:21:00.993 INFO Copying readme from crate...
+Apr 01 23:21:00.993 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:00.993 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:21:01.003 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.55s
+Apr 01 23:21:01.013 INFO Installing wasm-bindgen-cli...
+Apr 01 23:21:01.014 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:21:01.020 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:21:01.021 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:21:01.021 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:21:01.021 INFO Getting the crate name from the manifest...
+Apr 01 23:21:01.021 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:21:01.021 INFO Building the wasm bindings...
+Apr 01 23:21:01.021 AprINFO  0Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"1 
+23:21:01.021 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:21:01.021 INFO Creating a pkg directory...
+Apr 01 23:21:01.021 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:21:01.021 INFO Writing a package.json...
+Apr 01 23:21:01.021 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:21:01.021 INFO Copying readme from crate...
+Apr 01 23:21:01.021 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:01.021 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:21:01.059 INFO Installing wasm-bindgen-cli...
+Apr 01 23:21:01.059 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:21:01.063 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:21:01.066 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:21:01.066 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:21:01.066 INFO Getting the crate name from the manifest...
+Apr 01 23:21:01.066 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:21:01.066 INFO Building the wasm bindings...
+Apr 01 23:21:01.066 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:21:01.084 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:01.084 INFO Done in 0 seconds.
+Apr 01 23:21:01.084 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:01.115 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:01.115 INFO Done in 0 seconds.
+Apr 01 23:21:01.115 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:01.156 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:01.156 INFO Done in 0 seconds.
+Apr 01 23:21:01.156 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:46.566 INFO Running build command...
+Apr 01 23:21:46.567 INFO Checking rustc version...
+Apr 01 23:21:46.589 INFO rustc version is 35.
+Apr 01 23:21:46.589 INFO Checking crate configuration...
+Apr 01 23:21:46.589 INFO Crate is correctly configured.
+Apr Apr01  0231: 2123::4621.:58946 .INFO589  Adding wasm-target...INFO
+ Running build command...Apr
+ 0Apr 011  23:2321::2146.:58946 .INFO589 Checking rustc version...
+ INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:21:46.605 INFO Running build command...
+Apr 01 23:21:46.606 INFO Checking rustc version...
+Apr 01 23:21:46.609 INFO rustc version is 35.
+Apr 01 23:21:46.609 INFO Checking crate configuration...
+Apr 01 23:21:46.609 INFO Crate is correctly configured.
+Apr 01 23:21:46.609 INFO Adding wasm-target...
+Apr 01 23:21:46.609 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:21:46.621 INFO rustc version is 35.
+Apr 01 23:21:46.621 INFO Checking crate configuration...
+Apr 01 23:21:46.621 INFO Crate is correctly configured.
+Apr 01 23:21:46.621 INFO Adding wasm-target...
+Apr 01 23:21:46.621 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:21:46.690 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:21:46.691 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:21:46.692 INFO Adding wasm-target was successful.
+Apr 01 23:21:46.692 INFO Building wasm...
+Apr 01 23:21:46.692 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:21:46.693 INFO Adding wasm-target was successful.
+Apr 01 23:21:46.693 INFO Building wasm...
+Apr 01 23:21:46.693 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:21:46.721 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:21:46.723 INFO Adding wasm-target was successful.
+Apr 01 23:21:46.723 INFO Building wasm...
+Apr 01 23:21:46.723 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:21:46.802 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:21:46.815 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:21:46.819 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:21:47.098 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:21:47.098 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:21:47.098 INFO cargo build (stderr):    |
+Apr 01 23:21:47.098 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:21:47.099 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:21:47.099 INFO cargo build (stderr):    |         |
+Apr 01 23:21:47.099 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:21:47.099 INFO cargo build (stderr):    |
+Apr 01 23:21:47.099 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:21:47.099 INFO cargo build (stderr): 
+Apr 01 23:21:47.112 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:21:47.112 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:21:47.112 INFO cargo build (stderr):    |
+Apr 01 23:21:47.112 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:21:47.112 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:21:47.112 INFO cargo build (stderr):    |
+Apr 01 23:21:47.112 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:21:47.112 INFO cargo build (stderr): 
+Apr 01 23:21:47.112 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:21:47.112 INFO cargo build (stderr):    --> src/lib.rs:115:17
+Apr 01 23:21:47.112 INFO cargo build (stderr):     |
+Apr 01 23:21:47.112 INFO cargo build (stderr): 115 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:21:47.118 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:21:47.118 INFO cargo build (stderr):     |
+Apr 01 23:21:47.119 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:21:47.119 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:21:47.119 INFO cargo build (stderr): 
+Apr 01 23:21:47.119 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:21:47.119 INFO cargo build (stderr):    --> src/lib.rs:155:13
+Apr 01 23:21:47.119 INFO cargo build (stderr):     |
+Apr 01 23:21:47.119 INFO cargo build (stderr): 155 | /             context.fill_text(
+Apr 01 23:21:47.119 INFO cargo build (stderr): 156 | |                 &char_lists[cl].chars[ch].value.to_string(),
+Apr 01 23:21:47.119 INFO cargo build (stderr): 157 | |                 (14 * cl) as f64,
+Apr 01 23:21:47.119 INFO cargo build (stderr): 158 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:21:47.119 INFO cargo build (stderr): 159 | |             );
+Apr 01 23:21:47.119 INFO cargo build (stderr):     | |______________^
+Apr 01 23:21:47.119 INFO cargo build (stderr):     |
+Apr 01 23:21:47.119 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:21:47.119 INFO cargo build (stderr): 
+Apr 01 23:21:47.667 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.96s
+Apr 01 23:21:47.676 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:21:47.676 INFO Creating a pkg directory...
+Apr 01 23:21:47.676 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:21:47.676 INFO Writing a package.json...
+Apr 01 23:21:47.676 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:21:47.676 INFO Copying readme from crate...
+Apr 01 23:21:47.676 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:47.676 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:21:47.722 INFO Installing wasm-bindgen-cli...
+Apr 01 23:21:47.723 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:21:47.728 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:21:47.729 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:21:47.729 AprINFO  Installing wasm-bindgen-cli was successful.0
+1 23Apr: 210:147 .23729: 21INFO: 47cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.99s.
+729 INFO Getting the crate name from the manifest...
+Apr 01 23:21:47.729 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:21:47.729 INFO Building the wasm bindings...
+Apr 01 23:21:47.729 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:21:47.730 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:21:47.738 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:21:47.738 INFO Creating a pkg directory...
+Apr 01 23:21:47.738 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:21:47.738 INFO Writing a package.json...
+Apr 01 23:21:47.739 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:21:47.739 INFO Copying readme from crate...
+Apr 01 23:21:47.739 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:47.739 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:21:47.785 INFO Installing wasm-bindgen-cli...
+Apr 01 23:21:47.785 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:21:47.786 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 1.08s
+Apr 01 23:21:47.790 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:21:47.791 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:21:47.791 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:21:47.791 INFO Getting the crate name from the manifest...
+Apr 01 23:21:47.791 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:21:47.791 INFO Building the wasm bindings...
+Apr 01 23:21:47.791 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:21:47.804 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:21:47.804 INFO Creating a pkg directory...
+Apr 01 23:21:47.804 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:21:47.804 INFO Writing a package.json...
+Apr 01 23:21:47.804 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:21:47.804 INFO Copying readme from crate...
+Apr 01 23:21:47.804 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:47.805 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:21:47.832 INFO Installing wasm-bindgen-cli...
+Apr 01 23:21:47.833 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:21:47.839 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:21:47.839 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:21:47.839 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:21:47.839 INFO Getting the crate name from the manifest...
+Apr 01 23:21:47.840 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:21:47.840 INFO Building the wasm bindings...
+Apr 01 23:21:47.840 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:21:47.867 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:47.867 INFO Done in 1 second.
+Apr 01 23:21:47.868 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:47.964 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:47.964 INFO Done in 1 second.
+Apr 01 23:21:47.964 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:47.978 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:21:47.978 INFO Done in 1 second.
+Apr 01 23:21:47.978 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:23:12.105 INFO Running build command...
+Apr 01 23:23:12.106 INFO Checking rustc version...
+Apr 01 23:23:12.121 INFO rustc version is 35.
+Apr 01 23:23:12.121 INFO Checking crate configuration...
+Apr 01 23:23:12.121 INFO Crate is correctly configured.
+Apr 01 23:23:12.121 INFO Adding wasm-target...
+Apr 01 23:23:12.121 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:23:12.134 INFO Running build command...
+Apr 01 23:23:12.134 INFO Checking rustc version...
+Apr 01 23:23:12.148 INFO Running build command...
+Apr 01 23:23:12.148 INFO Checking rustc version...
+Apr 01 23:23:12.158 INFO rustc version is 35.
+Apr 01 23:23:12.159 INFO Checking crate configuration...
+Apr 01 23:23:12.159 INFO Crate is correctly configured.
+Apr 01 23:23:12.159 INFO Adding wasm-target...
+Apr 01 23:23:12.159 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:23:12.168 INFO rustc version is 35.
+Apr 01 23:23:12.168 INFO Checking crate configuration...
+Apr 01 23:23:12.168 INFO Crate is correctly configured.
+Apr 01 23:23:12.168 INFO Adding wasm-target...
+Apr 01 23:23:12.168 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:23:12.214 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:23:12.215 INFO Adding wasm-target was successful.
+Apr 01 23:23:12.215 INFO Building wasm...
+Apr 01 23:23:12.216 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:23:12.240 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:23:12.242 INFO Adding wasm-target was successful.
+Apr 01 23:23:12.242 INFO Building wasm...
+Apr 01 23:23:12.242 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:23:12.243 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:23:12.245 INFO Adding wasm-target was successful.
+Apr 01 23:23:12.245 INFO Building wasm...
+Apr 01 23:23:12.245 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:23:12.346 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:23:12.353 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:23:12.355 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:23:12.547 INFO cargo build (stderr): warning: unused variable: `frame_count`
+Apr 01 23:23:12.547 INFO cargo build (stderr):    --> src/lib.rs:130:5
+Apr 01 23:23:12.547 INFO cargo build (stderr):     |
+Apr 01 23:23:12.547 INFO cargo build (stderr): 130 |     frame_count: u32
+Apr 01 23:23:12.547 INFO cargo build (stderr):     |     ^^^^^^^^^^^ help: consider prefixing with an underscore: `_frame_count`
+Apr 01 23:23:12.547 INFO cargo build (stderr):     |
+Apr 01 23:23:12.547 INFO cargo build (stderr):     = note: #[warn(unused_variables)] on by default
+Apr 01 23:23:12.547 INFO cargo build (stderr): 
+Apr 01 23:23:12.563 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:23:12.563 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:23:12.563 INFO cargo build (stderr):    |
+Apr 01 23:23:12.563 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:23:12.563 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:23:12.564 INFO cargo build (stderr):    |         |
+Apr 01 23:23:12.564 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:23:12.564 INFO cargo build (stderr):    |
+Apr 01 23:23:12.564 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:23:12.564 INFO cargo build (stderr): 
+Apr 01 23:23:12.569 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:23:12.569 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:23:12.569 INFO cargo build (stderr):    |
+Apr 01 23:23:12.569 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:23:12.569 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:23:12.569 INFO cargo build (stderr):    |
+Apr 01 23:23:12.569 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:23:12.569 INFO cargo build (stderr): 
+Apr 01 23:23:12.570 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:23:12.570 INFO cargo build (stderr):    --> src/lib.rs:115:17
+Apr 01 23:23:12.570 INFO cargo build (stderr):     |
+Apr 01 23:23:12.570 INFO cargo build (stderr): 115 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:23:12.570 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:23:12.570 INFO cargo build (stderr):     |
+Apr 01 23:23:12.570 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:23:12.570 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:23:12.570 INFO cargo build (stderr): 
+Apr 01 23:23:12.571 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:23:12.571 INFO cargo build (stderr):    --> src/lib.rs:156:13
+Apr 01 23:23:12.571 INFO cargo build (stderr):     |
+Apr 01 23:23:12.571 INFO cargo build (stderr): 156 | /             context.fill_text(
+Apr 01 23:23:12.571 INFO cargo build (stderr): 157 | |                 &char_lists[cl].chars[ch].value.to_string(),
+Apr 01 23:23:12.571 INFO cargo build (stderr): 158 | |                 (14 * cl) as f64,
+Apr 01 23:23:12.571 INFO cargo build (stderr): 159 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:23:12.571 INFO cargo build (stderr): 160 | |             );
+Apr 01 23:23:12.571 INFO cargo build (stderr):     | |______________^
+Apr 01 23:23:12.571 INFO cargo build (stderr):     |
+Apr 01 23:23:12.571 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:23:12.571 INFO cargo build (stderr): 
+Apr 01 23:23:12.897 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.67s
+Apr 01 23:23:12.904 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:23:12.904 INFO Creating a pkg directory...
+Apr 01 23:23:12.904 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:23:12.904 INFO Writing a package.json...
+Apr 01 23:23:12.905 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:23:12.905 INFO Copying readme from crate...
+Apr 01 23:23:12.905 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:23:12.905 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:23:12.926 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.67s
+Apr 01 23:23:12.926 INFO Installing wasm-bindgen-cli...
+Apr 01 23:23:12.926 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:23:12.931 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:23:12.931 INFO Creating a pkg directory...
+Apr 01Apr 23 :0231: 1223.:93123 :INFO12 .Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".931
+ INFOApr  wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)0
+1 23:23:12.931 INFO Writing a package.json...
+Apr 01Apr  230:123 :2312:.23931: 12INFO. 931Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40 
+INFO AprWrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json". 
+01Apr  230:123 :2312:.23932: 12INFO. 932Installing wasm-bindgen-cli was successful. 
+INFO AprCopying readme from crate... 
+01Apr  230:123 :2312:.23932: 12INFO. 932Getting the crate name from the manifest... 
+INFO AprCopied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg". 
+01Apr  230:123 :2312.:93223 :INFO12 .Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".932
+ INFOApr  Identifying wasm-bindgen dependency...01 23
+:23:12.932 INFO Building the wasm bindings...
+Apr 01 23:23:12.932 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:23:12.962 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.70s
+Apr 01 23:23:12.965 INFO Installing wasm-bindgen-cli...
+Apr 01 23:23:12.965 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:23:12.971 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:23:12.971 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:23:12.971 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:23:12.971 INFO Getting the crate name from the manifest...
+Apr 01 23:23:12.971 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:23:12.971 INFO Building the wasm bindings...
+Apr 01 23:23:12.972 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:23:12.980 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:23:12.980 INFO Creating a pkg directory...
+Apr 01 23:23:12.980 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:23:12.980 INFO Writing a package.json...
+Apr 01 23:23:12.981 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:23:12.981 INFO Copying readme from crate...
+Apr 01 23:23:12.981 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:23:12.981 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:23:13.011 INFO Installing wasm-bindgen-cli...
+Apr 01 23:23:13.011 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:23:13.022 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:23:13.023 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:23:13.024 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:23:13.024 INFO Getting the crate name from the manifest...
+Apr 01 23:23:13.025 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:23:13.025 INFO Building the wasm bindings...
+Apr 01 23:23:13.026 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:23:13.041 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:23:13.042 INFO Done in 0 seconds.
+Apr 01 23:23:13.042 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:23:13.088 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:23:13.088 INFO Done in 0 seconds.
+Apr 01 23:23:13.089 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:23:13.151 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:23:13.151 INFO Done in 1 second.
+Apr 01 23:23:13.151 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:29:17.227 INFO Running build command...
+Apr 01 23:29:17.227 INFO Checking rustc version...
+Apr 01 23:29:17.236 INFO Running build command...
+Apr 01 23:29:17.236 INFO Checking rustc version...
+Apr 01 23:29:17.246 INFO Running build command...
+Apr 01 23:29:17.246 INFO Checking rustc version...
+Apr 01 23:29:17.260 INFO rustc version is 35.
+Apr 01 23:29:17.260 INFO Checking crate configuration...
+Apr 01 23:Apr29: 170.1260  23INFO: 29Crate is correctly configured.:
+17.Apr260  0INFO1  rustc version is 35.23
+:29:17.260 INFO Adding wasm-target...
+Apr 01 23:29:17.260 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:29:17.260 INFO Checking crate configuration...
+Apr 01 23:29:17.260 INFO Crate is correctly configured.
+Apr 01 23:29:17.260 INFO Adding wasm-target...
+Apr 01 23:29:17.260 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:29:17.278 INFO rustc version is 35.
+Apr 01 23:29:17.278 INFO Checking crate configuration...
+Apr 01 23:29:17.279 INFO Crate is correctly configured.
+Apr 01 23:29:17.280 INFO Adding wasm-target...
+Apr 01 23:29:17.280 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:29:17.384 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:29:17.387 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:29:17.388 INFO Adding wasm-target was successful.
+Apr 01 23:29:17.389 INFO Building wasm...
+Apr 01 23:29:17.389 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:29:17.390 INFO Adding wasm-target was successful.
+Apr 01 23:29:17.390 INFO Building wasm...
+Apr 01 23:29:17.391 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:29:17.471 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:29:17.472 INFO Adding wasm-target was successful.
+Apr 01 23:29:17.472 INFO Building wasm...
+Apr 01 23:29:17.472 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:29:17.524 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:29:17.584 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:29:17.587 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:29:17.903 INFO cargo build (stderr): error[E0599]: no method named `gen_range` found for type `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>>` in the current scope
+Apr 01 23:29:17.903 INFO cargo build (stderr):    --> src/lib.rs:165:30
+Apr 01 23:29:17.903 INFO cargo build (stderr):     |
+Apr 01 23:29:17.903 INFO cargo build (stderr): 165 |                 alphabet[rng.gen_range(0, alphabet.len() - 1)].to_string()
+Apr 01 23:29:17.903 INFO cargo build (stderr):     |                              ^^^^^^^^^
+Apr 01 23:29:17.903 INFO cargo build (stderr):     |
+Apr 01 23:29:17.903 INFO cargo build (stderr):     = note: the method `gen_range` exists but the following trait bounds were not satisfied:
+Apr 01 23:29:17.903 INFO cargo build (stderr):             `std::cell::RefCell<rand::rngs::OsRng> : rand::Rng`
+Apr 01 23:29:17.903 INFO cargo build (stderr):             `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>> : rand::Rng`
+Apr 01 23:29:17.903 INFO cargo build (stderr): 
+Apr 01 23:29:17.910 INFO cargo build (stderr): error[E0271]: type mismatch resolving `<u32 as std::ops::Rem<&u32>>::Output == bool`
+Apr 01 23:29:17.911 INFO cargo build (stderr):    --> src/lib.rs:164:44
+Apr 01 23:29:17.911 INFO cargo build (stderr):     |
+Apr 01 23:29:17.912 INFO cargo build (stderr): 164 |             let rand_char = if frame_count % &char_lists[cl].chars[ch].change_rate {
+Apr 01 23:29:17.914 INFO cargo build (stderr):     |                                            ^ expected u32, found bool
+Apr 01 23:29:17.914 INFO cargo build (stderr): 
+Apr 01 23:29:17.914 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:29:17.914 INFO cargo build (stderr): 
+Apr 01 23:29:17.914 INFO cargo build (stderr): Some errors occurred: E0271, E0599.
+Apr 01 23:29:17.915 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0271`.
+Apr 01 23:29:17.926 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:29:17.926 INFO cargo build (stderr): 
+Apr 01 23:29:17.926 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:29:17.928 ERRO Compiling your crate to WebAssembly
+Apr 01 23:29:17.960 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:29:18.152 INFO cargo build (stderr): error[E0599]: no method named `gen_range` found for type `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>>` in the current scope
+Apr 01 23:29:18.152 INFO cargo build (stderr):    --> src/lib.rs:165:30
+Apr 01 23:29:18.152 INFO cargo build (stderr):     |
+Apr 01 23:29:18.152 INFO cargo build (stderr): 165 |                 alphabet[rng.gen_range(0, alphabet.len() - 1)].to_string()
+Apr 01 23:29:18.152 INFO cargo build (stderr):     |                              ^^^^^^^^^
+Apr 01 23:29:18.152 INFO cargo build (stderr):     |
+Apr 01 23:29:18.152 INFO cargo build (stderr):     = note: the method `gen_range` exists but the following trait bounds were not satisfied:
+Apr 01 23:29:18.152 INFO cargo build (stderr):             `std::cell::RefCell<rand::rngs::OsRng> : rand::Rng`
+Apr 01 23:29:18.152 INFO cargo build (stderr):             `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>> : rand::Rng`
+Apr 01 23:29:18.152 INFO cargo build (stderr): 
+Apr 01 23:29:18.152 INFO cargo build (stderr): error[E0271]: type mismatch resolving `<u32 as std::ops::Rem<&u32>>::Output == bool`
+Apr 01 23:29:18.152 INFO cargo build (stderr):    --> src/lib.rs:164:44
+Apr 01 23:29:18.152 INFO cargo build (stderr):     |
+Apr 01 23:29:18.152 INFO cargo build (stderr): 164 |             let rand_char = if frame_count % &char_lists[cl].chars[ch].change_rate {
+Apr 01 23:29:18.152 INFO cargo build (stderr):     |                                            ^ expected u32, found bool
+Apr 01 23:29:18.153 INFO cargo build (stderr): 
+Apr 01 23:29:18.156 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:29:18.156 INFO cargo build (stderr): 
+Apr 01 23:29:18.156 INFO cargo build (stderr): Some errors occurred: E0271, E0599.
+Apr 01 23:29:18.156 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0271`.
+Apr 01 23:29:18.169 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:29:18.170 INFO cargo build (stderr): 
+Apr 01 23:29:18.170 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:29:18.171 ERRO Compiling your crate to WebAssembly
+Apr 01 23:29:18.204 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:29:18.394 INFO cargo build (stderr): error[E0599]: no method named `gen_range` found for type `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>>` in the current scope
+Apr 01 23:29:18.394 INFO cargo build (stderr):    --> src/lib.rs:165:30
+Apr 01 23:29:18.394 INFO cargo build (stderr):     |
+Apr 01 23:29:18.394 INFO cargo build (stderr): 165 |                 alphabet[rng.gen_range(0, alphabet.len() - 1)].to_string()
+Apr 01 23:29:18.394 INFO cargo build (stderr):     |                              ^^^^^^^^^
+Apr 01 23:29:18.394 INFO cargo build (stderr):     |
+Apr 01 23:29:18.395 INFO cargo build (stderr):     = note: the method `gen_range` exists but the following trait bounds were not satisfied:
+Apr 01 23:29:18.395 INFO cargo build (stderr):             `std::cell::RefCell<rand::rngs::OsRng> : rand::Rng`
+Apr 01 23:29:18.395 INFO cargo build (stderr):             `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>> : rand::Rng`
+Apr 01 23:29:18.395 INFO cargo build (stderr): 
+Apr 01 23:29:18.395 INFO cargo build (stderr): error[E0271]: type mismatch resolving `<u32 as std::ops::Rem<&u32>>::Output == bool`
+Apr 01 23:29:18.395 INFO cargo build (stderr):    --> src/lib.rs:164:44
+Apr 01 23:29:18.395 INFO cargo build (stderr):     |
+Apr 01 23:29:18.395 INFO cargo build (stderr): 164 |             let rand_char = if frame_count % &char_lists[cl].chars[ch].change_rate {
+Apr 01 23:29:18.395 INFO cargo build (stderr):     |                                            ^ expected u32, found bool
+Apr 01 23:29:18.395 INFO cargo build (stderr): 
+Apr 01 23:29:18.399 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:29:18.399 INFO cargo build (stderr): 
+Apr 01 23:29:18.399 INFO cargo build (stderr): Some errors occurred: E0271, E0599.
+Apr 01 23:29:18.399 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0271`.
+Apr 01 23:29:18.417 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:29:18.417 INFO cargo build (stderr): 
+Apr 01 23:29:18.417 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:29:18.418 ERRO Compiling your crate to WebAssembly
+Apr 01 23:30:03.048 INFO Running build command...
+Apr 01 23:30:03.048 INFO Checking rustc version...
+Apr 01 23:30:03.054 INFO Running build command...
+Apr 01 23:30:03.055 INFO Checking rustc version...
+Apr 01 23:30:03.066 INFO rustc version is 35.
+Apr 01 23:30:03.066 INFO Checking crate configuration...
+Apr 01 23:30:03.066 INFO Crate is correctly configured.
+Apr 01 23:30:03.066 INFO Adding wasm-target...
+Apr 01 23:30:03.066 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:30:03.068 INFO Running build command...
+Apr 01 23:30:03.068 INFO Checking rustc version...
+Apr 01 23:30:03.080 INFO rustc version is 35.
+Apr 01 23:30:03.080 INFO Checking crate configuration...
+Apr 01 23:30:03.080 INFO Crate is correctly configured.
+Apr 01 23:30:03.080 INFO Adding wasm-target...
+Apr 01 23:30:03.080 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:30:03.089 INFO rustc version is 35.
+Apr 01 23:30:03.089 INFO Checking crate configuration...
+Apr 01 23:30:03.090 INFO Crate is correctly configured.
+Apr 01 23:30:03.090 INFO Adding wasm-target...
+Apr 01 23:30:03.090 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:30:03.171 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:30:03.173 INFO Adding wasm-target was successful.
+Apr 01 23:30:03.173 INFO Building wasm...
+Apr 01 23:30:03.173 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:30:03.198 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:30:03.200 INFO Adding wasm-target was successful.
+Apr 01 23:30:03.200 INFO Building wasm...
+Apr 01 23:30:03.200 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:30:03.201 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:30:03.203 INFO Adding wasm-target was successful.
+Apr 01 23:30:03.203 INFO Building wasm...
+Apr 01 23:30:03.204 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:30:03.286 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:30:03.301 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:30:03.311 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:30:03.480 INFO cargo build (stderr): error[E0599]: no method named `gen_range` found for type `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>>` in the current scope
+Apr 01 23:30:03.480 INFO cargo build (stderr):    --> src/lib.rs:165:30
+Apr 01 23:30:03.480 INFO cargo build (stderr):     |
+Apr 01 23:30:03.480 INFO cargo build (stderr): 165 |                 alphabet[rng.gen_range(0, alphabet.len() - 1)].to_string()
+Apr 01 23:30:03.480 INFO cargo build (stderr):     |                              ^^^^^^^^^
+Apr 01 23:30:03.480 INFO cargo build (stderr):     |
+Apr 01 23:30:03.480 INFO cargo build (stderr):     = note: the method `gen_range` exists but the following trait bounds were not satisfied:
+Apr 01 23:30:03.480 INFO cargo build (stderr):             `std::cell::RefCell<rand::rngs::OsRng> : rand::Rng`
+Apr 01 23:30:03.480 INFO cargo build (stderr):             `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>> : rand::Rng`
+Apr 01 23:30:03.480 INFO cargo build (stderr): 
+Apr 01 23:30:03.483 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:30:03.483 INFO cargo build (stderr): 
+Apr 01 23:30:03.483 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0599`.
+Apr 01 23:30:03.503 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:30:03.503 INFO cargo build (stderr): 
+Apr 01 23:30:03.503 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:30:03.505 ERRO Compiling your crate to WebAssembly
+Apr 01 23:30:03.530 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:30:03.720 INFO cargo build (stderr): error[E0599]: no method named `gen_range` found for type `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>>` in the current scope
+Apr 01 23:30:03.720 INFO cargo build (stderr):    --> src/lib.rs:165:30
+Apr 01 23:30:03.721 INFO cargo build (stderr):     |
+Apr 01 23:30:03.721 INFO cargo build (stderr): 165 |                 alphabet[rng.gen_range(0, alphabet.len() - 1)].to_string()
+Apr 01 23:30:03.721 INFO cargo build (stderr):     |                              ^^^^^^^^^
+Apr 01 23:30:03.721 INFO cargo build (stderr):     |
+Apr 01 23:30:03.721 INFO cargo build (stderr):     = note: the method `gen_range` exists but the following trait bounds were not satisfied:
+Apr 01 23:30:03.721 INFO cargo build (stderr):             `std::cell::RefCell<rand::rngs::OsRng> : rand::Rng`
+Apr 01 23:30:03.721 INFO cargo build (stderr):             `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>> : rand::Rng`
+Apr 01 23:30:03.721 INFO cargo build (stderr): 
+Apr 01 23:30:03.724 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:30:03.724 INFO cargo build (stderr): 
+Apr 01 23:30:03.724 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0599`.
+Apr 01 23:30:03.738 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:30:03.739 INFO cargo build (stderr): 
+Apr 01 23:30:03.739 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:30:03.740 ERRO Compiling your crate to WebAssembly
+Apr 01 23:30:03.762 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:30:03.963 INFO cargo build (stderr): error[E0599]: no method named `gen_range` found for type `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>>` in the current scope
+Apr 01 23:30:03.964 INFO cargo build (stderr):    --> src/lib.rs:165:30
+Apr 01 23:30:03.964 INFO cargo build (stderr):     |
+Apr 01 23:30:03.964 INFO cargo build (stderr): 165 |                 alphabet[rng.gen_range(0, alphabet.len() - 1)].to_string()
+Apr 01 23:30:03.964 INFO cargo build (stderr):     |                              ^^^^^^^^^
+Apr 01 23:30:03.964 INFO cargo build (stderr):     |
+Apr 01 23:30:03.964 INFO cargo build (stderr):     = note: the method `gen_range` exists but the following trait bounds were not satisfied:
+Apr 01 23:30:03.964 INFO cargo build (stderr):             `std::cell::RefCell<rand::rngs::OsRng> : rand::Rng`
+Apr 01 23:30:03.964 INFO cargo build (stderr):             `std::rc::Rc<std::cell::RefCell<rand::rngs::OsRng>> : rand::Rng`
+Apr 01 23:30:03.964 INFO cargo build (stderr): 
+Apr 01 23:30:03.967 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:30:03.967 INFO cargo build (stderr): 
+Apr 01 23:30:03.967 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0599`.
+Apr 01 23:30:03.990 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:30:03.990 INFO cargo build (stderr): 
+Apr 01 23:30:03.990 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:30:03.992 ERRO Compiling your crate to WebAssembly
+Apr 01 23:32:11.663 INFO Running build command...
+Apr 01 23:32:11.663 INFO Checking rustc version...
+Apr 01 23:32:11.670 INFO Running build command...
+Apr 01 23:32:11.670 INFO Checking rustc version...
+Apr 01 23:32:11.679 INFO Running build command...
+Apr 01 23:32:11.679 INFO Checking rustc version...
+Apr 01 23:32:11.686 INFO rustc version is 35.
+Apr 01 23:32:11.686 INFO Checking crate configuration...
+Apr 01 23:32:11.687 INFO Crate is correctly configured.
+Apr 01 23:32:11.688 INFO Adding wasm-target...
+Apr 01 23:32:11.688 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:32:11.700 INFO rustc version is 35.
+Apr 01 23:32:11.700 INFO Checking crate configuration...
+Apr 01 23:32:11.700 INFO Crate is correctly configured.
+Apr 01 23:32:11.700 INFO Adding wasm-target...
+Apr 01 23:32:11.700 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:32:11.706 INFO rustc version is 35.
+Apr 01 23:32:11.706 INFO Checking crate configuration...
+Apr 01 23:32:11.706 INFO Crate is correctly configured.
+Apr 01 23:32:11.707 INFO Adding wasm-target...
+Apr 01 23:32:11.707 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:32:11.801 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:32:11.802 INFO Adding wasm-target was successful.
+Apr 01 23:32:11.802 INFO Building wasm...
+Apr 01 23:32:11.802 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:32:11.812 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:32:11.813 INFO Adding wasm-target was successful.
+Apr 01 23:32:11.814 INFO Building wasm...
+Apr 01 23:32:11.814 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:32:11.827 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:32:11.828 INFO Adding wasm-target was successful.
+Apr 01 23:32:11.829 INFO Building wasm...
+Apr 01 23:32:11.829 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:32:11.911 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:32:11.914 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:32:11.927 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:32:12.099 INFO cargo build (stderr): error[E0308]: if and else have incompatible types
+Apr 01 23:32:12.099 INFO cargo build (stderr):    --> src/lib.rs:168:17
+Apr 01 23:32:12.099 INFO cargo build (stderr):     |
+Apr 01 23:32:12.100 INFO cargo build (stderr): 165 |               let rand_char = if (frame_count % &char_lists[cl].chars[ch].change_rate) == 0 {
+Apr 01 23:32:12.100 INFO cargo build (stderr):     |  _____________________________-
+Apr 01 23:32:12.100 INFO cargo build (stderr): 166 | |                 alphabet[_rng.gen_range(0, alphabet.len() - 1)].to_string()
+Apr 01 23:32:12.100 INFO cargo build (stderr):     | |                 ----------------------------------------------------------- expected because of this
+Apr 01 23:32:12.100 INFO cargo build (stderr): 167 | |             } else {
+Apr 01 23:32:12.100 INFO cargo build (stderr): 168 | |                 &char_lists[cl].chars[ch].value.to_string()
+Apr 01 23:32:12.100 INFO cargo build (stderr):     | |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ expected struct `std::string::String`, found reference
+Apr 01 23:32:12.100 INFO cargo build (stderr): 169 | |             };
+Apr 01 23:32:12.100 INFO cargo build (stderr):     | |_____________- if and else have incompatible types
+Apr 01 23:32:12.100 INFO cargo build (stderr):     |
+Apr 01 23:32:12.100 INFO cargo build (stderr):     = note: expected type `std::string::String`
+Apr 01 23:32:12.100 INFO cargo build (stderr):                found type `&std::string::String`
+Apr 01 23:32:12.101 INFO cargo build (stderr): 
+Apr 01 23:32:12.101 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:32:12.101 INFO cargo build (stderr): 
+Apr 01 23:32:12.101 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0308`.
+Apr 01 23:32:12.119 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:32:12.120 INFO cargo build (stderr): 
+Apr 01 23:32:12.120 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:32:12.122 ERRO Compiling your crate to WebAssembly
+Apr 01 23:32:12.145 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:32:12.323 INFO cargo build (stderr): error[E0308]: if and else have incompatible types
+Apr 01 23:32:12.323 INFO cargo build (stderr):    --> src/lib.rs:168:17
+Apr 01 23:32:12.324 INFO cargo build (stderr):     |
+Apr 01 23:32:12.324 INFO cargo build (stderr): 165 |               let rand_char = if (frame_count % &char_lists[cl].chars[ch].change_rate) == 0 {
+Apr 01 23:32:12.324 INFO cargo build (stderr):     |  _____________________________-
+Apr 01 23:32:12.324 INFO cargo build (stderr): 166 | |                 alphabet[_rng.gen_range(0, alphabet.len() - 1)].to_string()
+Apr 01 23:32:12.324 INFO cargo build (stderr):     | |                 ----------------------------------------------------------- expected because of this
+Apr 01 23:32:12.324 INFO cargo build (stderr): 167 | |             } else {
+Apr 01 23:32:12.324 INFO cargo build (stderr): 168 | |                 &char_lists[cl].chars[ch].value.to_string()
+Apr 01 23:32:12.324 INFO cargo build (stderr):     | |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ expected struct `std::string::String`, found reference
+Apr 01 23:32:12.324 INFO cargo build (stderr): 169 | |             };
+Apr 01 23:32:12.324 INFO cargo build (stderr):     | |_____________- if and else have incompatible types
+Apr 01 23:32:12.324 INFO cargo build (stderr):     |
+Apr 01 23:32:12.324 INFO cargo build (stderr):     = note: expected type `std::string::String`
+Apr 01 23:32:12.325 INFO cargo build (stderr):                found type `&std::string::String`
+Apr 01 23:32:12.325 INFO cargo build (stderr): 
+Apr 01 23:32:12.325 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:32:12.326 INFO cargo build (stderr): 
+Apr 01 23:32:12.326 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0308`.
+Apr 01 23:32:12.343 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:32:12.343 INFO cargo build (stderr): 
+Apr 01 23:32:12.343 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:32:12.345 ERRO Compiling your crate to WebAssembly
+Apr 01 23:32:12.385 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:32:12.568 INFO cargo build (stderr): error[E0308]: if and else have incompatible types
+Apr 01 23:32:12.568 INFO cargo build (stderr):    --> src/lib.rs:168:17
+Apr 01 23:32:12.568 INFO cargo build (stderr):     |
+Apr 01 23:32:12.568 INFO cargo build (stderr): 165 |               let rand_char = if (frame_count % &char_lists[cl].chars[ch].change_rate) == 0 {
+Apr 01 23:32:12.569 INFO cargo build (stderr):     |  _____________________________-
+Apr 01 23:32:12.569 INFO cargo build (stderr): 166 | |                 alphabet[_rng.gen_range(0, alphabet.len() - 1)].to_string()
+Apr 01 23:32:12.569 INFO cargo build (stderr):     | |                 ----------------------------------------------------------- expected because of this
+Apr 01 23:32:12.569 INFO cargo build (stderr): 167 | |             } else {
+Apr 01 23:32:12.569 INFO cargo build (stderr): 168 | |                 &char_lists[cl].chars[ch].value.to_string()
+Apr 01 23:32:12.569 INFO cargo build (stderr):     | |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ expected struct `std::string::String`, found reference
+Apr 01 23:32:12.569 INFO cargo build (stderr): 169 | |             };
+Apr 01 23:32:12.569 INFO cargo build (stderr):     | |_____________- if and else have incompatible types
+Apr 01 23:32:12.569 INFO cargo build (stderr):     |
+Apr 01 23:32:12.569 INFO cargo build (stderr):     = note: expected type `std::string::String`
+Apr 01 23:32:12.569 INFO cargo build (stderr):                found type `&std::string::String`
+Apr 01 23:32:12.570 INFO cargo build (stderr): 
+Apr 01 23:32:12.570 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:32:12.570 INFO cargo build (stderr): 
+Apr 01 23:32:12.570 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0308`.
+Apr 01 23:32:12.585 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:32:12.585 INFO cargo build (stderr): 
+Apr 01 23:32:12.585 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:32:12.587 ERRO Compiling your crate to WebAssembly
+Apr 01 23:32:31.825 INFO Running build command...
+Apr 01 23:32:31.825 INFO Checking rustc version...
+Apr 01 23:32:31.832 INFO Running build command...
+Apr 01 23:32:31.832 INFO Checking rustc version...
+Apr 01 23:32:31.843 INFO Running build command...
+Apr 01 23:32:31.843 INFO Checking rustc version...
+Apr 01 23:32:31.847 INFO rustc version is 35.
+Apr 01 23:32:31.847 INFO Checking crate configuration...
+Apr 01 23:32:31.847 INFO Crate is correctly configured.
+Apr 01 23:32:31.847 INFO Adding wasm-target...
+Apr 01 23:32:31.847 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:32:31.861 INFO rustc version is 35.
+Apr 01 23:32:31.861 INFO Checking crate configuration...
+Apr 01 23:32:31.861 INFO Crate is correctly configured.
+Apr 01 23:32:31.861 INFO Adding wasm-target...
+Apr 01 23:32:31.862 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:32:31.875 INFO rustc version is 35.
+Apr 01 23:32:31.875 INFO Checking crate configuration...
+Apr 01 23:32:31.875 INFO Crate is correctly configured.
+Apr 01 23:32:31.875 INFO Adding wasm-target...
+Apr 01 23:32:31.875 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:32:31.959 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:32:31.961 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:32:31.961 INFO Adding wasm-target was successful.
+Apr 01 23:32:31.961 INFO Building wasm...
+Apr 01 23:32:31.962 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:32:31.963 INFO Adding wasm-target was successful.
+Apr 01 23:32:31.963 INFO Building wasm...
+Apr 01 23:32:31.963 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:32:31.982 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:32:31.984 INFO Adding wasm-target was successful.
+Apr 01 23:32:31.984 INFO Building wasm...
+Apr 01 23:32:31.984 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:32:32.054 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:32:32.075 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:32:32.131 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:32:32.264 INFO cargo build (stderr): warning: unused variable: `rand_char`
+Apr 01 23:32:32.264 INFO cargo build (stderr):    --> src/lib.rs:165:17
+Apr 01 23:32:32.264 INFO cargo build (stderr):     |
+Apr 01 23:32:32.264 INFO cargo build (stderr): 165 |             let rand_char = if (frame_count % &char_lists[cl].chars[ch].change_rate) == 0 {
+Apr 01 23:32:32.264 INFO cargo build (stderr):     |                 ^^^^^^^^^ help: consider prefixing with an underscore: `_rand_char`
+Apr 01 23:32:32.264 INFO cargo build (stderr):     |
+Apr 01 23:32:32.264 INFO cargo build (stderr):     = note: #[warn(unused_variables)] on by default
+Apr 01 23:32:32.264 INFO cargo build (stderr): 
+Apr 01 23:32:32.281 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:32:32.281 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:32:32.281 INFO cargo build (stderr):    |
+Apr 01 23:32:32.281 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:32:32.282 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:32:32.282 INFO cargo build (stderr):    |         |
+Apr 01 23:32:32.282 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:32:32.282 INFO cargo build (stderr):    |
+Apr 01 23:32:32.282 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:32:32.282 INFO cargo build (stderr): 
+Apr 01 23:32:32.288 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:32:32.288 INFO cargo build (stderr):    --> src/lib.rs:156:9
+Apr 01 23:32:32.288 INFO cargo build (stderr):     |
+Apr 01 23:32:32.289 INFO cargo build (stderr): 156 |     let mut alphabet = vec![
+Apr 01 23:32:32.289 INFO cargo build (stderr):     |         ----^^^^^^^^
+Apr 01 23:32:32.289 INFO cargo build (stderr):     |         |
+Apr 01 23:32:32.289 INFO cargo build (stderr):     |         help: remove this `mut`
+Apr 01 23:32:32.289 INFO cargo build (stderr): 
+Apr 01 23:32:32.289 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:32:32.289 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:32:32.289 INFO cargo build (stderr):    |
+Apr 01 23:32:32.289 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:32:32.289 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:32:32.289 INFO cargo build (stderr):    |
+Apr 01 23:32:32.290 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:32:32.290 INFO cargo build (stderr): 
+Apr 01 23:32:32.290 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:32:32.290 INFO cargo build (stderr):    --> src/lib.rs:116:17
+Apr 01 23:32:32.290 INFO cargo build (stderr):     |
+Apr 01 23:32:32.290 INFO cargo build (stderr): 116 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:32:32.290 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:32:32.290 INFO cargo build (stderr):     |
+Apr 01 23:32:32.290 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:32:32.290 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:32:32.290 INFO cargo build (stderr): 
+Apr 01 23:32:32.290 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:32:32.290 INFO cargo build (stderr):    --> src/lib.rs:170:13
+Apr 01 23:32:32.291 INFO cargo build (stderr):     |
+Apr 01 23:32:32.291 INFO cargo build (stderr): 170 | /             context.fill_text(
+Apr 01 23:32:32.291 INFO cargo build (stderr): 171 | |                 &char_lists[cl].chars[ch].value.to_string(),
+Apr 01 23:32:32.291 INFO cargo build (stderr): 172 | |                 (14 * cl) as f64,
+Apr 01 23:32:32.291 INFO cargo build (stderr): 173 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:32:32.291 INFO cargo build (stderr): 174 | |             );
+Apr 01 23:32:32.291 INFO cargo build (stderr):     | |______________^
+Apr 01 23:32:32.291 INFO cargo build (stderr):     |
+Apr 01 23:32:32.291 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:32:32.291 INFO cargo build (stderr): 
+Apr 01 23:32:32.650 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.67s
+Apr 01 23:32:32.661 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:32:32.661 INFO Creating a pkg directory...
+Apr 01 23:32:32.661 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:32:32.661 INFO Writing a package.json...
+Apr 01 23:32:32.661 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:32:32.661 INFO Copying readme from crate...
+Apr 01 23:32:32.661 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:32:32.661 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:32:32.694 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.72s
+Apr 01 23:32:32.695 INFO Installing wasm-bindgen-cli...
+Apr 01 23:32:32.695 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:32:32.700 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:32:32.700 INFO Creating a pkg directory...
+Apr 01 23:32:32.700 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:32:32.700 INFO Writing a package.json...
+Apr 01 23:32:32.701 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:32:32.701 INFO Copying readme from crate...
+Apr 01 23:32:32.701 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:32:32.701 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:32:32.705 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:32:32.705 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:32:32.705 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:32:32.705 INFO Getting the crate name from the manifest...
+Apr 01 23:32:32.705 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:32:32.705 INFO Building the wasm bindings...
+Apr 01 23:32:32.705 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:32:32.721 INFO Installing wasm-bindgen-cli...
+Apr 01 23:32:32.722 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:32:32.727 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:32:32.727 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:32:32.727 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:32:32.727 INFO Getting the crate name from the manifest...
+Apr 01 23:32:32.727 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:32:32.727 INFO Building the wasm bindings...
+Apr 01 23:32:32.727 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:32:32.737 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.73s
+Apr 01 23:32:32.754 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:32:32.754 INFO Creating a pkg directory...
+Apr 01 23:32:32.754 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:32:32.754 INFO Writing a package.json...
+Apr 01 23:32:32.754 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:32:32.754 INFO Copying readme from crate...
+Apr 01 23:32:32.754 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:32:32.754 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:32:32.781 INFO Installing wasm-bindgen-cli...
+Apr 01 23:32:32.781 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:32:32.786 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:32:32.787 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:32:32.788 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:32:32.788 INFO Getting the crate name from the manifest...
+Apr 01 23:32:32.789 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:32:32.789 INFO Building the wasm bindings...
+Apr 01 23:32:32.789 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:32:32.849 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:32:32.849 INFO Done in 1 second.
+Apr 01 23:32:32.850 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:32:32.871 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:32:32.871 INFO Done in 1 second.
+Apr 01 23:32:32.871 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:32:32.911 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:32:32.911 INFO Done in 1 second.
+Apr 01 23:32:32.911 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:34:53.580 INFO Running build command...
+Apr 01 23:34:53.580 INFO Checking rustc version...
+Apr 01 23:34:53.588 INFO Running build command...
+Apr 01 23:34:53.588 INFO Checking rustc version...
+Apr 01 23:34:53.602 INFO rustc version is 35.
+Apr 01 23:34:53.602 INFO Checking crate configuration...
+Apr 01 23:34:53.603 INFO Crate is correctly configured.
+Apr 01 23:34:53.603 INFO Adding wasm-target...
+Apr 01 23:34:53.603 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:34:53.604 INFO Running build command...
+Apr 01 23:34:53.604 INFO Checking rustc version...
+Apr 01 23:34:53.612 INFO rustc version is 35.
+Apr 01 23:34:53.612 INFO Checking crate configuration...
+Apr 01 23:34:53.612 INFO Crate is correctly configured.
+Apr 01 23:34:53.612 INFO Adding wasm-target...
+Apr 01 23:34:53.612 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:34:53.632 INFO rustc version is 35.
+Apr 01 23:34:53.632 INFO Checking crate configuration...
+Apr 01 23:34:53.632 INFO Crate is correctly configured.
+Apr 01 23:34:53.632 INFO Adding wasm-target...
+Apr 01 23:34:53.633 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:34:53.729 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:34:53.731 INFO Adding wasm-target was successful.
+Apr 01 23:34:53.731 INFO Building wasm...
+Apr 01 23:34:53.731 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:34:53.739 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:34:53.741 INFO Adding wasm-target was successful.
+Apr 01 23:34:53.741 INFO Building wasm...
+Apr 01 23:34:53.741 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:34:53.768 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:34:53.769 INFO Adding wasm-target was successful.
+Apr 01 23:34:53.769 INFO Building wasm...
+Apr 01 23:34:53.769 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:34:53.852 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:34:53.853 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:34:53.878 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:34:54.196 INFO cargo build (stderr): warning: unused variable: `rand_char`
+Apr 01 23:34:54.197 INFO cargo build (stderr):    --> src/lib.rs:165:17
+Apr 01 23:34:54.197 INFO cargo build (stderr):     |
+Apr 01 23:34:54.197 INFO cargo build (stderr): 165 |             let rand_char = if (frame_count % &char_lists[cl].chars[ch].change_rate) == 0 {
+Apr 01 23:34:54.197 INFO cargo build (stderr):     |                 ^^^^^^^^^ help: consider prefixing with an underscore: `_rand_char`
+Apr 01 23:34:54.197 INFO cargo build (stderr):     |
+Apr 01 23:34:54.197 INFO cargo build (stderr):     = note: #[warn(unused_variables)] on by default
+Apr 01 23:34:54.197 INFO cargo build (stderr): 
+Apr 01 23:34:54.205 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:34:54.206 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:34:54.206 INFO cargo build (stderr):    |
+Apr 01 23:34:54.206 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:34:54.206 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:34:54.206 INFO cargo build (stderr):    |         |
+Apr 01 23:34:54.206 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:34:54.206 INFO cargo build (stderr):    |
+Apr 01 23:34:54.206 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:34:54.206 INFO cargo build (stderr): 
+Apr 01 23:34:54.216 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:34:54.216 INFO cargo build (stderr):    --> src/lib.rs:156:9
+Apr 01 23:34:54.216 INFO cargo build (stderr):     |
+Apr 01 23:34:54.216 INFO cargo build (stderr): 156 |     let mut alphabet = vec![
+Apr 01 23:34:54.216 INFO cargo build (stderr):     |         ----^^^^^^^^
+Apr 01 23:34:54.217 INFO cargo build (stderr):     |         |
+Apr 01 23:34:54.217 INFO cargo build (stderr):     |         help: remove this `mut`
+Apr 01 23:34:54.217 INFO cargo build (stderr):     |
+Apr 01 23:34:54.217 INFO cargo build (stderr):     = note: #[warn(unused_mut)] on by default
+Apr 01 23:34:54.217 INFO cargo build (stderr): 
+Apr 01 23:34:54.217 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:34:54.217 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:34:54.217 INFO cargo build (stderr):    |
+Apr 01 23:34:54.217 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:34:54.217 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:34:54.217 INFO cargo build (stderr):    |
+Apr 01 23:34:54.217 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:34:54.217 INFO cargo build (stderr): 
+Apr 01 23:34:54.221 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:34:54.222 INFO cargo build (stderr):    --> src/lib.rs:116:17
+Apr 01 23:34:54.222 INFO cargo build (stderr):     |
+Apr 01 23:34:54.222 INFO cargo build (stderr): 116 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:34:54.222 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:34:54.222 INFO cargo build (stderr):     |
+Apr 01 23:34:54.222 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:34:54.222 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:34:54.222 INFO cargo build (stderr): 
+Apr 01 23:34:54.222 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:34:54.222 INFO cargo build (stderr):    --> src/lib.rs:171:13
+Apr 01 23:34:54.222 INFO cargo build (stderr):     |
+Apr 01 23:34:54.222 INFO cargo build (stderr): 171 | /             context.fill_text(
+Apr 01 23:34:54.222 INFO cargo build (stderr): 172 | |                 &char_lists[cl].chars[ch].value.to_string(),
+Apr 01 23:34:54.222 INFO cargo build (stderr): 173 | |                 (14 * cl) as f64,
+Apr 01 23:34:54.222 INFO cargo build (stderr): 174 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:34:54.222 INFO cargo build (stderr): 175 | |             );
+Apr 01 23:34:54.222 INFO cargo build (stderr):     | |______________^
+Apr 01 23:34:54.223 INFO cargo build (stderr):     |
+Apr 01 23:34:54.223 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:34:54.223 INFO cargo build (stderr): 
+Apr 01 23:34:54.746 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 1.00s
+Apr 01 23:34:54.759 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:34:54.759 INFO Creating a pkg directory...
+Apr 01 23:34:54.760 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:34:54.760 INFO Writing a package.json...
+Apr 01 23:34:54.760 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:34:54.760 INFO Copying readme from crate...
+Apr 01 23:34:54.760 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:34:54.760 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:34:54.784 INFO Installing wasm-bindgen-cli...
+Apr 01 23:34:54.784 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:34:54.791 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 1.01s
+Apr 01 23:34:54.798 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:34:54.798 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:34:54.798 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:34:54.798 INFO Getting the crate name from the manifest...
+Apr 01 23:34:54.798 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:34:54.798 INFO Building the wasm bindings...
+Apr 01 23:34:54.798 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:34:54.836 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:34:54.836 INFO Creating a pkg directory...
+Apr 01 23:34:54.836 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:34:54.836 INFO Writing a package.json...
+Apr 01 23:34:54.837 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:34:54.837 INFO Copying readme from crate...
+Apr 01 23:34:54.837 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:34:54.837 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:34:54.898 INFO Installing wasm-bindgen-cli...
+Apr 01 23:34:54.898 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:34:54.908 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:34:54.919 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:34:54.920 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:34:54.920 INFO Getting the crate name from the manifest...
+Apr 01 23:34:54.920 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:34:54.920 INFO Building the wasm bindings...
+Apr 01 23:34:54.920 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:34:54.928 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 1.17s
+Apr 01 23:34:54.946 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:34:54.946 INFO Creating a pkg directory...
+Apr 01 23:34:54.946 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:34:54.946 INFO Writing a package.json...
+Apr 01 23:34:54.946 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:34:54.946 INFO Copying readme from crate...
+Apr 01 23:34:54.946 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:34:54.946 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:34:55.017 INFO Installing wasm-bindgen-cli...
+Apr 01 23:34:55.017 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:34:55.031 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:34:55.032 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:34:55.032 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:34:55.032 INFO Getting the crate name from the manifest...
+Apr 01 23:34:55.032 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:34:55.033 INFO Building the wasm bindings...
+Apr 01 23:34:55.033 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:34:55.189 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:34:55.189 INFO Done in 1 second.
+Apr 01 23:34:55.189 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:34:55.228 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:34:55.228 INFO Done in 1 second.
+Apr 01 23:34:55.228 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:34:55.301 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:34:55.301 INFO Done in 1 second.
+Apr 01 23:34:55.301 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:35:49.923 INFO Running build command...
+Apr 01 23:35:49.923 INFO Checking rustc version...
+Apr 01 23:35:49.933 INFO Running build command...
+Apr 01 23:35:49.933 INFO Checking rustc version...
+Apr 01 23:35:49.942 INFO Running build command...
+Apr 01 23:35:49.942 INFO Checking rustc version...
+Apr 01 23:35:49.947 INFO rustc version is 35.
+Apr 01 23:35:49.947 INFO Checking crate configuration...
+Apr 01 23:35:49.947 INFO Crate is correctly configured.
+Apr 01 23:35:49.947 INFO Adding wasm-target...
+Apr 01 23:35:49.947 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:35:49.953 INFO rustc version is 35.
+Apr 01 23:35:49.953 INFO Checking crate configuration...
+Apr 01 23:35:49.953 INFO Crate is correctly configured.
+Apr 01 23:35:49.953 INFO Adding wasm-target...
+Apr 01 23:35:49.953 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:35:49.958 INFO rustc version is 35.
+Apr 01 23:35:49.958 INFO Checking crate configuration...
+Apr 01 23:35:49.958 INFO Crate is correctly configured.
+Apr 01 23:35:49.958 INFO Adding wasm-target...
+Apr 01 23:35:49.958 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:35:50.028 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:35:50.029 INFO Adding wasm-target was successful.
+Apr 01 23:35:50.030 INFO Building wasm...
+Apr 01 23:35:50.030 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:35:50.048 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:35:50.050 INFO Adding wasm-target was successful.
+Apr 01 23:35:50.050 INFO Building wasm...
+Apr 01 23:35:50.050 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:35:50.069 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:35:50.070 INFO Adding wasm-target was successful.
+Apr 01 23:35:50.070 INFO Building wasm...
+Apr 01 23:35:50.070 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:35:50.120 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:35:50.130 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:35:50.156 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:35:50.338 INFO cargo build (stderr): warning: unused variable: `rand_char`
+Apr 01 23:35:50.339 INFO cargo build (stderr):    --> src/lib.rs:165:17
+Apr 01 23:35:50.339 INFO cargo build (stderr):     |
+Apr 01 23:35:50.339 INFO cargo build (stderr): 165 |             let rand_char = if (frame_count % &char_lists[cl].chars[ch].change_rate) == 0 {
+Apr 01 23:35:50.339 INFO cargo build (stderr):     |                 ^^^^^^^^^ help: consider prefixing with an underscore: `_rand_char`
+Apr 01 23:35:50.339 INFO cargo build (stderr):     |
+Apr 01 23:35:50.339 INFO cargo build (stderr):     = note: #[warn(unused_variables)] on by default
+Apr 01 23:35:50.339 INFO cargo build (stderr): 
+Apr 01 23:35:50.361 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:35:50.381 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:35:50.383 INFO cargo build (stderr):    |
+Apr 01 23:35:50.383 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:35:50.383 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:35:50.383 INFO cargo build (stderr):    |         |
+Apr 01 23:35:50.383 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:35:50.383 INFO cargo build (stderr):    |
+Apr 01 23:35:50.383 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:35:50.383 INFO cargo build (stderr): 
+Apr 01 23:35:50.383 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:35:50.383 INFO cargo build (stderr):    --> src/lib.rs:156:9
+Apr 01 23:35:50.383 INFO cargo build (stderr):     |
+Apr 01 23:35:50.383 INFO cargo build (stderr): 156 |     let mut alphabet = vec![
+Apr 01 23:35:50.383 INFO cargo build (stderr):     |         ----^^^^^^^^
+Apr 01 23:35:50.383 INFO cargo build (stderr):     |         |
+Apr 01 23:35:50.384 INFO cargo build (stderr):     |         help: remove this `mut`
+Apr 01 23:35:50.384 INFO cargo build (stderr):     |
+Apr 01 23:35:50.384 INFO cargo build (stderr):     = note: #[warn(unused_mut)] on by default
+Apr 01 23:35:50.384 INFO cargo build (stderr): 
+Apr 01 23:35:50.384 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:35:50.384 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:35:50.391 INFO cargo build (stderr):    |
+Apr 01 23:35:50.403 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:35:50.415 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:35:50.415 INFO cargo build (stderr):    |
+Apr 01 23:35:50.421 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:35:50.425 INFO cargo build (stderr): 
+Apr 01 23:35:50.431 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:35:50.435 INFO cargo build (stderr):    --> src/lib.rs:116:17
+Apr 01 23:35:50.435 INFO cargo build (stderr):     |
+Apr 01 23:35:50.435 INFO cargo build (stderr): 116 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:35:50.435 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:35:50.435 INFO cargo build (stderr):     |
+Apr 01 23:35:50.436 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:35:50.436 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:35:50.436 INFO cargo build (stderr): 
+Apr 01 23:35:50.436 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:35:50.436 INFO cargo build (stderr):    --> src/lib.rs:171:13
+Apr 01 23:35:50.436 INFO cargo build (stderr):     |
+Apr 01 23:35:50.436 INFO cargo build (stderr): 171 | /             context.fill_text(
+Apr 01 23:35:50.436 INFO cargo build (stderr): 172 | |                 &char_lists[cl].chars[ch].value.to_string(),
+Apr 01 23:35:50.436 INFO cargo build (stderr): 173 | |                 (14 * cl) as f64,
+Apr 01 23:35:50.436 INFO cargo build (stderr): 174 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:35:50.436 INFO cargo build (stderr): 175 | |             );
+Apr 01 23:35:50.437 INFO cargo build (stderr):     | |______________^
+Apr 01 23:35:50.437 INFO cargo build (stderr):     |
+Apr 01 23:35:50.455 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:35:50.456 INFO cargo build (stderr): 
+Apr 01 23:35:50.909 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.86s
+Apr 01 23:35:50.918 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:35:50.918 INFO Creating a pkg directory...
+Apr 01 23:35:50.918 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:35:50.918 INFO Writing a package.json...
+Apr 01 23:35:50.919 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:35:50.919 INFO Copying readme from crate...
+Apr 01 23:35:50.920 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:35:50.920 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:35:50.945 INFO Installing wasm-bindgen-cli...
+Apr 01 23:35:50.945 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:35:50.952 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:35:50.957 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:35:50.957 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:35:50.957 INFO Getting the crate name from the manifest...
+Apr 01 23:35:50.957 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:35:50.957 INFO Building the wasm bindings...
+Apr 01 23:35:50.958 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:35:50.974 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.89s
+Apr 01 23:35:50.996 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:35:50.996 INFO Creating a pkg directory...
+Apr 01 23:35:50.996 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:35:50.996 INFO Writing a package.json...
+Apr 01 23:35:50.998 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:35:50.998 INFO Copying readme from crate...
+Apr 01 23:35:50.998 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:35:50.998 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:35:51.051 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.98s
+Apr 01 23:35:51.053 INFO Installing wasm-bindgen-cli...
+Apr 01 23:35:51.053 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:35:51.063 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:35:51.066 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:35:51.067 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:35:51.067 INFO Getting the crate name from the manifest...
+Apr 01 23:35:51.067 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:35:51.067 INFO Building the wasm bindings...
+Apr 01 23:35:51.067 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:35:51.075 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:35:51.076 INFO Creating a pkg directory...
+Apr 01 23:35:51.076 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:35:51.076 INFO Writing a package.json...
+Apr 01 23:35:51.076 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:35:51.076 INFO Copying readme from crate...
+Apr 01 23:35:51.076 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:35:51.076 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:35:51.138 INFO Installing wasm-bindgen-cli...
+Apr 01 23:35:51.138 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:35:51.144 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:35:51.145 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:35:51.145 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:35:51.145 INFO Getting the crate name from the manifest...
+Apr 01 23:35:51.145 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:35:51.145 INFO Building the wasm bindings...
+Apr 01 23:35:51.145 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:35:51.188 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:35:51.188 INFO Done in 1 second.
+Apr 01 23:35:51.188 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:35:51.288 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:35:51.288 INFO Done in 1 second.
+Apr 01 23:35:51.288 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:35:51.305 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:35:51.305 INFO Done in 1 second.
+Apr 01 23:35:51.305 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:36:33.562 INFO Running build command...
+Apr 01 23:36:33.562 INFO Checking rustc version...
+Apr 01 23:36:33.568 INFO Running build command...
+Apr 01 23:36:33.568 INFO Checking rustc version...
+Apr 01 23:36:33.576 INFO Running build command...
+Apr 01 23:36:33.576 INFO Checking rustc version...
+Apr 01 23:36:33.581 INFO rustc version is 35.
+Apr 01 23:36:33.581 INFO Checking crate configuration...
+Apr 01 23:36:33.581 INFO Crate is correctly configured.
+Apr 01 23:36:33.581 INFO Adding wasm-target...
+Apr 01 23:36:33.581 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:36:33.588 INFO rustc version is 35.
+Apr 01 23:36:33.589 INFO Checking crate configuration...
+Apr 01 23:36:33.589 INFO Crate is correctly configured.
+Apr 01 23:36:33.589 INFO Adding wasm-target...
+Apr 01 23:36:33.589 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:36:33.595 INFO rustc version is 35.
+Apr 01 23:36:33.595 INFO Checking crate configuration...
+Apr 01 23:36:33.595 INFO Crate is correctly configured.
+Apr 01 23:36:33.595 INFO Adding wasm-target...
+Apr 01 23:36:33.595 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:36:33.651 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:36:33.652 INFO Adding wasm-target was successful.
+Apr 01 23:36:33.652 INFO Building wasm...
+Apr 01 23:36:33.652 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:36:33.670 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:36:33.671 INFO Adding wasm-target was successful.
+Apr 01 23:36:33.671 INFO Building wasm...
+Apr 01 23:36:33.671 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:36:33.679 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:36:33.680 INFO Adding wasm-target was successful.
+Apr 01 23:36:33.681 INFO Building wasm...
+Apr 01 23:36:33.681 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:36:33.740 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:36:33.740 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:36:33.755 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:36:33.918 INFO cargo build (stderr): warning: unused variable: `rand_char`
+Apr 01 23:36:33.918 INFO cargo build (stderr):    --> src/lib.rs:165:17
+Apr 01 23:36:33.918 INFO cargo build (stderr):     |
+Apr 01 23:36:33.918 INFO cargo build (stderr): 165 |             let rand_char = if (frame_count % &char_lists[cl].chars[ch].change_rate) == 0 {
+Apr 01 23:36:33.918 INFO cargo build (stderr):     |                 ^^^^^^^^^ help: consider prefixing with an underscore: `_rand_char`
+Apr 01 23:36:33.918 INFO cargo build (stderr):     |
+Apr 01 23:36:33.918 INFO cargo build (stderr):     = note: #[warn(unused_variables)] on by default
+Apr 01 23:36:33.918 INFO cargo build (stderr): 
+Apr 01 23:36:33.931 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:36:33.931 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:36:33.931 INFO cargo build (stderr):    |
+Apr 01 23:36:33.931 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:36:33.931 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:36:33.931 INFO cargo build (stderr):    |         |
+Apr 01 23:36:33.931 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:36:33.931 INFO cargo build (stderr):    |
+Apr 01 23:36:33.931 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:36:33.931 INFO cargo build (stderr): 
+Apr 01 23:36:33.937 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:36:33.937 INFO cargo build (stderr):    --> src/lib.rs:156:9
+Apr 01 23:36:33.937 INFO cargo build (stderr):     |
+Apr 01 23:36:33.937 INFO cargo build (stderr): 156 |     let mut alphabet = vec![
+Apr 01 23:36:33.937 INFO cargo build (stderr):     |         ----^^^^^^^^
+Apr 01 23:36:33.937 INFO cargo build (stderr):     |         |
+Apr 01 23:36:33.937 INFO cargo build (stderr):     |         help: remove this `mut`
+Apr 01 23:36:33.937 INFO cargo build (stderr): 
+Apr 01 23:36:33.937 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:36:33.937 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:36:33.937 INFO cargo build (stderr):    |
+Apr 01 23:36:33.938 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:36:33.938 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:36:33.938 INFO cargo build (stderr):    |
+Apr 01 23:36:33.938 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:36:33.938 INFO cargo build (stderr): 
+Apr 01 23:36:33.938 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:36:33.938 INFO cargo build (stderr):    --> src/lib.rs:116:17
+Apr 01 23:36:33.938 INFO cargo build (stderr):     |
+Apr 01 23:36:33.938 INFO cargo build (stderr): 116 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:36:33.939 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:36:33.939 INFO cargo build (stderr):     |
+Apr 01 23:36:33.939 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:36:33.939 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:36:33.939 INFO cargo build (stderr): 
+Apr 01 23:36:33.939 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:36:33.939 INFO cargo build (stderr):    --> src/lib.rs:170:13
+Apr 01 23:36:33.939 INFO cargo build (stderr):     |
+Apr 01 23:36:33.939 INFO cargo build (stderr): 170 | /             context.fill_text(
+Apr 01 23:36:33.939 INFO cargo build (stderr): 171 | |                 &char_lists[cl].chars[ch].value.to_string(),
+Apr 01 23:36:33.939 INFO cargo build (stderr): 172 | |                 (14 * cl) as f64,
+Apr 01 23:36:33.939 INFO cargo build (stderr): 173 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:36:33.939 INFO cargo build (stderr): 174 | |             );
+Apr 01 23:36:33.939 INFO cargo build (stderr):     | |______________^
+Apr 01 23:36:33.939 INFO cargo build (stderr):     |
+Apr 01 23:36:33.940 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:36:33.940 INFO cargo build (stderr): 
+Apr 01 23:36:34.207 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.54s
+Apr 01 23:36:34.214 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:36:34.214 INFO Creating a pkg directory...
+Apr 01 23:36:34.214 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:36:34.214 INFO Writing a package.json...
+Apr 01 23:36:34.214 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:36:34.214 INFO Copying readme from crate...
+Apr 01 23:36:34.214 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:36:34.214 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:36:34.235 INFO Installing wasm-bindgen-cli...
+Apr 01 23:36:34.235 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:36:34.240 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:36:34.240 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:36:34.240 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:36:34.240 INFO Getting the crate name from the manifest...
+Apr 01 23:36:34.240 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:36:34.241 INFO Building the wasm bindings...
+Apr 01 23:36:34.241 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:36:34.241 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.56s
+Apr 01 23:36:34.247 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:36:34.247 INFO Creating a pkg directory...
+Apr 01 23:36:34.247 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:36:34.248 INFO Writing a package.json...
+Apr 01 23:36:34.271 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:36:34.272 INFO Copying readme from crate...
+Apr 01 23:36:34.272 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:36:34.272 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:36:34.272 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.58s
+Apr 01 23:36:34.289 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:36:34.289 INFO Creating a pkg directory...
+Apr 01 23:36:34.289 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:36:34.289 INFO Writing a package.json...
+Apr 01 23:36:34.289 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:36:34.289 INFO Copying readme from crate...
+Apr 01 23:36:34.289 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:36:34.289 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:36:34.296 INFO Installing wasm-bindgen-cli...
+Apr 01 23:36:34.296 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:36:34.304 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:36:34.305 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:36:34.305 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:36:34.305 INFO Getting the crate name from the manifest...
+Apr 01 23:36:34.305 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:36:34.305 INFO Building the wasm bindings...
+Apr 01 23:36:34.305 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:36:34.314 INFO Installing wasm-bindgen-cli...
+Apr 01 23:36:34.315 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:36:34.319 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:36:34.319 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:36:34.319 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:36:34.320 INFO Getting the crate name from the manifest...
+Apr 01 23:36:34.320 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:36:34.320 INFO Building the wasm bindings...
+Apr 01 23:36:34.320 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:36:34.345 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:36:34.345 INFO Done in 0 seconds.
+Apr 01 23:36:34.345 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:36:34.413 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:36:34.413 INFO Done in 0 seconds.
+Apr 01 23:36:34.413 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:36:34.418 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:36:34.419 INFO Done in 0 seconds.
+Apr 01 23:36:34.419 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:15.362 INFO Running build command...
+Apr 01 23:37:15.362 INFO Checking rustc version...
+Apr 01 23:37:15.372 INFO Running build command...
+Apr 01 23:37:15.373 INFO Checking rustc version...
+Apr 01 23:37:15.385 INFO Running build command...
+Apr 01 23:37:15.385 INFO Checking rustc version...
+Apr 01 23:37:15.386 INFO rustc version is 35.
+Apr 01 23:37:15.387 INFO Checking crate configuration...
+Apr 01 23:37:15.387 INFO Crate is correctly configured.
+Apr 01 23:37:15.387 INFO Adding wasm-target...
+Apr 01 23:37:15.387 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:37:15.408 INFO rustc version is 35.
+Apr 01 23:37:15.408 INFO Checking crate configuration...
+Apr 01 23:37:15.408 INFO Crate is correctly configured.
+Apr 01 23:37:15.409 INFO Adding wasm-target...
+Apr 01 23:37:15.409 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:37:15.411 INFO rustc version is 35.
+Apr 01 23:37:15.412 INFO Checking crate configuration...
+Apr 01 23:37:15.412 INFO Crate is correctly configured.
+Apr 01 23:37:15.412 INFO Adding wasm-target...
+Apr 01 23:37:15.412 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:37:15.489 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:37:15.491 INFO Adding wasm-target was successful.
+Apr 01 23:37:15.491 INFO Building wasm...
+Apr 01 23:37:15.491 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:37:15.497 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:37:15.499 INFO Adding wasm-target was successful.
+Apr 01 23:37:15.499 INFO Building wasm...
+Apr 01 23:37:15.499 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:37:15.507 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:37:15.508 INFO Adding wasm-target was successful.
+Apr 01 23:37:15.508 INFO Building wasm...
+Apr 01 23:37:15.508 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:37:15.585 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:37:15.608 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:37:15.626 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:37:15.794 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:37:15.794 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:37:15.794 INFO cargo build (stderr):    |
+Apr 01 23:37:15.794 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:37:15.794 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:37:15.794 INFO cargo build (stderr):    |         |
+Apr 01 23:37:15.794 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:37:15.794 INFO cargo build (stderr):    |
+Apr 01 23:37:15.794 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:37:15.794 INFO cargo build (stderr): 
+Apr 01 23:37:15.802 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:37:15.802 INFO cargo build (stderr):    --> src/lib.rs:156:9
+Apr 01 23:37:15.802 INFO cargo build (stderr):     |
+Apr 01 23:37:15.802 INFO cargo build (stderr): 156 |     let mut alphabet = vec![
+Apr 01 23:37:15.802 INFO cargo build (stderr):     |         ----^^^^^^^^
+Apr 01 23:37:15.802 INFO cargo build (stderr):     |         |
+Apr 01 23:37:15.802 INFO cargo build (stderr):     |         help: remove this `mut`
+Apr 01 23:37:15.802 INFO cargo build (stderr):     |
+Apr 01 23:37:15.802 INFO cargo build (stderr):     = note: #[warn(unused_mut)] on by default
+Apr 01 23:37:15.802 INFO cargo build (stderr): 
+Apr 01 23:37:15.803 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:37:15.803 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:37:15.803 INFO cargo build (stderr):    |
+Apr 01 23:37:15.803 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:37:15.803 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:37:15.803 INFO cargo build (stderr):    |
+Apr 01 23:37:15.803 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:37:15.803 INFO cargo build (stderr): 
+Apr 01 23:37:15.804 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:37:15.804 INFO cargo build (stderr):    --> src/lib.rs:116:17
+Apr 01 23:37:15.804 INFO cargo build (stderr):     |
+Apr 01 23:37:15.804 INFO cargo build (stderr): 116 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:37:15.804 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:37:15.804 INFO cargo build (stderr):     |
+Apr 01 23:37:15.804 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:37:15.804 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:37:15.804 INFO cargo build (stderr): 
+Apr 01 23:37:15.804 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:37:15.804 INFO cargo build (stderr):    --> src/lib.rs:170:13
+Apr 01 23:37:15.805 INFO cargo build (stderr):     |
+Apr 01 23:37:15.805 INFO cargo build (stderr): 170 | /             context.fill_text(
+Apr 01 23:37:15.805 INFO cargo build (stderr): 171 | |                 &rand_char,
+Apr 01 23:37:15.805 INFO cargo build (stderr): 172 | |                 (14 * cl) as f64,
+Apr 01 23:37:15.805 INFO cargo build (stderr): 173 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:37:15.805 INFO cargo build (stderr): 174 | |             );
+Apr 01 23:37:15.805 INFO cargo build (stderr):     | |______________^
+Apr 01 23:37:15.805 INFO cargo build (stderr):     |
+Apr 01 23:37:15.805 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:37:15.805 INFO cargo build (stderr): 
+Apr 01 23:37:16.131 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.61s
+Apr 01 23:37:16.138 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:37:16.138 INFO Creating a pkg directory...
+Apr 01 23:37:16.138 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:37:16.138 INFO Writing a package.json...
+Apr 01 23:37:16.138 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:37:16.139 INFO Copying readme from crate...
+Apr 01 23:37:16.139 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:16.139 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:37:16.159 INFO Installing wasm-bindgen-cli...
+Apr 01 23:37:16.159 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:37:16.161 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.65s
+Apr 01 23:37:16.164 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:37:16.165 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:37:16.165 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:37:16.165 INFO Getting the crate name from the manifest...
+Apr 01 23:37:16.165 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:37:16.165 INFO Building the wasm bindings...
+Apr 01 23:37:16.165 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:37:16.166 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:37:16.166 INFO Creating a pkg directory...
+Apr 01 23:37:16.166 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:37:16.167 INFO Writing a package.json...
+Apr 01 23:37:16.198 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.68s
+Apr 01 23:37:16.198 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:37:16.199 INFO Copying readme from crate...
+Apr 01 23:37:16.199 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:16.199 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:37:16.216 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:37:16.216 INFO Creating a pkg directory...
+Apr 01 23:37:16.216 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:37:16.216 INFO Writing a package.json...
+Apr 01 23:37:16.216 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:37:16.217 INFO Copying readme from crate...
+Apr 01 23:37:16.217 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:16.217 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:37:16.227 INFO Installing wasm-bindgen-cli...
+Apr 01 23:37:16.228 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:37:16.236 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:37:16.236 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:37:16.236 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:37:16.237 INFO Getting the crate name from the manifest...
+Apr 01 23:37:16.237 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:37:16.237 INFO Building the wasm bindings...
+Apr 01 23:37:16.237 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:37:16.252 INFO Installing wasm-bindgen-cli...
+Apr 01 23:37:16.253 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:37:16.259 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:37:16.259 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:37:16.260 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:37:16.260 INFO Getting the crate name from the manifest...
+Apr 01 23:37:16.260 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:37:16.260 INFO Building the wasm bindings...
+Apr 01 23:37:16.261 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:37:16.273 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:16.273 INFO Done in 0 seconds.
+Apr 01 23:37:16.274 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:16.358 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:16.358 INFO Done in 0 seconds.
+Apr 01 23:37:16.358 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:16.380 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:16.380 INFO Done in 0 seconds.
+Apr 01 23:37:16.380 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:37.930 INFO Running build command...
+Apr 01 23:37:37.930 INFO Checking rustc version...
+Apr 01 23:37:37.939 INFO Running build command...
+Apr 01 23:37:37.940 INFO Checking rustc version...
+Apr 01 23:37:37.946 INFO rustc version is 35.
+Apr 01 23:37:37.947 INFO Checking crate configuration...
+Apr 01 23:37:37.947 INFO Crate is correctly configured.
+Apr 01 23:37:37.947 INFO Adding wasm-target...
+Apr 01 23:37:37.947 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:37:37.949 INFO Running build command...
+Apr 01 23:37:37.950 INFO Checking rustc version...
+Apr 01 23:37:37.961 INFO rustc version is 35.
+Apr 01 23:37:37.961 INFO Checking crate configuration...
+Apr 01 23:37:37.961 INFO Crate is correctly configured.
+Apr 01 23:37:37.962 INFO Adding wasm-target...
+Apr 01 23:37:37.962 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:37:37.972 INFO rustc version is 35.
+Apr 01 23:37:37.972 INFO Checking crate configuration...
+Apr 01 23:37:37.972 INFO Crate is correctly configured.
+Apr 01 23:37:37.972 INFO Adding wasm-target...
+Apr 01 23:37:37.972 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:37:38.032 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:37:38.035 INFO Adding wasm-target was successful.
+Apr 01 23:37:38.035 INFO Building wasm...
+Apr 01 23:37:38.036 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:37:38.048 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:37:38.050 INFO Adding wasm-target was successful.
+Apr 01 23:37:38.050 INFO Building wasm...
+Apr 01 23:37:38.050 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:37:38.077 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:37:38.080 INFO Adding wasm-target was successful.
+Apr 01 23:37:38.080 INFO Building wasm...
+Apr 01 23:37:38.080 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:37:38.133 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:37:38.163 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:37:38.190 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:37:38.348 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:37:38.348 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:37:38.348 INFO cargo build (stderr):    |
+Apr 01 23:37:38.348 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:37:38.348 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:37:38.348 INFO cargo build (stderr):    |         |
+Apr 01 23:37:38.348 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:37:38.348 INFO cargo build (stderr):    |
+Apr 01 23:37:38.348 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:37:38.349 INFO cargo build (stderr): 
+Apr 01 23:37:38.349 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:37:38.349 INFO cargo build (stderr):    --> src/lib.rs:156:9
+Apr 01 23:37:38.349 INFO cargo build (stderr):     |
+Apr 01 23:37:38.350 INFO cargo build (stderr): 156 |     let mut alphabet = vec![
+Apr 01 23:37:38.350 INFO cargo build (stderr):     |         ----^^^^^^^^
+Apr 01 23:37:38.350 INFO cargo build (stderr):     |         |
+Apr 01 23:37:38.350 INFO cargo build (stderr):     |         help: remove this `mut`
+Apr 01 23:37:38.350 INFO cargo build (stderr):     |
+Apr 01 23:37:38.350 INFO cargo build (stderr):     = note: #[warn(unused_mut)] on by default
+Apr 01 23:37:38.351 INFO cargo build (stderr): 
+Apr 01 23:37:38.351 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:37:38.351 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:37:38.351 INFO cargo build (stderr):    |
+Apr 01 23:37:38.351 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:37:38.351 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:37:38.351 INFO cargo build (stderr):    |
+Apr 01 23:37:38.351 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:37:38.352 INFO cargo build (stderr): 
+Apr 01 23:37:38.352 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:37:38.352 INFO cargo build (stderr):    --> src/lib.rs:116:17
+Apr 01 23:37:38.352 INFO cargo build (stderr):     |
+Apr 01 23:37:38.352 INFO cargo build (stderr): 116 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:37:38.352 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:37:38.353 INFO cargo build (stderr):     |
+Apr 01 23:37:38.353 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:37:38.353 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:37:38.353 INFO cargo build (stderr): 
+Apr 01 23:37:38.353 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:37:38.353 INFO cargo build (stderr):    --> src/lib.rs:170:13
+Apr 01 23:37:38.354 INFO cargo build (stderr):     |
+Apr 01 23:37:38.354 INFO cargo build (stderr): 170 | /             context.fill_text(
+Apr 01 23:37:38.354 INFO cargo build (stderr): 171 | |                 &rand_char,
+Apr 01 23:37:38.354 INFO cargo build (stderr): 172 | |                 (14 * cl) as f64,
+Apr 01 23:37:38.354 INFO cargo build (stderr): 173 | |                 (char_lists[cl].y + (14 * ch) as f64) as f64,
+Apr 01 23:37:38.355 INFO cargo build (stderr): 174 | |             );
+Apr 01 23:37:38.355 INFO cargo build (stderr):     | |______________^
+Apr 01 23:37:38.355 INFO cargo build (stderr):     |
+Apr 01 23:37:38.355 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:37:38.356 INFO cargo build (stderr): 
+Apr 01 23:37:38.625 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.58s
+Apr 01 23:37:38.634 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:37:38.634 INFO Creating a pkg directory...
+Apr 01 23:37:38.634 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:37:38.634 INFO Writing a package.json...
+Apr 01 23:37:38.636 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:37:38.636 INFO Copying readme from crate...
+Apr 01 23:37:38.636 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:38.636 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:37:38.653 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.59s
+Apr 01 23:37:38.658 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:37:38.659 INFO Installing wasm-bindgen-cli...
+Apr 01 23:37:38.659 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:37:38.660 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:37:38.660 INFO Creating a pkg directory...
+Apr 01 23:37:38.660 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:37:38.660 INFO Writing a package.json...
+Apr 01 23:37:38.663 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:37:38.663 INFO Copying readme from crate...
+Apr 01 23:37:38.664 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:37:38.664 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:37:38.664 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:37:38.664 INFO Getting the crate name from the manifest...
+Apr 01 23:37:38Apr.664  0INFO1  Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".23
+:37Apr: 380.1664  23INFO: 37Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".:
+38.664 AprINFO  0Building the wasm bindings...1
+ 23Apr: 370:138 .23664: 37INFO: 38Identifying wasm-bindgen dependency....
+664 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:37:38.691 INFO Installing wasm-bindgen-cli...
+Apr 01 23:37:38.691 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:37:38.697 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.60s
+Apr 01 23:37:38.705 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:37:38.705 INFO Creating a pkg directory...
+Apr 01 23:37:38.705 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:37:38.705 INFO Writing a package.json...
+Apr 01 23:37:38.705 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:37:38.705 INFO Copying readme from crate...
+Apr 01 23:37:38.705 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:38.705 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:37:38.709 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:37:38.709 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:37:38.710 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:37:38.710 INFO Getting the crate name from the manifest...
+Apr 01 23:37:38.711 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:37:38.711 INFO Building the wasm bindings...
+Apr 01 23:37:38.712 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:37:38.741 INFO Installing wasm-bindgen-cli...
+Apr 01 23:37:38.742 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:37:38.757 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:37:38.757 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:37:38.757 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:37:38.758 INFO Getting the crate name from the manifest...
+Apr 01 23:37:38.758 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:37:38.758 INFO Building the wasm bindings...
+Apr 01 23:37:38.758 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:37:38.781 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:38.781 INFO Done in 0 seconds.
+Apr 01 23:37:38.781 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:38.838 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:38.838 INFO Done in 0 seconds.
+Apr 01 23:37:38.838 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:38.860 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:38.860 INFO Done in 0 seconds.
+Apr 01 23:37:38.860 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:56.775 INFO Running build command...
+Apr 01 23:37:56.775 INFO Checking rustc version...
+Apr 01 23:37:56.791 INFO rustc version is 35.
+Apr 01 23:37:56.791 INFO Checking crate configuration...
+Apr 01 23:37:56.791 INFO Crate is correctly configured.
+Apr 01 23:37:56.791 INFO Adding wasm-target...
+Apr 01 23:37:56.791 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:37:56.858 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:37:56.859 INFO Adding wasm-target was successful.
+Apr 01 23:37:56.859 INFO Building wasm...
+Apr 01 23:37:56.859 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:37:56.949 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.08s
+Apr 01 23:37:56.953 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:37:56.953 INFO Creating a pkg directory...
+Apr 01 23:37:56.953 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:37:56.953 INFO Writing a package.json...
+Apr 01 23:37:56.954 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:37:56.954 INFO Copying readme from crate...
+Apr 01 23:37:56.954 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:56.954 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:37:56.974 INFO Installing wasm-bindgen-cli...
+Apr 01 23:37:56.974 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:37:56.979 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:37:56.979 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:37:56.979 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:37:56.979 INFO Getting the crate name from the manifest...
+Apr 01 23:37:56.979 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:37:56.979 INFO Building the wasm bindings...
+Apr 01 23:37:56.979 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:37:57.078 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:37:57.079 INFO Done in 0 seconds.
+Apr 01 23:37:57.079 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
