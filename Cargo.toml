@@ -22,6 +22,7 @@ features = [
   'Document',
   'Element',
   'HtmlCanvasElement',
+  'console',
   'Window',
 'HtmlElement',
 'Node',

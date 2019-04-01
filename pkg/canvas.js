@@ -133,6 +133,24 @@ export function __widl_f_get_context_HTMLCanvasElement(arg0, arg1, arg2, exnptr)
     }
 }
 
+export function __widl_f_set_width_HTMLCanvasElement(arg0, arg1) {
+    try {
+        getObject(arg0).width = arg1;
+    } catch (e) {
+        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
+        throw e;
+    }
+}
+
+export function __widl_f_set_height_HTMLCanvasElement(arg0, arg1) {
+    try {
+        getObject(arg0).height = arg1;
+    } catch (e) {
+        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
+        throw e;
+    }
+}
+
 export function __widl_instanceof_Window(idx) { return getObject(idx) instanceof Window ? 1 : 0; }
 
 export function __widl_f_request_animation_frame_Window(arg0, arg1, exnptr) {
@@ -158,6 +176,14 @@ export function __widl_f_document_Window(arg0) {
 export function __widl_f_inner_width_Window(arg0, exnptr) {
     try {
         return addHeapObject(getObject(arg0).innerWidth);
+    } catch (e) {
+        handleError(exnptr, e);
+    }
+}
+
+export function __widl_f_inner_height_Window(arg0, exnptr) {
+    try {
+        return addHeapObject(getObject(arg0).innerHeight);
     } catch (e) {
         handleError(exnptr, e);
     }
@@ -417,7 +443,7 @@ export function __wbindgen_throw(ptr, len) {
     throw new Error(getStringFromWasm(ptr, len));
 }
 
-export function __wbindgen_closure_wrapper371(a, b, _ignored) {
+export function __wbindgen_closure_wrapper416(a, b, _ignored) {
     const f = wasm.__wbg_function_table.get(23);
     const d = wasm.__wbg_function_table.get(24);
     const cb = function() {
