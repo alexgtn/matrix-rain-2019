@@ -160,17 +160,27 @@ pub fn get_canvas(
     ];
 
     for cl in 0..char_lists.len() {
-        char_lists[cl].y += char_lists[cl].speed;
+        if char_lists[cl].y + char_lists[cl].speed >= height as f64 {
+            char_lists[cl].y = 0.0;
+        } else {
+            char_lists[cl].y += char_lists[cl].speed;
+        }
+
         for ch in 0..char_lists[cl].chars.len() {
             let rand_char = if (frame_count % &char_lists[cl].chars[ch].change_rate) == 0 {
                 alphabet[_rng.gen_range(0, alphabet.len() - 1)].to_string()
             } else {
                 char_lists[cl].chars[ch].value.to_string()
             };
+            let char_position = if char_lists[cl].y + (14.0 * ch as f64) >= height as f64 {
+                ((char_lists[cl].y + (14.0 * ch as f64)) - height as f64) as f64
+            } else {
+                (char_lists[cl].y + (14.0 * ch  as f64)) as f64
+            };
             context.fill_text(
                 &rand_char,
                 (14 * cl) as f64,
-                (char_lists[cl].y + (14 * ch) as f64) as f64,
+                char_position,
             );
         }
     }

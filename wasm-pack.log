@@ -25963,3 +25963,1608 @@ Apr 01 23:37:56.979 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-
 Apr 01 23:37:57.078 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
 Apr 01 23:37:57.079 INFO Done in 0 seconds.
 Apr 01 23:37:57.079 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:45:47.388 INFO Running build command...
+Apr 01 23:45:47.388 INFO Checking rustc version...
+Apr 01 23:45:47.397 INFO Running build command...
+Apr 01 23:45:47.397 INFO Checking rustc version...
+Apr 01 23:45:47.407 INFO rustc version is 35.
+Apr 01 23:45:47.407 INFO Checking crate configuration...
+Apr 01 23:45:47.407 INFO Crate is correctly configured.
+Apr 01 23:45:47.407 INFO Adding wasm-target...
+Apr 01 23:45:47.407 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:45:47.408 INFO Running build command...
+Apr 01 23:45:47.408 INFO Checking rustc version...
+Apr 01 23:45:47.414 INFO rustc version is 35.
+Apr 01 23:45:47.414 INFO Checking crate configuration...
+Apr 01 23:45:47.414 INFO Crate is correctly configured.
+Apr 01 23:45:47.414 INFO Adding wasm-target...
+Apr 01 23:45:47.414 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:45:47.427 INFO rustc version is 35.
+Apr 01 23:45:47.427 INFO Checking crate configuration...
+Apr 01 23:45:47.428 INFO Crate is correctly configured.
+Apr 01 23:45:47.428 INFO Adding wasm-target...
+Apr 01 23:45:47.428 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:45:47.487 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:45:47.488 INFO Adding wasm-target was successful.
+Apr 01 23:45:47.488 INFO Building wasm...
+Apr 01 23:45:47.489 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:45:47.503 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:45:47.504 INFO Adding wasm-target was successful.
+Apr 01 23:45:47.504 INFO Building wasm...
+Apr 01 23:45:47.504 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:45:47.525 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:45:47.526 INFO Adding wasm-target was successful.
+Apr 01 23:45:47.526 INFO Building wasm...
+Apr 01 23:45:47.526 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:45:47.582 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:45:47.591 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:45:47.625 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:45:47.638 INFO cargo build (stderr): error: expected one of `.`, `;`, `?`, `else`, or an operator, found `context`
+Apr 01 23:45:47.638 INFO cargo build (stderr):    --> src/lib.rs:173:13
+Apr 01 23:45:47.638 INFO cargo build (stderr):     |
+Apr 01 23:45:47.638 INFO cargo build (stderr): 172 |             }
+Apr 01 23:45:47.638 INFO cargo build (stderr):     |              - expected one of `.`, `;`, `?`, `else`, or an operator here
+Apr 01 23:45:47.638 INFO cargo build (stderr): 173 |             context.fill_text(
+Apr 01 23:45:47.638 INFO cargo build (stderr):     |             ^^^^^^^ unexpected token
+Apr 01 23:45:47.638 INFO cargo build (stderr): 
+Apr 01 23:45:47.747 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:45:47.747 INFO cargo build (stderr): 
+Apr 01 23:45:47.759 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:45:47.759 INFO cargo build (stderr): 
+Apr 01 23:45:47.759 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:45:47.760 ERRO Compiling your crate to WebAssembly
+Apr 01 23:45:47.778 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:45:47.812 INFO cargo build (stderr): error: expected one of `.`, `;`, `?`, `else`, or an operator, found `context`
+Apr 01 23:45:47.812 INFO cargo build (stderr):    --> src/lib.rs:173:13
+Apr 01 23:45:47.812 INFO cargo build (stderr):     |
+Apr 01 23:45:47.812 INFO cargo build (stderr): 172 |             }
+Apr 01 23:45:47.812 INFO cargo build (stderr):     |              - expected one of `.`, `;`, `?`, `else`, or an operator here
+Apr 01 23:45:47.812 INFO cargo build (stderr): 173 |             context.fill_text(
+Apr 01 23:45:47.812 INFO cargo build (stderr):     |             ^^^^^^^ unexpected token
+Apr 01 23:45:47.812 INFO cargo build (stderr): 
+Apr 01 23:45:47.916 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:45:47.916 INFO cargo build (stderr): 
+Apr 01 23:45:47.928 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:45:47.928 INFO cargo build (stderr): 
+Apr 01 23:45:47.929 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:45:47.930 ERRO Compiling your crate to WebAssembly
+Apr 01 23:45:47.952 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:45:47.983 INFO cargo build (stderr): error: expected one of `.`, `;`, `?`, `else`, or an operator, found `context`
+Apr 01 23:45:47.983 INFO cargo build (stderr):    --> src/lib.rs:173:13
+Apr 01 23:45:47.983 INFO cargo build (stderr):     |
+Apr 01 23:45:47.983 INFO cargo build (stderr): 172 |             }
+Apr 01 23:45:47.983 INFO cargo build (stderr):     |              - expected one of `.`, `;`, `?`, `else`, or an operator here
+Apr 01 23:45:47.983 INFO cargo build (stderr): 173 |             context.fill_text(
+Apr 01 23:45:47.983 INFO cargo build (stderr):     |             ^^^^^^^ unexpected token
+Apr 01 23:45:47.983 INFO cargo build (stderr): 
+Apr 01 23:45:48.090 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:45:48.090 INFO cargo build (stderr): 
+Apr 01 23:45:48.103 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:45:48.103 INFO cargo build (stderr): 
+Apr 01 23:45:48.103 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:45:48.104 ERRO Compiling your crate to WebAssembly
+Apr 01 23:48:15.351 INFO Running build command...
+Apr 01 23:48:15.352 INFO Checking rustc version...
+Apr 01 23:48:15.360 INFO Running build command...
+Apr 01 23:48:15.360 INFO Checking rustc version...
+Apr 01 23:48:15.367 INFO Running build command...
+Apr 01 23:48:15.368 INFO Checking rustc version...
+Apr 01 23:48:15.371 INFO rustc version is 35.
+Apr 01 23:48:15.371 INFO Checking crate configuration...
+Apr 01 23:48:15.371 INFO Crate is correctly configured.
+Apr 01 23:48:15.371 INFO Adding wasm-target...
+Apr 01 23:48:15.371 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:48:15.378 INFO rustc version is 35.
+Apr 01 23:48:15.378 INFO Checking crate configuration...
+Apr 01 23:48:15.378 INFO Crate is correctly configured.
+Apr 01 23:48:15.378 INFO Adding wasm-target...
+Apr 01 23:48:15.378 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:48:15.396 INFO rustc version is 35.
+Apr 01 23:48:15.396 INFO Checking crate configuration...
+Apr 01 23:48:15.397 INFO Crate is correctly configured.
+Apr 01 23:48:15.397 INFO Adding wasm-target...
+Apr 01 23:48:15.397 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:48:15.473 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:48:15.475 INFO Adding wasm-target was successful.
+Apr 01 23Apr:48 :0151. 47523 :INFO48 :Building wasm...15
+.475Apr  INFO0 1rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date 
+23:48:15.476 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:48:15.478 INFO Adding wasm-target was successful.
+Apr 01 23:48:15.478 INFO Building wasm...
+Apr 01 23:48:15.478 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:48:15.485 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:48:15.491 INFO Adding wasm-target was successful.
+Apr 01 23:48:15.492 INFO Building wasm...
+Apr 01 23:48:15.492 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:48:15.564 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:48:15.577 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:48:15.588 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:48:15.754 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:48:15.754 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:48:15.754 INFO cargo build (stderr):     |
+Apr 01 23:48:15.754 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:48:15.754 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:48:15.754 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:48:15.754 INFO cargo build (stderr):     |
+Apr 01 23:48:15.754 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:48:15.755 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:48:15.755 INFO cargo build (stderr): 
+Apr 01 23:48:15.758 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:48:15.759 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:48:15.759 INFO cargo build (stderr):     |
+Apr 01 23:48:15.759 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:48:15.759 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:48:15.759 INFO cargo build (stderr):     |
+Apr 01 23:48:15.759 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:48:15.759 INFO cargo build (stderr): 
+Apr 01 23:48:15.759 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:48:15.759 INFO cargo build (stderr):    --> src/lib.rs:176:36
+Apr 01 23:48:15.760 INFO cargo build (stderr):     |
+Apr 01 23:48:15.760 INFO cargo build (stderr): 176 |                 ((char_lists[cl].y + (14 * ch) + char_lists[cl].speed) - height) as f64
+Apr 01 23:48:15.760 INFO cargo build (stderr):     |                                    ^ no implementation for `f64 + usize`
+Apr 01 23:48:15.760 INFO cargo build (stderr):     |
+Apr 01 23:48:15.760 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:48:15.760 INFO cargo build (stderr): 
+Apr 01 23:48:15.761 INFO cargo build (stderr): error: aborting due to 3 previous errors
+Apr 01 23:48:15.761 INFO cargo build (stderr): 
+Apr 01 23:48:15.762 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:48:15.762 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:48:15.775 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:48:15.775 INFO cargo build (stderr): 
+Apr 01 23:48:15.775 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:48:15.776 ERRO Compiling your crate to WebAssembly
+Apr 01 23:48:15.798 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:48:15.939 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:48:15.939 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:48:15.939 INFO cargo build (stderr):     |
+Apr 01 23:48:15.939 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:48:15.939 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:48:15.940 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:48:15.940 INFO cargo build (stderr):     |
+Apr 01 23:48:15.940 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:48:15.940 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:48:15.940 INFO cargo build (stderr): 
+Apr 01 23:48:15.943 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:48:15.943 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:48:15.943 INFO cargo build (stderr):     |
+Apr 01 23:48:15.943 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:48:15.943 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:48:15.944 INFO cargo build (stderr):     |
+Apr 01 23:48:15.944 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:48:15.944 INFO cargo build (stderr): 
+Apr 01 23:48:15.944 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:48:15.944 INFO cargo build (stderr):    --> src/lib.rs:176:36
+Apr 01 23:48:15.944 INFO cargo build (stderr):     |
+Apr 01 23:48:15.944 INFO cargo build (stderr): 176 |                 ((char_lists[cl].y + (14 * ch) + char_lists[cl].speed) - height) as f64
+Apr 01 23:48:15.944 INFO cargo build (stderr):     |                                    ^ no implementation for `f64 + usize`
+Apr 01 23:48:15.944 INFO cargo build (stderr):     |
+Apr 01 23:48:15.944 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:48:15.944 INFO cargo build (stderr): 
+Apr 01 23:48:15.946 INFO cargo build (stderr): error: aborting due to 3 previous errors
+Apr 01 23:48:15.946 INFO cargo build (stderr): 
+Apr 01 23:48:15.946 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:48:15.946 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:48:15.966 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:48:15.966 INFO cargo build (stderr): 
+Apr 01 23:48:15.966 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:48:15.969 ERRO Compiling your crate to WebAssembly
+Apr 01 23:48:15.989 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:48:16.151 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:48:16.151 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:48:16.151 INFO cargo build (stderr):     |
+Apr 01 23:48:16.151 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:48:16.151 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:48:16.151 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:48:16.151 INFO cargo build (stderr):     |
+Apr 01 23:48:16.152 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:48:16.152 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:48:16.152 INFO cargo build (stderr): 
+Apr 01 23:48:16.155 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:48:16.155 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:48:16.155 INFO cargo build (stderr):     |
+Apr 01 23:48:16.156 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:48:16.156 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:48:16.156 INFO cargo build (stderr):     |
+Apr 01 23:48:16.156 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:48:16.156 INFO cargo build (stderr): 
+Apr 01 23:48:16.156 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:48:16.156 INFO cargo build (stderr):    --> src/lib.rs:176:36
+Apr 01 23:48:16.156 INFO cargo build (stderr):     |
+Apr 01 23:48:16.156 INFO cargo build (stderr): 176 |                 ((char_lists[cl].y + (14 * ch) + char_lists[cl].speed) - height) as f64
+Apr 01 23:48:16.156 INFO cargo build (stderr):     |                                    ^ no implementation for `f64 + usize`
+Apr 01 23:48:16.156 INFO cargo build (stderr):     |
+Apr 01 23:48:16.156 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:48:16.157 INFO cargo build (stderr): 
+Apr 01 23:48:16.158 INFO cargo build (stderr): error: aborting due to 3 previous errors
+Apr 01 23:48:16.158 INFO cargo build (stderr): 
+Apr 01 23:48:16.159 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:48:16.159 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:48:16.173 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:48:16.173 INFO cargo build (stderr): 
+Apr 01 23:48:16.173 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:48:16.174 ERRO Compiling your crate to WebAssembly
+Apr 01 23:48:40.187 INFO Running build command...
+Apr 01 23:48:40.188 INFO Checking rustc version...
+Apr 01 23:48:40.195 INFO Running build command...
+Apr 01 23:48:40.195 INFO Checking rustc version...
+Apr 01 23:48:40.203 INFO Running build command...
+Apr 01 23:48:40.204 INFO Checking rustc version...
+Apr 01 23:48:40.207 INFO rustc version is 35.
+Apr 01 23:48:40.207 INFO Checking crate configuration...
+Apr 01 23:48:40.207 INFO Crate is correctly configured.
+Apr 01 23:48:40.207 INFO Adding wasm-target...
+Apr 01 23:48:40.207 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:48:40.218 INFO rustc version is 35.
+Apr 01 23:48:40.218 INFO Checking crate configuration...
+Apr 01 23:48:40.218 INFO Crate is correctly configured.
+Apr 01 23:48:40.219 INFO Adding wasm-target...
+Apr 01 23:48:40.219 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:48:40.225 INFO rustc version is 35.
+Apr 01 23:48:40.226 INFO Checking crate configuration...
+Apr 01 23:48:40.226 INFO Crate is correctly configured.
+Apr 01 23:48:40.226 INFO Adding wasm-target...
+Apr 01 23:48:40.226 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:48:40.279 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:48:40.280 INFO Adding wasm-target was successful.
+Apr 01 23:48:40.280 INFO Building wasm...
+Apr 01 23:48:40.280 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:48:40.297 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:48:40.298 INFO Adding wasm-target was successful.
+Apr 01 23:48:40.298 INFO Building wasm...
+Apr 01 23:48:40.298 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:48:40.312 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:48:40.313 INFO Adding wasm-target was successful.
+Apr 01 23:48:40.313 INFO Building wasm...
+Apr 01 23:48:40.313 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:48:40.369 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:48:40.371 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:48:40.391 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:48:40.534 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:48:40.534 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:48:40.534 INFO cargo build (stderr):     |
+Apr 01 23:48:40.534 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:48:40.534 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:48:40.534 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:48:40.534 INFO cargo build (stderr):     |
+Apr 01 23:48:40.534 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:48:40.534 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:48:40.534 INFO cargo build (stderr): 
+Apr 01 23:48:40.538 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:48:40.538 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:48:40.538 INFO cargo build (stderr):     |
+Apr 01 23:48:40.538 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:48:40.538 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:48:40.538 INFO cargo build (stderr):     |
+Apr 01 23:48:40.538 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:48:40.538 INFO cargo build (stderr): 
+Apr 01 23:48:40.539 INFO cargo build (stderr): error[E0277]: cannot subtract `u32` from `f64`
+Apr 01 23:48:40.539 INFO cargo build (stderr):    --> src/lib.rs:176:79
+Apr 01 23:48:40.539 INFO cargo build (stderr):     |
+Apr 01 23:48:40.539 INFO cargo build (stderr): 176 |                 ((char_lists[cl].y + (14 * ch) as f64 + char_lists[cl].speed) - height) as f64
+Apr 01 23:48:40.539 INFO cargo build (stderr):     |                                                                               ^ no implementation for `f64 - u32`
+Apr 01 23:48:40.539 INFO cargo build (stderr):     |
+Apr 01 23:48:40.539 INFO cargo build (stderr):     = help: the trait `std::ops::Sub<u32>` is not implemented for `f64`
+Apr 01 23:48:40.539 INFO cargo build (stderr): 
+Apr 01 23:48:40.540 INFO cargo build (stderr): error: aborting due to 3 previous errors
+Apr 01 23:48:40.540 INFO cargo build (stderr): 
+Apr 01 23:48:40.540 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:48:40.540 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:48:40.554 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:48:40.554 INFO cargo build (stderr): 
+Apr 01 23:48:40.555 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:48:40.556 ERRO Compiling your crate to WebAssembly
+Apr 01 23:48:40.579 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:48:40.721 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:48:40.721 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:48:40.721 INFO cargo build (stderr):     |
+Apr 01 23:48:40.721 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:48:40.721 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:48:40.721 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:48:40.722 INFO cargo build (stderr):     |
+Apr 01 23:48:40.722 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:48:40.722 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:48:40.722 INFO cargo build (stderr): 
+Apr 01 23:48:40.726 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:48:40.727 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:48:40.727 INFO cargo build (stderr):     |
+Apr 01 23:48:40.727 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:48:40.727 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:48:40.727 INFO cargo build (stderr):     |
+Apr 01 23:48:40.727 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:48:40.727 INFO cargo build (stderr): 
+Apr 01 23:48:40.728 INFO cargo build (stderr): error[E0277]: cannot subtract `u32` from `f64`
+Apr 01 23:48:40.728 INFO cargo build (stderr):    --> src/lib.rs:176:79
+Apr 01 23:48:40.728 INFO cargo build (stderr):     |
+Apr 01 23:48:40.728 INFO cargo build (stderr): 176 |                 ((char_lists[cl].y + (14 * ch) as f64 + char_lists[cl].speed) - height) as f64
+Apr 01 23:48:40.728 INFO cargo build (stderr):     |                                                                               ^ no implementation for `f64 - u32`
+Apr 01 23:48:40.728 INFO cargo build (stderr):     |
+Apr 01 23:48:40.728 INFO cargo build (stderr):     = help: the trait `std::ops::Sub<u32>` is not implemented for `f64`
+Apr 01 23:48:40.728 INFO cargo build (stderr): 
+Apr 01 23:48:40.730 INFO cargo build (stderr): error: aborting due to 3 previous errors
+Apr 01 23:48:40.730 INFO cargo build (stderr): 
+Apr 01 23:48:40.730 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:48:40.730 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:48:40.746 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:48:40.746 INFO cargo build (stderr): 
+Apr 01 23:48:40.746 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:48:40.747 ERRO Compiling your crate to WebAssembly
+Apr 01 23:48:40.767 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:48:40.904 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:48:40.904 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:48:40.904 INFO cargo build (stderr):     |
+Apr 01 23:48:40.904 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:48:40.904 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:48:40.904 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:48:40.905 INFO cargo build (stderr):     |
+Apr 01 23:48:40.905 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:48:40.905 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:48:40.905 INFO cargo build (stderr): 
+Apr 01 23:48:40.908 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:48:40.908 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:48:40.908 INFO cargo build (stderr):     |
+Apr 01 23:48:40.908 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:48:40.908 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:48:40.908 INFO cargo build (stderr):     |
+Apr 01 23:48:40.908 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:48:40.908 INFO cargo build (stderr): 
+Apr 01 23:48:40.909 INFO cargo build (stderr): error[E0277]: cannot subtract `u32` from `f64`
+Apr 01 23:48:40.909 INFO cargo build (stderr):    --> src/lib.rs:176:79
+Apr 01 23:48:40.909 INFO cargo build (stderr):     |
+Apr 01 23:48:40.909 INFO cargo build (stderr): 176 |                 ((char_lists[cl].y + (14 * ch) as f64 + char_lists[cl].speed) - height) as f64
+Apr 01 23:48:40.909 INFO cargo build (stderr):     |                                                                               ^ no implementation for `f64 - u32`
+Apr 01 23:48:40.909 INFO cargo build (stderr):     |
+Apr 01 23:48:40.909 INFO cargo build (stderr):     = help: the trait `std::ops::Sub<u32>` is not implemented for `f64`
+Apr 01 23:48:40.909 INFO cargo build (stderr): 
+Apr 01 23:48:40.910 INFO cargo build (stderr): error: aborting due to 3 previous errors
+Apr 01 23:48:40.910 INFO cargo build (stderr): 
+Apr 01 23:48:40.910 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:48:40.910 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:48:40.930 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:48:40.930 INFO cargo build (stderr): 
+Apr 01 23:48:40.930 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:48:40.932 ERRO Compiling your crate to WebAssembly
+Apr 01 23:49:08.956 INFO Running build command...
+Apr 01 23:49:08.956 INFO Checking rustc version...
+Apr 01 23:49:08.964 INFO Running build command...
+Apr 01 23:49:08.964 INFO Checking rustc version...
+Apr 01 23:49:08.974 INFO Running build command...
+Apr 01 23:49:08.974 INFO Checking rustc version...
+Apr 01 23:49:08.976 INFO rustc version is 35.
+Apr 01 23:49:08.976 INFO Checking crate configuration...
+Apr 01 23:49:08.977 INFO Crate is correctly configured.
+Apr 01 23:49:08.977 INFO Adding wasm-target...
+Apr 01 23:49:08.977 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:49:08.985 INFO rustc version is 35.
+Apr 01 23:49:08.989 INFO Checking crate configuration...
+Apr 01 23:49:08.989 INFO Crate is correctly configured.
+Apr 01 23:49:08.989 INFO Adding wasm-target...
+Apr 01 23:49:08.990 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:49:08.998 INFO rustc version is 35.
+Apr 01 23:49:08.998 INFO Checking crate configuration...
+Apr 01 23:49:08.999 INFO Crate is correctly configured.
+Apr 01 23:49:08.999 INFO Adding wasm-target...
+Apr 01 23:49:08.999 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:49:09.062 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:49:09.062 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:49:09.064 INFO Adding wasm-target was successful.
+Apr 01 23:49:09.064 INFO Building wasm...
+Apr 01 23:49:09.064 Apr INFO0 1Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown" 
+23:49:09.064 INFO Adding wasm-target was successful.
+Apr 01 23:49:09.064 INFO Building wasm...
+Apr 01 23:49:09.064 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:49:09.073 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:49:09.075 INFO Adding wasm-target was successful.
+Apr 01 23:49:09.075 INFO Building wasm...
+Apr 01 23:49:09.075 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:49:09.135 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:49:09.149 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:49:09.158 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:49:09.321 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:49:09.322 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:49:09.322 INFO cargo build (stderr):     |
+Apr 01 23:49:09.322 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:49:09.322 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:49:09.322 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:49:09.322 INFO cargo build (stderr):     |
+Apr 01 23:49:09.322 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:49:09.322 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:49:09.322 INFO cargo build (stderr): 
+Apr 01 23:49:09.325 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:49:09.325 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:49:09.325 INFO cargo build (stderr):     |
+Apr 01 23:49:09.325 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:49:09.325 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:49:09.325 INFO cargo build (stderr):     |
+Apr 01 23:49:09.325 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:49:09.326 INFO cargo build (stderr): 
+Apr 01 23:49:09.327 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:49:09.327 INFO cargo build (stderr): 
+Apr 01 23:49:09.327 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:49:09.328 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:49:09.341 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:49:09.341 INFO cargo build (stderr): 
+Apr 01 23:49:09.341 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:49:09.343 ERRO Compiling your crate to WebAssembly
+Apr 01 23:49:09.366 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:49:09.507 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:49:09.507 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:49:09.507 INFO cargo build (stderr):     |
+Apr 01 23:49:09.507 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:49:09.507 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:49:09.507 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:49:09.507 INFO cargo build (stderr):     |
+Apr 01 23:49:09.507 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:49:09.507 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:49:09.507 INFO cargo build (stderr): 
+Apr 01 23:49:09.511 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:49:09.511 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:49:09.511 INFO cargo build (stderr):     |
+Apr 01 23:49:09.511 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:49:09.511 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:49:09.511 INFO cargo build (stderr):     |
+Apr 01 23:49:09.511 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:49:09.511 INFO cargo build (stderr): 
+Apr 01 23:49:09.513 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:49:09.513 INFO cargo build (stderr): 
+Apr 01 23:49:09.513 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:49:09.514 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:49:09.528 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:49:09.529 INFO cargo build (stderr): 
+Apr 01 23:49:09.529 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:49:09.530 ERRO Compiling your crate to WebAssembly
+Apr 01 23:49:09.549 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:49:09.691 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:49:09.691 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:49:09.691 INFO cargo build (stderr):     |
+Apr 01 23:49:09.691 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:49:09.691 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:49:09.691 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:49:09.691 INFO cargo build (stderr):     |
+Apr 01 23:49:09.691 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:49:09.691 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:49:09.691 INFO cargo build (stderr): 
+Apr 01 23:49:09.695 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:49:09.695 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:49:09.695 INFO cargo build (stderr):     |
+Apr 01 23:49:09.695 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:49:09.695 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:49:09.695 INFO cargo build (stderr):     |
+Apr 01 23:49:09.695 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:49:09.695 INFO cargo build (stderr): 
+Apr 01 23:49:09.697 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:49:09.697 INFO cargo build (stderr): 
+Apr 01 23:49:09.697 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:49:09.697 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:49:09.710 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:49:09.710 INFO cargo build (stderr): 
+Apr 01 23:49:09.710 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:49:09.712 ERRO Compiling your crate to WebAssembly
+Apr 01 23:49:49.517 INFO Running build command...
+Apr 01 23:49:49.517 INFO Checking rustc version...
+Apr 01 23:49:49.527 INFO Running build command...
+Apr 01 23:49:49.527 INFO Checking rustc version...
+Apr 01 23:49:49.533 INFO rustc version is 35.
+Apr 01 23:49:49.533 INFO Checking crate configuration...
+Apr 01 23:49:49.534 INFO Crate is correctly configured.
+Apr 01 23:49:49.534 INFO Adding wasm-target...
+Apr 01 23:49:49.534 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:49:49.538 INFO Running build command...
+Apr 01 23:49:49.538 INFO Checking rustc version...
+Apr 01 23:49:49.544 INFO rustc version is 35.
+Apr 01 23:49:49.545 INFO Checking crate configuration...
+Apr 01 23:49:49.545 INFO Crate is correctly configured.
+Apr 01 23:49:49.545 INFO Adding wasm-target...
+Apr 01 23:49:49.545 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:49:49.556 INFO rustc version is 35.
+Apr 01 23:49:49.557 INFO Checking crate configuration...
+Apr 01 23:49:49.557 INFO Crate is correctly configured.
+Apr 01 23:49:49.557 INFO Adding wasm-target...
+Apr 01 23:49:49.557 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:49:49.600 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:49:49.602 INFO Adding wasm-target was successful.
+Apr 01 23:49:49.602 INFO Building wasm...
+Apr 01 23:49:49.602 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:49:49.612 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:49:49.613 INFO Adding wasm-target was successful.
+Apr 01 23:49:49.614 INFO Building wasm...
+Apr 01 23:49:49.614 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:49:49.645 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:49:49.647 INFO Adding wasm-target was successful.
+Apr 01 23:49:49.647 INFO Building wasm...
+Apr 01 23:49:49.647 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:49:49.675 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:49:49.688 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:49:49.734 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:49:49.849 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:49:49.849 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:49:49.849 INFO cargo build (stderr):     |
+Apr 01 23:49:49.849 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:49:49.849 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:49:49.849 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:49:49.849 INFO cargo build (stderr):     |
+Apr 01 23:49:49.850 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:49:49.850 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:49:49.850 INFO cargo build (stderr): 
+Apr 01 23:49:49.853 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:49:49.853 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:49:49.853 INFO cargo build (stderr):     |
+Apr 01 23:49:49.853 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:49:49.853 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:49:49.853 INFO cargo build (stderr):     |
+Apr 01 23:49:49.853 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:49:49.853 INFO cargo build (stderr): 
+Apr 01 23:49:49.854 INFO cargo build (stderr): error[E0277]: cannot multiply `f64` to `{integer}`
+Apr 01 23:49:49.854 INFO cargo build (stderr):    --> src/lib.rs:176:42
+Apr 01 23:49:49.854 INFO cargo build (stderr):     |
+Apr 01 23:49:49.854 INFO cargo build (stderr): 176 |                 ((char_lists[cl].y + (14 * ch as f64) + char_lists[cl].speed) - height as f64) as f64
+Apr 01 23:49:49.854 INFO cargo build (stderr):     |                                          ^ no implementation for `{integer} * f64`
+Apr 01 23:49:49.854 INFO cargo build (stderr):     |
+Apr 01 23:49:49.854 INFO cargo build (stderr):     = help: the trait `std::ops::Mul<f64>` is not implemented for `{integer}`
+Apr 01 23:49:49.854 INFO cargo build (stderr): 
+Apr 01 23:49:49.854 INFO cargo build (stderr): error[E0277]: cannot multiply `f64` to `{integer}`
+Apr 01 23:49:49.854 INFO cargo build (stderr):    --> src/lib.rs:178:41
+Apr 01 23:49:49.855 INFO cargo build (stderr):     |
+Apr 01 23:49:49.855 INFO cargo build (stderr): 178 |                 (char_lists[cl].y + (14 * ch  as f64)) as f64
+Apr 01 23:49:49.855 INFO cargo build (stderr):     |                                         ^ no implementation for `{integer} * f64`
+Apr 01 23:49:49.855 INFO cargo build (stderr):     |
+Apr 01 23:49:49.855 INFO cargo build (stderr):     = help: the trait `std::ops::Mul<f64>` is not implemented for `{integer}`
+Apr 01 23:49:49.855 INFO cargo build (stderr): 
+Apr 01 23:49:49.855 INFO cargo build (stderr): error[E0277]: cannot multiply `f64` to `{integer}`
+Apr 01 23:49:49.855 INFO cargo build (stderr):    --> src/lib.rs:183:41
+Apr 01 23:49:49.855 INFO cargo build (stderr):     |
+Apr 01 23:49:49.855 INFO cargo build (stderr): 183 |                 (char_lists[cl].y + (14 * ch  as f64) as f64) as f64,
+Apr 01 23:49:49.855 INFO cargo build (stderr):     |                                         ^ no implementation for `{integer} * f64`
+Apr 01 23:49:49.855 INFO cargo build (stderr):     |
+Apr 01 23:49:49.855 INFO cargo build (stderr):     = help: the trait `std::ops::Mul<f64>` is not implemented for `{integer}`
+Apr 01 23:49:49.856 INFO cargo build (stderr): 
+Apr 01 23:49:49.856 INFO cargo build (stderr): error: aborting due to 5 previous errors
+Apr 01 23:49:49.856 INFO cargo build (stderr): 
+Apr 01 23:49:49.856 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:49:49.856 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:49:49.865 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:49:49.870 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:49:49.870 INFO cargo build (stderr): 
+Apr 01 23:49:49.870 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:49:49.872 ERRO Compiling your crate to WebAssembly
+Apr 01 23:49:49.892 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:49:50.029 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:49:50.029 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:49:50.029 INFO cargo build (stderr):     |
+Apr 01 23:49:50.029 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:49:50.029 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:49:50.029 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:49:50.030 INFO cargo build (stderr):     |
+Apr 01 23:49:50.030 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:49:50.030 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:49:50.030 INFO cargo build (stderr): 
+Apr 01 23:49:50.033 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:49:50.033 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:49:50.033 INFO cargo build (stderr):     |
+Apr 01 23:49:50.033 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:49:50.034 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:49:50.034 INFO cargo build (stderr):     |
+Apr 01 23:49:50.034 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:49:50.034 INFO cargo build (stderr): 
+Apr 01 23:49:50.034 INFO cargo build (stderr): error[E0277]: cannot multiply `f64` to `{integer}`
+Apr 01 23:49:50.034 INFO cargo build (stderr):    --> src/lib.rs:176:42
+Apr 01 23:49:50.034 INFO cargo build (stderr):     |
+Apr 01 23:49:50.034 INFO cargo build (stderr): 176 |                 ((char_lists[cl].y + (14 * ch as f64) + char_lists[cl].speed) - height as f64) as f64
+Apr 01 23:49:50.034 INFO cargo build (stderr):     |                                          ^ no implementation for `{integer} * f64`
+Apr 01 23:49:50.034 INFO cargo build (stderr):     |
+Apr 01 23:49:50.035 INFO cargo build (stderr):     = help: the trait `std::ops::Mul<f64>` is not implemented for `{integer}`
+Apr 01 23:49:50.035 INFO cargo build (stderr): 
+Apr 01 23:49:50.035 INFO cargo build (stderr): error[E0277]: cannot multiply `f64` to `{integer}`
+Apr 01 23:49:50.035 INFO cargo build (stderr):    --> src/lib.rs:178:41
+Apr 01 23:49:50.035 INFO cargo build (stderr):     |
+Apr 01 23:49:50.035 INFO cargo build (stderr): 178 |                 (char_lists[cl].y + (14 * ch  as f64)) as f64
+Apr 01 23:49:50.035 INFO cargo build (stderr):     |                                         ^ no implementation for `{integer} * f64`
+Apr 01 23:49:50.035 INFO cargo build (stderr):     |
+Apr 01 23:49:50.035 INFO cargo build (stderr):     = help: the trait `std::ops::Mul<f64>` is not implemented for `{integer}`
+Apr 01 23:49:50.035 INFO cargo build (stderr): 
+Apr 01 23:49:50.036 INFO cargo build (stderr): error[E0277]: cannot multiply `f64` to `{integer}`
+Apr 01 23:49:50.036 INFO cargo build (stderr):    --> src/lib.rs:183:41
+Apr 01 23:49:50.036 INFO cargo build (stderr):     |
+Apr 01 23:49:50.036 INFO cargo build (stderr): 183 |                 (char_lists[cl].y + (14 * ch  as f64) as f64) as f64,
+Apr 01 23:49:50.036 INFO cargo build (stderr):     |                                         ^ no implementation for `{integer} * f64`
+Apr 01 23:49:50.036 INFO cargo build (stderr):     |
+Apr 01 23:49:50.036 INFO cargo build (stderr):     = help: the trait `std::ops::Mul<f64>` is not implemented for `{integer}`
+Apr 01 23:49:50.036 INFO cargo build (stderr): 
+Apr 01 23:49:50.037 INFO cargo build (stderr): error: aborting due to 5 previous errors
+Apr 01 23:49:50.037 INFO cargo build (stderr): 
+Apr 01 23:49:50.037 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:49:50.037 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:49:50.052 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:49:50.052 INFO cargo build (stderr): 
+Apr 01 23:49:50.052 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:49:50.053 ERRO Compiling your crate to WebAssembly
+Apr 01 23:49:50.075 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:49:50.216 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:49:50.216 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:49:50.216 INFO cargo build (stderr):     |
+Apr 01 23:49:50.216 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:49:50.216 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:49:50.216 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:49:50.216 INFO cargo build (stderr):     |
+Apr 01 23:49:50.216 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:49:50.216 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:49:50.216 INFO cargo build (stderr): 
+Apr 01 23:49:50.220 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:49:50.220 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:49:50.220 INFO cargo build (stderr):     |
+Apr 01 23:49:50.220 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:49:50.220 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:49:50.220 INFO cargo build (stderr):     |
+Apr 01 23:49:50.220 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:49:50.220 INFO cargo build (stderr): 
+Apr 01 23:49:50.221 INFO cargo build (stderr): error[E0277]: cannot multiply `f64` to `{integer}`
+Apr 01 23:49:50.221 INFO cargo build (stderr):    --> src/lib.rs:176:42
+Apr 01 23:49:50.221 INFO cargo build (stderr):     |
+Apr 01 23:49:50.221 INFO cargo build (stderr): 176 |                 ((char_lists[cl].y + (14 * ch as f64) + char_lists[cl].speed) - height as f64) as f64
+Apr 01 23:49:50.221 INFO cargo build (stderr):     |                                          ^ no implementation for `{integer} * f64`
+Apr 01 23:49:50.221 INFO cargo build (stderr):     |
+Apr 01 23:49:50.221 INFO cargo build (stderr):     = help: the trait `std::ops::Mul<f64>` is not implemented for `{integer}`
+Apr 01 23:49:50.221 INFO cargo build (stderr): 
+Apr 01 23:49:50.222 INFO cargo build (stderr): error[E0277]: cannot multiply `f64` to `{integer}`
+Apr 01 23:49:50.222 INFO cargo build (stderr):    --> src/lib.rs:178:41
+Apr 01 23:49:50.222 INFO cargo build (stderr):     |
+Apr 01 23:49:50.222 INFO cargo build (stderr): 178 |                 (char_lists[cl].y + (14 * ch  as f64)) as f64
+Apr 01 23:49:50.222 INFO cargo build (stderr):     |                                         ^ no implementation for `{integer} * f64`
+Apr 01 23:49:50.222 INFO cargo build (stderr):     |
+Apr 01 23:49:50.222 INFO cargo build (stderr):     = help: the trait `std::ops::Mul<f64>` is not implemented for `{integer}`
+Apr 01 23:49:50.222 INFO cargo build (stderr): 
+Apr 01 23:49:50.222 INFO cargo build (stderr): error[E0277]: cannot multiply `f64` to `{integer}`
+Apr 01 23:49:50.223 INFO cargo build (stderr):    --> src/lib.rs:183:41
+Apr 01 23:49:50.223 INFO cargo build (stderr):     |
+Apr 01 23:49:50.223 INFO cargo build (stderr): 183 |                 (char_lists[cl].y + (14 * ch  as f64) as f64) as f64,
+Apr 01 23:49:50.223 INFO cargo build (stderr):     |                                         ^ no implementation for `{integer} * f64`
+Apr 01 23:49:50.223 INFO cargo build (stderr):     |
+Apr 01 23:49:50.223 INFO cargo build (stderr):     = help: the trait `std::ops::Mul<f64>` is not implemented for `{integer}`
+Apr 01 23:49:50.223 INFO cargo build (stderr): 
+Apr 01 23:49:50.224 INFO cargo build (stderr): error: aborting due to 5 previous errors
+Apr 01 23:49:50.224 INFO cargo build (stderr): 
+Apr 01 23:49:50.224 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:49:50.224 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:49:50.236 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:49:50.236 INFO cargo build (stderr): 
+Apr 01 23:49:50.237 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:49:50.238 ERRO Compiling your crate to WebAssembly
+Apr 01 23:50:11.277 INFO Running build command...
+Apr 01 23:50:11.277 INFO Checking rustc version...
+Apr 01 23:50:11.287 INFO Running build command...
+Apr 01 23:50:11.287 INFO Checking rustc version...
+Apr 01 23:50:11.296 INFO rustc version is 35.
+Apr 01 23:50:11.296 INFO Checking crate configuration...
+Apr 01 23:50:11.296 INFO Crate is correctly configured.
+Apr 01 23:50:11.296 INFO Adding wasm-target...
+Apr 01 23:50:11.296 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:50:11.296 INFO Running build command...
+Apr 01 23:50:11.297 INFO Checking rustc version...
+Apr 01 23:50:11.305 INFO rustc version is 35.
+Apr 01 23:50:11.305 INFO Checking crate configuration...
+Apr 01 23:50:11.306 INFO Crate is correctly configured.
+Apr 01 23:50:11.306 INFO Adding wasm-target...
+Apr 01 23:50:11.306 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:50:11.317 INFO rustc version is 35.
+Apr 01 23:50:11.317 INFO Checking crate configuration...
+Apr 01 23:50:11.317 INFO Crate is correctly configured.
+Apr 01 23:50:11.317 INFO Adding wasm-target...
+Apr 01 23:50:11.317 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:50:11.365 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:50:11.367 INFO Adding wasm-target was successful.
+Apr 01 23:50:11.367 INFO Building wasm...
+Apr 01 23:50:11.367 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:50:11.407 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:50:11.408 INFO Adding wasm-target was successful.
+Apr 01 23:50:11.408 INFO Building wasm...
+Apr 01 23:50:11.408 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:50:11.421 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:50:11.423 INFO Adding wasm-target was successful.
+Apr 01 23:50:11.423 INFO Building wasm...
+Apr 01 23:50:11.423 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:50:11.454 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:50:11.488 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:50:11.503 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:50:11.622 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:11.622 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:50:11.622 INFO cargo build (stderr):     |
+Apr 01 23:50:11.622 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:50:11.622 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:50:11.622 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:11.622 INFO cargo build (stderr):     |
+Apr 01 23:50:11.622 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:50:11.622 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:50:11.622 INFO cargo build (stderr): 
+Apr 01 23:50:11.625 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:50:11.626 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:50:11.626 INFO cargo build (stderr):     |
+Apr 01 23:50:11.626 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:50:11.626 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:50:11.626 INFO cargo build (stderr):     |
+Apr 01 23:50:11.626 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:50:11.626 INFO cargo build (stderr): 
+Apr 01 23:50:11.628 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:50:11.628 INFO cargo build (stderr): 
+Apr 01 23:50:11.628 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:50:11.628 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:50:11.640 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:50:11.641 INFO cargo build (stderr): 
+Apr 01 23:50:11.641 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:50:11.642 ERRO Compiling your crate to WebAssembly
+Apr 01 23:50:11.660 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:50:11.796 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:11.796 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:50:11.797 INFO cargo build (stderr):     |
+Apr 01 23:50:11.797 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:50:11.797 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:50:11.797 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:11.797 INFO cargo build (stderr):     |
+Apr 01 23:50:11.797 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:50:11.797 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:50:11.797 INFO cargo build (stderr): 
+Apr 01 23:50:11.800 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:50:11.800 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:50:11.800 INFO cargo build (stderr):     |
+Apr 01 23:50:11.800 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:50:11.800 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:50:11.800 INFO cargo build (stderr):     |
+Apr 01 23:50:11.800 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:50:11.800 INFO cargo build (stderr): 
+Apr 01 23:50:11.803 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:50:11.803 INFO cargo build (stderr): 
+Apr 01 23:50:11.803 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:50:11.803 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:50:11.815 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:50:11.815 INFO cargo build (stderr): 
+Apr 01 23:50:11.815 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:50:11.816 ERRO Compiling your crate to WebAssembly
+Apr 01 23:50:11.842 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:50:11.983 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:11.983 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:50:11.983 INFO cargo build (stderr):     |
+Apr 01 23:50:11.983 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:50:11.983 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:50:11.983 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:11.983 INFO cargo build (stderr):     |
+Apr 01 23:50:11.983 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:50:11.983 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:50:11.984 INFO cargo build (stderr): 
+Apr 01 23:50:11.987 INFO cargo build (stderr): error[E0277]: cannot add `usize` to `f64`
+Apr 01 23:50:11.987 INFO cargo build (stderr):    --> src/lib.rs:175:53
+Apr 01 23:50:11.987 INFO cargo build (stderr):     |
+Apr 01 23:50:11.987 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14 * ch) + char_lists[cl].speed >= height {
+Apr 01 23:50:11.987 INFO cargo build (stderr):     |                                                     ^ no implementation for `f64 + usize`
+Apr 01 23:50:11.987 INFO cargo build (stderr):     |
+Apr 01 23:50:11.987 INFO cargo build (stderr):     = help: the trait `std::ops::Add<usize>` is not implemented for `f64`
+Apr 01 23:50:11.987 INFO cargo build (stderr): 
+Apr 01 23:50:11.989 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:50:11.989 INFO cargo build (stderr): 
+Apr 01 23:50:11.989 INFO cargo build (stderr): Some errors occurred: E0277, E0308.
+Apr 01 23:50:11.989 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Apr 01 23:50:12.003 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:50:12.003 INFO cargo build (stderr): 
+Apr 01 23:50:12.003 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:50:12.004 ERRO Compiling your crate to WebAssembly
+Apr 01 23:50:24.174 INFO Running build command...
+Apr 01 23:50:24.175 INFO Checking rustc version...
+Apr 01 23:50:24.182 INFO Running build command...
+Apr 01 23:50:24.182 INFO Checking rustc version...
+Apr 01 23:50:24.190 INFO Running build command...
+Apr 01 23:50:24.190 INFO Checking rustc version...
+Apr 01 23:50:24.193 INFO rustc version is 35.
+Apr 01 23:50:24.194 INFO Checking crate configuration...
+Apr 01 23:50:24.194 INFO Crate is correctly configured.
+Apr 01 23:50:24.194 INFO Adding wasm-target...
+Apr 01 23:50:24.194 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:50:24.205 INFO rustc version is 35.
+Apr 01 23:50:24.205 INFO Checking crate configuration...
+Apr 01 23:50:24.205 INFO Crate is correctly configured.
+Apr 01 23:50:24.205 INFO Adding wasm-target...
+Apr 01 23:50:24.205 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:50:24.218 INFO rustc version is 35.
+Apr 01 23:50:24.218 INFO Checking crate configuration...
+Apr 01 23:50:24.218 INFO Crate is correctly configured.
+Apr 01 23:50:24.218 INFO Adding wasm-target...
+Apr 01 23:50:24.218 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:50:24.267 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:50:24.268 INFO Adding wasm-target was successful.
+Apr 01 23:50:24.268 INFO Building wasm...
+Apr 01 23:50:24.268 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:50:24.285 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:50:24.286 INFO Adding wasm-target was successful.
+Apr 01 23:50:24.286 INFO Building wasm...
+Apr 01 23:50:24.286 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:50:24.299 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:50:24.301 INFO Adding wasm-target was successful.
+Apr 01 23:50:24.301 INFO Building wasm...
+Apr 01 23:50:24.301 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:50:24.353 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:50:24.366 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:50:24.377 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:50:24.516 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:24.517 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:50:24.517 INFO cargo build (stderr):     |
+Apr 01 23:50:24.517 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:50:24.517 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:50:24.517 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:24.517 INFO cargo build (stderr):     |
+Apr 01 23:50:24.517 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:50:24.517 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:50:24.517 INFO cargo build (stderr): 
+Apr 01 23:50:24.521 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:24.521 INFO cargo build (stderr):    --> src/lib.rs:175:100
+Apr 01 23:50:24.521 INFO cargo build (stderr):     |
+Apr 01 23:50:24.521 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14.0 * ch as f64) + char_lists[cl].speed >= height {
+Apr 01 23:50:24.521 INFO cargo build (stderr):     |                                                                                                    ^^^^^^ expected f64, found u32
+Apr 01 23:50:24.521 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:24.521 INFO cargo build (stderr):     |
+Apr 01 23:50:24.521 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14.0 * ch as f64) + char_lists[cl].speed >= height.into() {
+Apr 01 23:50:24.521 INFO cargo build (stderr):     |                                                                                                    ^^^^^^^^^^^^^
+Apr 01 23:50:24.521 INFO cargo build (stderr): 
+Apr 01 23:50:24.523 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:50:24.523 INFO cargo build (stderr): 
+Apr 01 23:50:24.523 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0308`.
+Apr 01 23:50:24.537 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:50:24.538 INFO cargo build (stderr): 
+Apr 01 23:50:24.538 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:50:24.539 ERRO Compiling your crate to WebAssembly
+Apr 01 23:50:24.562 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:50:24.705 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:24.705 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:50:24.705 INFO cargo build (stderr):     |
+Apr 01 23:50:24.705 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:50:24.705 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:50:24.705 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:24.705 INFO cargo build (stderr):     |
+Apr 01 23:50:24.705 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:50:24.705 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:50:24.705 INFO cargo build (stderr): 
+Apr 01 23:50:24.709 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:24.709 INFO cargo build (stderr):    --> src/lib.rs:175:100
+Apr 01 23:50:24.710 INFO cargo build (stderr):     |
+Apr 01 23:50:24.710 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14.0 * ch as f64) + char_lists[cl].speed >= height {
+Apr 01 23:50:24.710 INFO cargo build (stderr):     |                                                                                                    ^^^^^^ expected f64, found u32
+Apr 01 23:50:24.710 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:24.710 INFO cargo build (stderr):     |
+Apr 01 23:50:24.710 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14.0 * ch as f64) + char_lists[cl].speed >= height.into() {
+Apr 01 23:50:24.710 INFO cargo build (stderr):     |                                                                                                    ^^^^^^^^^^^^^
+Apr 01 23:50:24.710 INFO cargo build (stderr): 
+Apr 01 23:50:24.711 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:50:24.711 INFO cargo build (stderr): 
+Apr 01 23:50:24.712 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0308`.
+Apr 01 23:50:24.725 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:50:24.725 INFO cargo build (stderr): 
+Apr 01 23:50:24.725 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:50:24.726 ERRO Compiling your crate to WebAssembly
+Apr 01 23:50:24.746 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:50:24.887 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:24.887 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:50:24.887 INFO cargo build (stderr):     |
+Apr 01 23:50:24.887 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:50:24.887 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:50:24.887 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:24.887 INFO cargo build (stderr):     |
+Apr 01 23:50:24.887 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:50:24.887 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:50:24.887 INFO cargo build (stderr): 
+Apr 01 23:50:24.891 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:24.891 INFO cargo build (stderr):    --> src/lib.rs:175:100
+Apr 01 23:50:24.891 INFO cargo build (stderr):     |
+Apr 01 23:50:24.891 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14.0 * ch as f64) + char_lists[cl].speed >= height {
+Apr 01 23:50:24.892 INFO cargo build (stderr):     |                                                                                                    ^^^^^^ expected f64, found u32
+Apr 01 23:50:24.892 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:24.892 INFO cargo build (stderr):     |
+Apr 01 23:50:24.892 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14.0 * ch as f64) + char_lists[cl].speed >= height.into() {
+Apr 01 23:50:24.892 INFO cargo build (stderr):     |                                                                                                    ^^^^^^^^^^^^^
+Apr 01 23:50:24.892 INFO cargo build (stderr): 
+Apr 01 23:50:24.893 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Apr 01 23:50:24.893 INFO cargo build (stderr): 
+Apr 01 23:50:24.893 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0308`.
+Apr 01 23:50:24.907 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:50:24.907 INFO cargo build (stderr): 
+Apr 01 23:50:24.907 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:50:24.908 ERRO Compiling your crate to WebAssembly
+Apr 01 23:50:45.476 INFO Running build command...
+Apr 01 23:50:45.476 INFO Checking rustc version...
+Apr 01 23:50:45.485 INFO Running build command...
+Apr 01 23:50:45.485 INFO Checking rustc version...
+Apr 01 23:50:45.492 INFO rustc version is 35.
+Apr 01 23:50:45.492 INFO Checking crate configuration...
+Apr 01 23:50:45.492 INFO Crate is correctly configured.
+Apr 01 23:50:45.492 INFO Adding wasm-target...
+Apr 01 23:50:45.492 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:50:45.496 INFO Running build command...
+Apr 01 23:50:45.497 INFO Checking rustc version...
+Apr 01 23:50:45.508 INFO rustc version is 35.
+Apr 01 23:50:45.508 INFO Checking crate configuration...
+Apr 01 23:50:45.508 INFO Crate is correctly configured.
+Apr 01 23:50:45.508 INFO Adding wasm-target...
+Apr 01 23:50:45.508 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:50:45.514 INFO rustc version is 35.
+Apr 01 23:50:45.514 INFO Checking crate configuration...
+Apr 01 23:50:45.514 INFO Crate is correctly configured.
+Apr 01 23:50:45.515 INFO Adding wasm-target...
+Apr 01 23:50:45.515 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:50:45.564 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:50:45.566 INFO Adding wasm-target was successful.
+Apr 01 23:50:45.566 INFO Building wasm...
+Apr 01 23:50:45.566 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:50:45.580 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:50:45.581 INFO Adding wasm-target was successful.
+Apr 01 23:50:45.581 INFO Building wasm...
+Apr 01 23:50:45.581 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:50:45.596 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:50:45.597 INFO Adding wasm-target was successful.
+Apr 01 23:50:45.598 INFO Building wasm...
+Apr 01 23:50:45.598 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:50:45.649 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:50:45.660 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:50:45.676 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:50:45.824 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:45.824 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:50:45.824 INFO cargo build (stderr):     |
+Apr 01 23:50:45.824 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:50:45.824 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:50:45.824 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:45.824 INFO cargo build (stderr):     |
+Apr 01 23:50:45.824 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:50:45.824 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:50:45.825 INFO cargo build (stderr): 
+Apr 01 23:50:45.830 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:50:45.830 INFO cargo build (stderr): 
+Apr 01 23:50:45.830 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0308`.
+Apr 01 23:50:45.844 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:50:45.844 INFO cargo build (stderr): 
+Apr 01 23:50:45.844 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:50:45.846 ERRO Compiling your crate to WebAssembly
+Apr 01 23:50:45.869 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:50:46.006 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:46.006 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:50:46.006 INFO cargo build (stderr):     |
+Apr 01 23:50:46.007 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:50:46.007 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:50:46.007 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:46.007 INFO cargo build (stderr):     |
+Apr 01 23:50:46.007 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:50:46.007 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:50:46.007 INFO cargo build (stderr): 
+Apr 01 23:50:46.013 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:50:46.013 INFO cargo build (stderr): 
+Apr 01 23:50:46.013 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0308`.
+Apr 01 23:50:46.026 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:50:46.026 INFO cargo build (stderr): 
+Apr 01 23:50:46.026 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:50:46.028 ERRO Compiling your crate to WebAssembly
+Apr 01 23:50:46.047 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:50:46.185 INFO cargo build (stderr): error[E0308]: mismatched types
+Apr 01 23:50:46.186 INFO cargo build (stderr):    --> src/lib.rs:163:55
+Apr 01 23:50:46.186 INFO cargo build (stderr):     |
+Apr 01 23:50:46.186 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height {
+Apr 01 23:50:46.186 INFO cargo build (stderr):     |                                                       ^^^^^^ expected f64, found u32
+Apr 01 23:50:46.186 INFO cargo build (stderr): help: you can cast an `u32` to `f64`, producing the floating point representation of the integer
+Apr 01 23:50:46.186 INFO cargo build (stderr):     |
+Apr 01 23:50:46.186 INFO cargo build (stderr): 163 |         if char_lists[cl].y + char_lists[cl].speed == height.into() {
+Apr 01 23:50:46.186 INFO cargo build (stderr):     |                                                       ^^^^^^^^^^^^^
+Apr 01 23:50:46.186 INFO cargo build (stderr): 
+Apr 01 23:50:46.192 INFO cargo build (stderr): error: aborting due to previous error
+Apr 01 23:50:46.192 INFO cargo build (stderr): 
+Apr 01 23:50:46.192 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0308`.
+Apr 01 23:50:46.206 INFO cargo build (stderr): error: Could not compile `canvas`.
+Apr 01 23:50:46.206 INFO cargo build (stderr): 
+Apr 01 23:50:46.206 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Apr 01 23:50:46.207 ERRO Compiling your crate to WebAssembly
+Apr 01 23:51:14.284 INFO Running build command...
+Apr 01 23:51:14.284 INFO Checking rustc version...
+Apr 01 23:51:14.294 INFO Running build command...
+Apr 01 23:51:14.294 INFO Checking rustc version...
+Apr 01 23:51:14.297 INFO rustc version is 35.
+Apr 01 23:51:14.297 INFO Checking crate configuration...
+Apr 01 23:51:14.297 INFO Crate is correctly configured.
+Apr 01 23:51:14.297 INFO Adding wasm-target...
+Apr 01 23:51:14.297 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:51:14.303 INFO Running build command...
+Apr 01 23:51:14.303 INFO Checking rustc version...
+Apr 01 23:51:14.312 INFO rustc version is 35.
+Apr 01 23:51:14.313 INFO Checking crate configuration...
+Apr 01 23:51:14.313 INFO Crate is correctly configured.
+Apr 01 23:51:14.313 INFO Adding wasm-target...
+Apr 01 23:51:14.313 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:51:14.322 INFO rustc version is 35.
+Apr 01 23:51:14.322 INFO Checking crate configuration...
+Apr 01 23:51:14.322 INFO Crate is correctly configured.
+Apr 01 23:51:14.323 INFO Adding wasm-target...
+Apr 01 23:51:14.323 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:51:14.393 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:51:14.394 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:51:14.394 INFO Adding wasm-target was successful.
+Apr 01 23:51:14.395 INFO Building wasm...
+Apr 01 23:51:14.395 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:51:14.396 INFO Adding wasm-target was successful.
+Apr 01 23:51:14.397 INFO Building wasm...
+Apr 01 23:51:14.397 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:51:14.412 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:51:14.414 INFO Adding wasm-target was successful.
+Apr 01 23:51:14.414 INFO Building wasm...
+Apr 01 23:51:14.414 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:51:14.484 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:51:14.499 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:51:14.511 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:51:14.700 INFO cargo build (stderr): warning: unused variable: `char_position`
+Apr 01 23:51:14.700 INFO cargo build (stderr):    --> src/lib.rs:175:17
+Apr 01 23:51:14.701 INFO cargo build (stderr):     |
+Apr 01 23:51:14.701 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14.0 * ch as f64) + char_lists[cl].speed >= height as f64 {
+Apr 01 23:51:14.701 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^ help: consider prefixing with an underscore: `_char_position`
+Apr 01 23:51:14.701 INFO cargo build (stderr):     |
+Apr 01 23:51:14.701 INFO cargo build (stderr):     = note: #[warn(unused_variables)] on by default
+Apr 01 23:51:14.701 INFO cargo build (stderr): 
+Apr 01 23:51:14.706 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:51:14.706 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:51:14.706 INFO cargo build (stderr):    |
+Apr 01 23:51:14.706 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:51:14.706 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:51:14.706 INFO cargo build (stderr):    |         |
+Apr 01 23:51:14.706 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:51:14.706 INFO cargo build (stderr):    |
+Apr 01 23:51:14.706 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:51:14.706 INFO cargo build (stderr): 
+Apr 01 23:51:14.716 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:51:14.716 INFO cargo build (stderr):    --> src/lib.rs:156:9
+Apr 01 23:51:14.716 INFO cargo build (stderr):     |
+Apr 01 23:51:14.716 INFO cargo build (stderr): 156 |     let mut alphabet = vec![
+Apr 01 23:51:14.716 INFO cargo build (stderr):     |         ----^^^^^^^^
+Apr 01 23:51:14.716 INFO cargo build (stderr):     |         |
+Apr 01 23:51:14.716 INFO cargo build (stderr):     |         help: remove this `mut`
+Apr 01 23:51:14.716 INFO cargo build (stderr):     |
+Apr 01 23:51:14.716 INFO cargo build (stderr):     = note: #[warn(unused_mut)] on by default
+Apr 01 23:51:14.716 INFO cargo build (stderr): 
+Apr 01 23:51:14.716 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:51:14.717 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:51:14.717 INFO cargo build (stderr):    |
+Apr 01 23:51:14.717 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:51:14.717 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:51:14.717 INFO cargo build (stderr):    |
+Apr 01 23:51:14.717 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:51:14.717 INFO cargo build (stderr): 
+Apr 01 23:51:14.717 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:51:14.717 INFO cargo build (stderr):    --> src/lib.rs:116:17
+Apr 01 23:51:14.717 INFO cargo build (stderr):     |
+Apr 01 23:51:14.717 INFO cargo build (stderr): 116 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:51:14.717 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:51:14.718 INFO cargo build (stderr):     |
+Apr 01 23:51:14.718 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:51:14.718 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:51:14.718 INFO cargo build (stderr): 
+Apr 01 23:51:14.718 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:51:14.718 INFO cargo build (stderr):    --> src/lib.rs:180:13
+Apr 01 23:51:14.718 INFO cargo build (stderr):     |
+Apr 01 23:51:14.718 INFO cargo build (stderr): 180 | /             context.fill_text(
+Apr 01 23:51:14.718 INFO cargo build (stderr): 181 | |                 &rand_char,
+Apr 01 23:51:14.718 INFO cargo build (stderr): 182 | |                 (14 * cl) as f64,
+Apr 01 23:51:14.718 INFO cargo build (stderr): 183 | |                 (char_lists[cl].y + (14.0 * ch  as f64) as f64) as f64,
+Apr 01 23:51:14.718 INFO cargo build (stderr): 184 | |             );
+Apr 01 23:51:14.718 INFO cargo build (stderr):     | |______________^
+Apr 01 23:51:14.718 INFO cargo build (stderr):     |
+Apr 01 23:51:14.718 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:51:14.718 INFO cargo build (stderr): 
+Apr 01 23:51:15.007 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.60s
+Apr 01 23:51:15.015 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:51:15.015 INFO Creating a pkg directory...
+Apr 01 23:51:15.015 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:51:15.015 INFO Writing a package.json...
+Apr 01 23:51:15.015 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:51:15.015 INFO Copying readme from crate...
+Apr 01 23:51:15.015 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:51:15.015 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:51:15.033 INFO Installing wasm-bindgen-cli...
+Apr 01 23:51:15.033 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:51:15.036 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.61s
+Apr 01 23:51:15.037 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:51:15.038 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:51:15.038 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:51:15.038 INFO Getting the crate name from the manifest...
+Apr 01 23:51:15.038 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:51:15.038 INFO Building the wasm bindings...
+Apr 01 23:51:15.038 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:51:15.042 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:51:15.042 INFO Creating a pkg directory...
+Apr 01 23:51:15.042 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:51:15.042 INFO Writing a package.json...
+Apr 01 23:51:15.070 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.66s
+Apr 01 23:51:15.085 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:51:15.085 INFO Creating a pkg directory...
+Apr 01 23:51:15.085 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:51:15.085 INFO Writing a package.json...
+Apr 01 23:51:15.098 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".Apr
+ 0Apr1 01 23:51 :2315:.510:98 INFO Copying readme from crate...
+15.098 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:51:15.098 INFO Copying readme from crate...
+Apr 01 23:51:15.Apr 01 23:51:15099 INFO .098 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:51:15.099 INFO Identifying wasm-bindgen dependency...
+Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:51:15.099 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:51:15.120 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:51:15.120 INFO Done in 0 seconds.
+Apr 01 23:51:15.120 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:51:15.120 INFO Installing wasm-bindgen-cli...
+Apr 01 23:51:15.120 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:51:15.121 INFO Installing wasm-bindgen-cli...
+Apr 01 23:51:15.121 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:51:15.124 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:51:15.124 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:51:15.124 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:51:15.124 INFO Getting the crate name from the manifest...
+Apr 01 23:51:15.124 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:51:15.124 INFO Building the wasm bindings...
+Apr 01 23:51:15.124 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:51:15.125 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:51:15.125 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:51:15.125 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:51:15.125 INFO Getting the crate name from the manifest...
+Apr 01 23:51:15.125 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:51:15.125 INFO Building the wasm bindings...
+Apr 01 23:51:15.125 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:51:15.209 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:51:15.210 INFO Done in 0 seconds.
+Apr 01 23:51:15.210 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:51:15.221 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:51:15.221 INFO Done in 0 seconds.
+Apr 01 23:51:15.221 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:52:37.780 INFO Running build command...
+Apr 01 23:52:37.780 INFO Checking rustc version...
+Apr 01 23:52:37.788 INFO Running build command...
+Apr 01 23:52:37.788 INFO Checking rustc version...
+Apr 01 23:52:37.803 INFO Running build command...
+Apr 01 23:52:37.803 INFO Checking rustc version...
+Apr 01 23:52:37.808 INFO rustc version is 35.
+Apr 01 23:52:37.808 INFO Checking crate configuration...
+Apr 01 23:52:37.808 INFO Crate is correctly configured.
+Apr 01 23:52:37.808 INFO Adding wasm-target...
+Apr 01 23:52:37.808 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:52:37.811 INFO rustc version is 35.
+Apr 01 23:52:37.812 INFO Checking crate configuration...
+Apr 01 23:52:37.812 INFO Crate is correctly configured.
+Apr 01 23:52:37.812 INFO Adding wasm-target...
+Apr 01 23:52:37.812 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:52:37.821 INFO rustc version is 35.
+Apr 01 23:52:37.821 INFO Checking crate configuration...
+Apr 01 23:52:37.821 INFO Crate is correctly configured.
+Apr 01 23:52:37.821 INFO Adding wasm-target...
+Apr 01 23:52:37.821 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:52:37.891 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:52:37.892 INFO Adding wasm-target was successful.
+Apr 01 23:52:37.892 INFO Building wasm...
+Apr 01 23:52:37.892 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:52:37.911 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:52:37.913 INFO Adding wasm-target was successful.
+Apr 01 23:52:37.913 INFO Building wasm...
+Apr 01 23:52:37.913 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:52:37.918 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:52:37.920 INFO Adding wasm-target was successful.
+Apr 01 23:52:37.920 INFO Building wasm...
+Apr 01 23:52:37.920 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:52:37.986 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:52:38.017 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:52:38.021 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:52:38.161 INFO cargo build (stderr): warning: unused variable: `char_position`
+Apr 01 23:52:38.161 INFO cargo build (stderr):    --> src/lib.rs:175:17
+Apr 01 23:52:38.162 INFO cargo build (stderr):     |
+Apr 01 23:52:38.162 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14.0 * ch as f64) >= height as f64 {
+Apr 01 23:52:38.162 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^ help: consider prefixing with an underscore: `_char_position`
+Apr 01 23:52:38.162 INFO cargo build (stderr):     |
+Apr 01 23:52:38.162 INFO cargo build (stderr):     = note: #[warn(unused_variables)] on by default
+Apr 01 23:52:38.162 INFO cargo build (stderr): 
+Apr 01 23:52:38.166 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:52:38.166 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:52:38.166 INFO cargo build (stderr):    |
+Apr 01 23:52:38.166 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:52:38.166 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:52:38.166 INFO cargo build (stderr):    |         |
+Apr 01 23:52:38.166 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:52:38.166 INFO cargo build (stderr):    |
+Apr 01 23:52:38.166 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:52:38.166 INFO cargo build (stderr): 
+Apr 01 23:52:38.173 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:52:38.173 INFO cargo build (stderr):    --> src/lib.rs:156:9
+Apr 01 23:52:38.173 INFO cargo build (stderr):     |
+Apr 01 23:52:38.173 INFO cargo build (stderr): 156 |     let mut alphabet = vec![
+Apr 01 23:52:38.173 INFO cargo build (stderr):     |         ----^^^^^^^^
+Apr 01 23:52:38.173 INFO cargo build (stderr):     |         |
+Apr 01 23:52:38.173 INFO cargo build (stderr):     |         help: remove this `mut`
+Apr 01 23:52:38.173 INFO cargo build (stderr):     |
+Apr 01 23:52:38.173 INFO cargo build (stderr):     = note: #[warn(unused_mut)] on by default
+Apr 01 23:52:38.173 INFO cargo build (stderr): 
+Apr 01 23:52:38.174 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:52:38.174 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:52:38.174 INFO cargo build (stderr):    |
+Apr 01 23:52:38.174 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:52:38.174 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:52:38.174 INFO cargo build (stderr):    |
+Apr 01 23:52:38.174 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:52:38.175 INFO cargo build (stderr): 
+Apr 01 23:52:38.175 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:52:38.175 INFO cargo build (stderr):    --> src/lib.rs:116:17
+Apr 01 23:52:38.175 INFO cargo build (stderr):     |
+Apr 01 23:52:38.175 INFO cargo build (stderr): 116 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:52:38.175 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:52:38.175 INFO cargo build (stderr):     |
+Apr 01 23:52:38.176 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:52:38.176 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:52:38.176 INFO cargo build (stderr): 
+Apr 01 23:52:38.176 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:52:38.176 INFO cargo build (stderr):    --> src/lib.rs:180:13
+Apr 01 23:52:38.177 INFO cargo build (stderr):     |
+Apr 01 23:52:38.177 INFO cargo build (stderr): 180 | /             context.fill_text(
+Apr 01 23:52:38.177 INFO cargo build (stderr): 181 | |                 &rand_char,
+Apr 01 23:52:38.177 INFO cargo build (stderr): 182 | |                 (14 * cl) as f64,
+Apr 01 23:52:38.177 INFO cargo build (stderr): 183 | |                 (char_lists[cl].y + (14.0 * ch  as f64) as f64) as f64,
+Apr 01 23:52:38.178 INFO cargo build (stderr): 184 | |             );
+Apr 01 23:52:38.178 INFO cargo build (stderr):     | |______________^
+Apr 01 23:52:38.178 INFO cargo build (stderr):     |
+Apr 01 23:52:38.178 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:52:38.178 INFO cargo build (stderr): 
+Apr 01 23:52:38.455 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.55s
+Apr 01 23:52:38.461 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:52:38.461 INFO Creating a pkg directory...
+Apr 01 23:52:38.461 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:52:38.461 INFO Writing a package.json...
+Apr 01 23:52:38.461 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:52:38.461 INFO Copying readme from crate...
+Apr 01 23:52:38.461 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:52:38.461 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:52:38.478 INFO Installing wasm-bindgen-cli...
+Apr 01 23:52:38.478 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:52:38.482 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:52:38.483 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:52:38.483 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:52:38.483 INFO Getting the crate name from the manifest...
+Apr 01 23:52:38.483 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:52:38.483 INFO Building the wasm bindings...
+Apr 01 23:52:38.483 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:52:38.490 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.56s
+Apr 01 23:52:38.495 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:52:38.495 INFO Creating a pkg directory...
+Apr 01 23:52:38.495 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:52:38.495 INFO Writing a package.json...
+Apr 01 23:52:38.508 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:52:38.508 INFO Copying readme from crate...
+Apr 01 23:52:38.508 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:52:38.509 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:52:38.531 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.60s
+Apr 01 23:52:38.533 INFO Installing wasm-bindgen-cli...
+Apr 01 23:52:38.533 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:52:38.537 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:52:38.537 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:52:38.537 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:52:38.538 INFO Getting the crate name from the manifest...
+Apr 01 23:52:38.538 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:52:38.538 INFO Building the wasm bindings...
+Apr 01 23:52:38.538 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:52:38.546 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:52:38.546 INFO Creating a pkg directory...
+Apr 01 23:52:38.547 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:52:38.547 INFO Writing a package.json...
+Apr 01 23:52:38.547 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:52:38.547 INFO Copying readme from crate...
+Apr 01 23:52:38.547 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:52:38.547 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:52:38.571 INFO Installing wasm-bindgen-cli...
+Apr 01 23:52:38.571 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:52:38.576 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:52:38.577 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:52:38.577 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:52:38.577 INFO Getting the crate name from the manifest...
+Apr 01 23:52:38.577 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:52:38.577 INFO Building the wasm bindings...
+Apr 01 23:52:38.577 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:52:38.599 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:52:38.600 INFO Done in 0 seconds.
+Apr 01 23:52:38.600 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:52:38.656 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:52:38.657 INFO Done in 0 seconds.
+Apr 01 23:52:38.657 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:52:38.681 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:52:38.681 INFO Done in 0 seconds.
+Apr 01 23:52:38.681 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:53:49.655 INFO Running build command...
+Apr 01 23:53:49.655 INFO Checking rustc version...
+Apr 01 23:53:49.666 INFO Running build command...
+Apr 01 23:53:49.667 INFO Checking rustc version...
+Apr 01 23:53:49.677 INFO Running build command...
+Apr 01 23:53:49.677 INFO Checking rustc version...
+Apr 01 23:53:49.677 INFO rustc version is 35.
+Apr 01 23:53:49.677 INFO Checking crate configuration...
+Apr 01 23:53:49.677 INFO Crate is correctly configured.
+Apr 01 23:53:49.678 INFO Adding wasm-target...
+Apr 01 23:53:49.678 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:53:49.684 INFO rustc version is 35.
+Apr 01 23:53:49.685 INFO Checking crate configuration...
+Apr 01 23:53:49.685 INFO Crate is correctly configured.
+Apr 01 23:53:49.685 INFO Adding wasm-target...
+Apr 01 23:53:49.686 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:53:49.701 INFO rustc version is 35.
+Apr 01 23:53:49.702 INFO Checking crate configuration...
+Apr 01 23:53:49.702 INFO Crate is correctly configured.
+Apr 01 23:53:49.702 INFO Adding wasm-target...
+Apr 01 23:53:49.702 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:53:49.770 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:53:49.771 INFO Adding wasm-target was successful.
+Apr 01 23:53:49.771 INFO Building wasm...
+Apr 01 23:53:49.772 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:53:49.797 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:53:49.800 INFO Adding wasm-target was successful.
+Apr 01 23:53:49.800 INFO Building wasm...
+Apr 01 23:53:49.800 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:53:49.814 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:53:49.816 INFO Adding wasm-target was successful.
+Apr 01 23:53:49.816 INFO Building wasm...
+Apr 01 23:53:49.816 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:53:49.874 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:53:49.895 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:53:49.913 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:53:50.039 INFO cargo build (stderr): warning: unused variable: `char_position`
+Apr 01 23:53:50.039 INFO cargo build (stderr):    --> src/lib.rs:175:17
+Apr 01 23:53:50.039 INFO cargo build (stderr):     |
+Apr 01 23:53:50.039 INFO cargo build (stderr): 175 |             let char_position = if char_lists[cl].y + (14.0 * ch as f64) >= height as f64 {
+Apr 01 23:53:50.039 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^ help: consider prefixing with an underscore: `_char_position`
+Apr 01 23:53:50.039 INFO cargo build (stderr):     |
+Apr 01 23:53:50.039 INFO cargo build (stderr):     = note: #[warn(unused_variables)] on by default
+Apr 01 23:53:50.039 INFO cargo build (stderr): 
+Apr 01 23:53:50.041 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:53:50.041 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:53:50.041 INFO cargo build (stderr):    |
+Apr 01 23:53:50.041 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:53:50.041 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:53:50.041 INFO cargo build (stderr):    |         |
+Apr 01 23:53:50.041 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:53:50.041 INFO cargo build (stderr):    |
+Apr 01 23:53:50.042 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:53:50.042 INFO cargo build (stderr): 
+Apr 01 23:53:50.050 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:53:50.051 INFO cargo build (stderr):    --> src/lib.rs:156:9
+Apr 01 23:53:50.051 INFO cargo build (stderr):     |
+Apr 01 23:53:50.051 INFO cargo build (stderr): 156 |     let mut alphabet = vec![
+Apr 01 23:53:50.051 INFO cargo build (stderr):     |         ----^^^^^^^^
+Apr 01 23:53:50.051 INFO cargo build (stderr):     |         |
+Apr 01 23:53:50.051 INFO cargo build (stderr):     |         help: remove this `mut`
+Apr 01 23:53:50.051 INFO cargo build (stderr):     |
+Apr 01 23:53:50.051 INFO cargo build (stderr):     = note: #[warn(unused_mut)] on by default
+Apr 01 23:53:50.051 INFO cargo build (stderr): 
+Apr 01 23:53:50.051 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:53:50.051 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:53:50.051 INFO cargo build (stderr):    |
+Apr 01 23:53:50.052 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:53:50.052 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:53:50.052 INFO cargo build (stderr):    |
+Apr 01 23:53:50.052 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:53:50.052 INFO cargo build (stderr): 
+Apr 01 23:53:50.052 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:53:50.052 INFO cargo build (stderr):    --> src/lib.rs:116:17
+Apr 01 23:53:50.052 INFO cargo build (stderr):     |
+Apr 01 23:53:50.052 INFO cargo build (stderr): 116 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:53:50.052 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:53:50.052 INFO cargo build (stderr):     |
+Apr 01 23:53:50.052 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:53:50.052 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:53:50.052 INFO cargo build (stderr): 
+Apr 01 23:53:50.052 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:53:50.052 INFO cargo build (stderr):    --> src/lib.rs:180:13
+Apr 01 23:53:50.053 INFO cargo build (stderr):     |
+Apr 01 23:53:50.053 INFO cargo build (stderr): 180 | /             context.fill_text(
+Apr 01 23:53:50.053 INFO cargo build (stderr): 181 | |                 &rand_char,
+Apr 01 23:53:50.053 INFO cargo build (stderr): 182 | |                 (14 * cl) as f64,
+Apr 01 23:53:50.053 INFO cargo build (stderr): 183 | |                 (char_lists[cl].y + (14.0 * ch  as f64) as f64) as f64,
+Apr 01 23:53:50.053 INFO cargo build (stderr): 184 | |             );
+Apr 01 23:53:50.053 INFO cargo build (stderr):     | |______________^
+Apr 01 23:53:50.053 INFO cargo build (stderr):     |
+Apr 01 23:53:50.053 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:53:50.053 INFO cargo build (stderr): 
+Apr 01 23:53:50.229 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.44s
+Apr 01 23:53:50.237 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:53:50.237 INFO Creating a pkg directory...
+Apr 01 23:53:50.237 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:53:50.237 INFO Writing a package.json...
+Apr 01 23:53:50.238 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:53:50.238 INFO Copying readme from crate...
+Apr 01 23:53:50.238 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:53:50.238 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:53:50.257 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.44s
+Apr 01 23:53:50.267 INFO Installing wasm-bindgen-cli...
+Apr 01 23:53:50.267 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:53:50.273 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:53:50.274 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:53:50.274 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:53:50.274 INFO Getting the crate name from the manifest...
+Apr 01 23:53:50.274 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:53:50.274 INFO Building the wasm bindings...
+Apr 01 23:53:50.274 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:53:50.277 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:53:50.277 INFO Creating a pkg directory...
+Apr 01 23:53:50.277 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:53:50.277 INFO Writing a package.json...
+Apr 01 23:53:50.278 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:53:50.279 INFO Copying readme from crate...
+Apr 01 23:53:50.279 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:53:50.279 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:53:50.308 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.48s
+Apr 01 23:53:50.310 INFO Installing wasm-bindgen-cli...
+Apr 01 23:53:50.310 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:53:50.316 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:53:50.316 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:53:50.316 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:53:50.316 INFO Getting the crate name from the manifest...
+Apr 01 23:53:50.316 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:53:50.316 INFO Building the wasm bindings...
+Apr 01 23:53:50.316 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:53:50.326 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:53:50.326 INFO Creating a pkg directory...
+Apr 01 23:53:50.326 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:53:50.326 INFO Writing a package.json...
+Apr 01 23:53:50.327 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:53:50.327 INFO Copying readme from crate...
+Apr 01 23:53:50.327 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:53:50.327 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:53:50.361 INFO Installing wasm-bindgen-cli...
+Apr 01 23:53:50.362 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:53:50.369 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:53:50.369 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:53:50.370 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:53:50.370 INFO Getting the crate name from the manifest...
+Apr 01 23:53:50.370 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:53:50.370 INFO Building the wasm bindings...
+Apr 01 23:53:50.370 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:53:50.375 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:53:50.375 INFO Done in 0 seconds.
+Apr 01 23:53:50.375 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:53:50.467 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:53:50.467 INFO Done in 0 seconds.
+Apr 01 23:53:50.468 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:53:50.473 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:53:50.473 INFO Done in 0 seconds.
+Apr 01 23:53:50.473 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:55:09.989 INFO Running build command...
+Apr 01 23:55:09.989 INFO Checking rustc version...
+Apr 01 23:55:10.003 INFO rustc version is 35.
+Apr 01 23:55:10.004 INFO Checking crate configuration...
+Apr 01 23:55:10.004 INFO Crate is correctly configured.
+Apr 01 23:55:10.004 INFO Adding wasm-target...
+Apr 01 23:55:10.004 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:55:10.005 INFO Running build command...
+Apr 01 23:55:10.005 INFO Checking rustc version...
+Apr 01 23:55:10.012 INFO Running build command...
+Apr 01 23:55:10.012 INFO Checking rustc version...
+Apr 01 23:55:10.037 INFO rustc version is 35.
+Apr 01 23:55:10.037 INFO Checking crate configuration...
+Apr 01 23:55:10.037 INFO Crate is correctly configured.
+Apr 01 23:55:10.037 INFO Adding wasm-target...
+Apr 01 23:55:10.037 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:55:10.041 INFO rustc version is 35.
+Apr 01 23:55:10.041 INFO Checking crate configuration...
+Apr 01 23:55:10.041 INFO Crate is correctly configured.
+Apr 01 23:55:10.041 INFO Adding wasm-target...
+Apr 01 23:55:10.042 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Apr 01 23:55:10.120 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:55:10.123 INFO Adding wasm-target was successful.
+Apr 01 23:55:10.123 INFO Building wasm...
+Apr 01 23:55:10.123 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:55:10.150 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:55:10.151 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Apr 01 23:55:10.151 INFO Adding wasm-target was successful.
+Apr 01 23:55:10.151 INFO Building wasm...
+Apr 01 23:55:10.151 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:55:10.153 INFO Adding wasm-target was successful.
+Apr 01 23:55:10.153 INFO Building wasm...
+Apr 01 23:55:10.154 INFO Running "cargo" "build" "--lib" "--target" "wasm32-unknown-unknown"
+Apr 01 23:55:10.229 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:55:10.244 INFO cargo build (stderr):     Blocking waiting for file lock on build directory
+Apr 01 23:55:10.262 INFO cargo build (stderr):    Compiling canvas v0.1.0 (/home/alex/RustProjects/wasm-bindgen)
+Apr 01 23:55:10.433 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:55:10.434 INFO cargo build (stderr):   --> src/lib.rs:68:9
+Apr 01 23:55:10.434 INFO cargo build (stderr):    |
+Apr 01 23:55:10.434 INFO cargo build (stderr): 68 |     let mut c_l = (1..num_char_arrays)
+Apr 01 23:55:10.434 INFO cargo build (stderr):    |         ----^^^
+Apr 01 23:55:10.434 INFO cargo build (stderr):    |         |
+Apr 01 23:55:10.434 INFO cargo build (stderr):    |         help: remove this `mut`
+Apr 01 23:55:10.434 INFO cargo build (stderr):    |
+Apr 01 23:55:10.434 INFO cargo build (stderr):    = note: #[warn(unused_mut)] on by default
+Apr 01 23:55:10.434 INFO cargo build (stderr): 
+Apr 01 23:55:10.441 INFO cargo build (stderr): warning: variable does not need to be mutable
+Apr 01 23:55:10.441 INFO cargo build (stderr):    --> src/lib.rs:156:9
+Apr 01 23:55:10.441 INFO cargo build (stderr):     |
+Apr 01 23:55:10.441 INFO cargo build (stderr): 156 |     let mut alphabet = vec![
+Apr 01 23:55:10.441 INFO cargo build (stderr):     |         ----^^^^^^^^
+Apr 01 23:55:10.441 INFO cargo build (stderr):     |         |
+Apr 01 23:55:10.442 INFO cargo build (stderr):     |         help: remove this `mut`
+Apr 01 23:55:10.442 INFO cargo build (stderr):     |
+Apr 01 23:55:10.442 INFO cargo build (stderr):     = note: #[warn(unused_mut)] on by default
+Apr 01 23:55:10.442 INFO cargo build (stderr): 
+Apr 01 23:55:10.442 INFO cargo build (stderr): warning: function is never used: `body`
+Apr 01 23:55:10.442 INFO cargo build (stderr):   --> src/lib.rs:29:1
+Apr 01 23:55:10.442 INFO cargo build (stderr):    |
+Apr 01 23:55:10.442 INFO cargo build (stderr): 29 | fn body() -> web_sys::HtmlElement {
+Apr 01 23:55:10.442 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:55:10.442 INFO cargo build (stderr):    |
+Apr 01 23:55:10.442 INFO cargo build (stderr):    = note: #[warn(dead_code)] on by default
+Apr 01 23:55:10.442 INFO cargo build (stderr): 
+Apr 01 23:55:10.442 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:55:10.442 INFO cargo build (stderr):    --> src/lib.rs:116:17
+Apr 01 23:55:10.442 INFO cargo build (stderr):     |
+Apr 01 23:55:10.442 INFO cargo build (stderr): 116 |                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
+Apr 01 23:55:10.443 INFO cargo build (stderr):     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apr 01 23:55:10.443 INFO cargo build (stderr):     |
+Apr 01 23:55:10.443 INFO cargo build (stderr):     = note: #[warn(unused_must_use)] on by default
+Apr 01 23:55:10.443 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:55:10.443 INFO cargo build (stderr): 
+Apr 01 23:55:10.443 INFO cargo build (stderr): warning: unused `std::result::Result` that must be used
+Apr 01 23:55:10.443 INFO cargo build (stderr):    --> src/lib.rs:180:13
+Apr 01 23:55:10.443 INFO cargo build (stderr):     |
+Apr 01 23:55:10.443 INFO cargo build (stderr): 180 | /             context.fill_text(
+Apr 01 23:55:10.443 INFO cargo build (stderr): 181 | |                 &rand_char,
+Apr 01 23:55:10.443 INFO cargo build (stderr): 182 | |                 (14 * cl) as f64,
+Apr 01 23:55:10.443 INFO cargo build (stderr): 183 | |                 char_position,
+Apr 01 23:55:10.443 INFO cargo build (stderr): 184 | |             );
+Apr 01 23:55:10.443 INFO cargo build (stderr):     | |______________^
+Apr 01 23:55:10.443 INFO cargo build (stderr):     |
+Apr 01 23:55:10.443 INFO cargo build (stderr):     = note: this `Result` may be an `Err` variant, which should be handled
+Apr 01 23:55:10.443 INFO cargo build (stderr): 
+Apr 01 23:55:10.772 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.63s
+Apr 01 23:55:10.777 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:55:10.777 INFO Creating a pkg directory...
+Apr 01 23:55:10.777 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:55:10.778 INFO Writing a package.json...
+Apr 01 23:55:10.778 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:55:10.778 INFO Copying readme from crate...
+Apr 01 23:55:10.778 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:55:10.778 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:55:10.800 INFO Installing wasm-bindgen-cli...
+Apr 01 23:55:10.800 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:55:10.803 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.64s
+Apr 01 23:55:10.805 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:55:10.806 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:55:10.806 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:55:10.806 INFO Getting the crate name from the manifest...
+Apr 01 23:55:10.806 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:55:10.806 INFO Building the wasm bindings...
+Apr 01 23:55:10.806 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:55:10.812 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:55:10.812 INFO Creating a pkg directory...
+Apr 01 23:55:10.812 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:55:10.813 INFO Writing a package.json...
+Apr 01 23:55:10.813 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:55:10.813 INFO Copying readme from crate...
+Apr 01 23:55:10.813 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:55:10.813 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:55:10.842 INFO Installing wasm-bindgen-cli...
+Apr 01 23:55:10.843 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:55:10.845 INFO cargo build (stderr):     Finished dev [unoptimized + debuginfo] target(s) in 0.68s
+Apr 01 23:55:10.847 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:55:10.847 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:55:10.848 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:55:10.848 INFO Getting the crate name from the manifest...
+Apr 01 23:55:10.848 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:55:10.848 INFO Building the wasm bindings...
+Apr 01 23:55:10.848 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:55:10.852 INFO wasm built at "/home/alex/RustProjects/wasm-bindgen/target/wasm32-unknown-unknown/release".
+Apr 01 23:55:10.852 INFO Creating a pkg directory...
+Apr 01 23:55:10.852 INFO Created a pkg directory at "/home/alex/RustProjects/wasm-bindgen".
+Apr 01 23:55:10.852 INFO Writing a package.json...
+Apr 01 23:55:10.852 INFO Wrote a package.json at "/home/alex/RustProjects/wasm-bindgen/pkg/package.json".
+Apr 01 23:55:10.852 INFO Copying readme from crate...
+Apr 01 23:55:10.853 INFO Copied readme from crate to "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:55:10.853 INFO Identifying wasm-bindgen dependency...
+Apr 01 23:55:10.889 INFO Installing wasm-bindgen-cli...
+Apr 01 23:55:10.890 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "--version"
+Apr 01 23:55:10.895 INFO wasm-bindgen (stdout): wasm-bindgen 0.2.40 (7392df8a3)
+Apr 01 23:55:10.897 INFO Checking installed `wasm-bindgen` version == expected version: 0.2.40 == 0.2.40
+Apr 01 23:55:10.897 INFO Installing wasm-bindgen-cli was successful.
+Apr 01 23:55:10.897 INFO Getting the crate name from the manifest...
+Apr 01 23:55:10.897 INFO Got crate name "canvas" from the manifest at "/home/alex/RustProjects/wasm-bindgen/Cargo.toml".
+Apr 01 23:55:10.898 INFO Building the wasm bindings...
+Apr 01 23:55:10.898 INFO Running "/home/alex/RustProjects/wasm-bindgen/bin/wasm-bindgen" "target/wasm32-unknown-unknown/debug/canvas.wasm" "--out-dir" "/home/alex/RustProjects/wasm-bindgen/pkg" "--typescript" "--browser" "--debug"
+Apr 01 23:55:10.926 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:55:10.926 INFO Done in 0 seconds.
+Apr 01 23:55:10.926 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:55:10.974 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:55:10.975 INFO Done in 0 seconds.
+Apr 01 23:55:10.975 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:55:11.009 INFO wasm bindings were built at "/home/alex/RustProjects/wasm-bindgen/pkg".
+Apr 01 23:55:11.010 INFO Done in 0 seconds.
+Apr 01 23:55:11.010 INFO Your wasm pkg is ready to publish at "/home/alex/RustProjects/wasm-bindgen/pkg".
