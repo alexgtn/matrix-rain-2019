@@ -68,7 +68,7 @@ pub fn run() -> Result<(), JsValue> {
     let mut c_l = (1..num_char_arrays)
         .map(|x| {
             let num_chars = rng.gen_range(10, alphabet.len());
-            let vertical_offset = (-1 * rng.gen_range(0, 200)) as f64;
+            let vertical_offset = (-1 * (num_chars as i64 * 14)) as f64;
             let speed = rng.gen_range(5, 20) as f64;
             alphabet.shuffle(&mut rng);
             CharList {
@@ -108,6 +108,8 @@ pub fn run() -> Result<(), JsValue> {
         .unwrap();
 
     *g.borrow_mut() = Some(Closure::wrap(Box::new(move || {
+        context.clear_rect(0.0, 0.0, screen_width as f64, screen_height as f64);
+
         i += 1;
 //        if (i % interval) == 0 {
             let new_canvas: Result<web_sys::HtmlCanvasElement, String> =
@@ -116,7 +118,6 @@ pub fn run() -> Result<(), JsValue> {
                 context.draw_image_with_html_canvas_element(&new_canvas.unwrap(), 0.0, 0.0);
             }
 //        }
-
         request_animation_frame(f.borrow().as_ref().unwrap());
     }) as Box<FnMut()>));
 
@@ -149,8 +150,6 @@ pub fn get_canvas(
         .dyn_into::<web_sys::CanvasRenderingContext2d>()
         .unwrap();
 
-    context.set_fill_style(&JsValue::from_str("black"));
-    context.fill_rect(0.0, 0.0, width as f64, height as f64);
     context.set_fill_style(&JsValue::from_str("#a4f442"));
 
     let mut alphabet = vec![

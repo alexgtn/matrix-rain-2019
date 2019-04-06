@@ -1,23 +1,15 @@
 // For more comments about what's going on here, check out the `hello_world`
 // example.
-
-import('./pkg/canvas')
-    // .then((v) => {
-    //     var k = 0;
-    //     var interval = 60;
-    //
-    //     const renderLoop = () => {
-    //         k+=1;
-    //         if (k % interval === 0){
-    //             let existingCanvas = document.getElementById('canvas');
-    //             let newCanvas = v.get_canvas();
-    //             if (newCanvas != null || newCanvas !== undefined)
-    //                 existingCanvas.getContext('2d').drawImage(newCanvas, 0, 0);
-    //         }
-    //
-    //         window.animationId = requestAnimationFrame(renderLoop);
-    //     };
-    //
-    //     renderLoop();
-    // })
-  .catch(console.error);
+import('./style.css')
+    // .then(() => import('./pkg/canvas'))
+    .then(() => import('./script'))
+    .then(() => {
+        document.getElementById("loading").remove();
+        document.getElementById("bar").style = "visibility:visible";
+    }).catch(console.error);
+// import('./script').catch(console.error);
+//
+// var event = new Event('rain');
+// document.body.addEventListener('rain', function (e) {
+//     import('./pkg/canvas')
+// }, false);

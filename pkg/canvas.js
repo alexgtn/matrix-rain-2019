@@ -32,8 +32,6 @@ function addHeapObject(obj) {
     const idx = heap_next;
     heap_next = heap[idx];
 
-    if (typeof(heap_next) !== 'number') throw new Error('corrupt heap');
-
     heap[idx] = obj;
     return idx;
 }
@@ -53,21 +51,11 @@ export function __widl_f_draw_image_with_html_canvas_element_CanvasRenderingCont
 }
 
 export function __widl_f_set_fill_style_CanvasRenderingContext2D(arg0, arg1) {
-    try {
-        getObject(arg0).fillStyle = getObject(arg1);
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    getObject(arg0).fillStyle = getObject(arg1);
 }
 
-export function __widl_f_fill_rect_CanvasRenderingContext2D(arg0, arg1, arg2, arg3, arg4) {
-    try {
-        getObject(arg0).fillRect(arg1, arg2, arg3, arg4);
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+export function __widl_f_clear_rect_CanvasRenderingContext2D(arg0, arg1, arg2, arg3, arg4) {
+    getObject(arg0).clearRect(arg1, arg2, arg3, arg4);
 }
 
 let cachedTextDecoder = new TextDecoder('utf-8');
@@ -108,15 +96,10 @@ function isLikeNone(x) {
 
 export function __widl_f_get_element_by_id_Document(arg0, arg1, arg2) {
     let varg1 = getStringFromWasm(arg1, arg2);
-    try {
 
-        const val = getObject(arg0).getElementById(varg1);
-        return isLikeNone(val) ? 0 : addHeapObject(val);
+    const val = getObject(arg0).getElementById(varg1);
+    return isLikeNone(val) ? 0 : addHeapObject(val);
 
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
 }
 
 export function __widl_instanceof_HTMLCanvasElement(idx) { return getObject(idx) instanceof HTMLCanvasElement ? 1 : 0; }
@@ -134,21 +117,11 @@ export function __widl_f_get_context_HTMLCanvasElement(arg0, arg1, arg2, exnptr)
 }
 
 export function __widl_f_set_width_HTMLCanvasElement(arg0, arg1) {
-    try {
-        getObject(arg0).width = arg1;
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    getObject(arg0).width = arg1;
 }
 
 export function __widl_f_set_height_HTMLCanvasElement(arg0, arg1) {
-    try {
-        getObject(arg0).height = arg1;
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    getObject(arg0).height = arg1;
 }
 
 export function __widl_instanceof_Window(idx) { return getObject(idx) instanceof Window ? 1 : 0; }
@@ -162,15 +135,10 @@ export function __widl_f_request_animation_frame_Window(arg0, arg1, exnptr) {
 }
 
 export function __widl_f_document_Window(arg0) {
-    try {
 
-        const val = getObject(arg0).document;
-        return isLikeNone(val) ? 0 : addHeapObject(val);
+    const val = getObject(arg0).document;
+    return isLikeNone(val) ? 0 : addHeapObject(val);
 
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
 }
 
 export function __widl_f_inner_width_Window(arg0, exnptr) {
@@ -191,12 +159,7 @@ export function __widl_f_inner_height_Window(arg0, exnptr) {
 
 export function __wbg_newnoargs_b4526aa2a6db81de(arg0, arg1) {
     let varg0 = getStringFromWasm(arg0, arg1);
-    try {
-        return addHeapObject(new Function(varg0));
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    return addHeapObject(new Function(varg0));
 }
 
 export function __wbg_call_a7a8823c404228ab(arg0, arg1, exnptr) {
@@ -209,48 +172,23 @@ export function __wbg_call_a7a8823c404228ab(arg0, arg1, exnptr) {
 
 export function __wbg_new_3a746f2619705add(arg0, arg1) {
     let varg0 = getStringFromWasm(arg0, arg1);
-    try {
-        return addHeapObject(new Function(varg0));
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    return addHeapObject(new Function(varg0));
 }
 
 export function __wbg_call_f54d3a6dadb199ca(arg0, arg1) {
-    try {
-        return addHeapObject(getObject(arg0).call(getObject(arg1)));
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    return addHeapObject(getObject(arg0).call(getObject(arg1)));
 }
 
 export function __wbg_self_ac379e780a0d8b94(arg0) {
-    try {
-        return addHeapObject(getObject(arg0).self);
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    return addHeapObject(getObject(arg0).self);
 }
 
 export function __wbg_crypto_1e4302b85d4f64a2(arg0) {
-    try {
-        return addHeapObject(getObject(arg0).crypto);
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    return addHeapObject(getObject(arg0).crypto);
 }
 
 export function __wbg_getRandomValues_1b4ba144162a5c9e(arg0) {
-    try {
-        return addHeapObject(getObject(arg0).getRandomValues);
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    return addHeapObject(getObject(arg0).getRandomValues);
 }
 
 function getArrayU8FromWasm(ptr, len) {
@@ -259,32 +197,17 @@ function getArrayU8FromWasm(ptr, len) {
 
 export function __wbg_getRandomValues_1ef11e888e5228e9(arg0, arg1, arg2) {
     let varg1 = getArrayU8FromWasm(arg1, arg2);
-    try {
-        getObject(arg0).getRandomValues(varg1);
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    getObject(arg0).getRandomValues(varg1);
 }
 
 export function __wbg_require_6461b1e9a0d7c34a(arg0, arg1) {
     let varg0 = getStringFromWasm(arg0, arg1);
-    try {
-        return addHeapObject(require(varg0));
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    return addHeapObject(require(varg0));
 }
 
 export function __wbg_randomFillSync_1b52c8482374c55b(arg0, arg1, arg2) {
     let varg1 = getArrayU8FromWasm(arg1, arg2);
-    try {
-        getObject(arg0).randomFillSync(varg1);
-    } catch (e) {
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", e);
-        throw e;
-    }
+    getObject(arg0).randomFillSync(varg1);
 }
 
 export function __wbindgen_string_new(p, l) { return addHeapObject(getStringFromWasm(p, l)); }
@@ -306,8 +229,6 @@ let passStringToWasm;
 if (typeof cachedTextEncoder.encodeInto === 'function') {
     passStringToWasm = function(arg) {
 
-        if (typeof(arg) !== 'string') throw new Error('expected a string argument');
-
         let size = arg.length;
         let ptr = wasm.__wbindgen_malloc(size);
         let writeOffset = 0;
@@ -327,8 +248,6 @@ if (typeof cachedTextEncoder.encodeInto === 'function') {
     };
 } else {
     passStringToWasm = function(arg) {
-
-        if (typeof(arg) !== 'string') throw new Error('expected a string argument');
 
         const buf = cachedTextEncoder.encode(arg);
         const ptr = wasm.__wbindgen_malloc(buf.length);
@@ -437,15 +356,13 @@ export function __wbindgen_cb_drop(i) {
 
 export function __wbindgen_jsval_eq(a, b) { return getObject(a) === getObject(b) ? 1 : 0; }
 
-export function __wbindgen_rethrow(idx) { throw takeObject(idx); }
-
 export function __wbindgen_throw(ptr, len) {
     throw new Error(getStringFromWasm(ptr, len));
 }
 
-export function __wbindgen_closure_wrapper449(a, b, _ignored) {
-    const f = wasm.__wbg_function_table.get(23);
-    const d = wasm.__wbg_function_table.get(24);
+export function __wbindgen_closure_wrapper71(a, b, _ignored) {
+    const f = wasm.__wbg_function_table.get(24);
+    const d = wasm.__wbg_function_table.get(25);
     const cb = function() {
         this.cnt++;
         let a = this.a;

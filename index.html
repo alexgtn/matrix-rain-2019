@@ -1,48 +1,83 @@
 <html>
-  <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <style>
+<style>
+    body {
+        overflow: hidden;
+        background: #000
+    }
 
-      html, body, div, span, applet, object, iframe,
-      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-      a, abbr, acronym, address, big, cite, code,
-      del, dfn, em, img, ins, kbd, q, s, samp,
-      small, strike, strong, sub, sup, tt, var,
-      b, u, i, center,
-      dl, dt, dd, ol, ul, li,
-      fieldset, form, label, legend,
-      table, caption, tbody, tfoot, thead, tr, th, td,
-      article, aside, canvas, details, embed,
-      figure, figcaption, footer, header, hgroup,
-      menu, nav, output, ruby, section, summary,
-      time, mark, audio, video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-      }
+    #loading {
+        height: 40px;
+        padding: 10px;
+        font-size: 20px;
+        background-color: #96ef78;
+        position: absolute;
+        width: 120px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto
+    }
 
+    #poweredBy {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 30px;
+        background: #000
+    }
 
-      canvas {
-        /*height: 100%;*/
-        /*width: 100%;*/
-        margin: 0px !important;
-        padding: 0px !important;
-        /*height: 100vh;*/
-        /*width: 100vw;*/
-        display: block;
-        overflow-x: hidden !important;
-        overflow-y: hidden !important;
-      }
+    #poweredBy span {
+        font-size: 11px;
+        color: #555;
+        width: 100px;
+        height: 10px
+    }
 
-      body {
-        background-color: black;
-      }
-    </style>
-  </head>
-  <body>
-  <canvas id="canvas"></canvas>
-  </body>
+    #poweredBy svg, #poweredBy span {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        margin-right: 5px
+    }
+</style>
+<head>
+    <title>Personal page :: Alex Gutan</title>
+</head>
+
+<body>
+<div id="bar" class="box"></div>
+<div id="container" class="container">
+    <div id="scrollArea" class="scrollArea"></div>
+    <div id="resultArea">
+
+    </div>
+    <div id="commandArea" class="commandArea">
+        <div id="command" class="command"></div>
+        <div id="typeIndicator" class="typeIndicator"></div>
+    </div>
+</div>
+<span id="loading">Loading ...</span>
+<canvas id="canvas"></canvas>
+<div id="poweredBy">
+    <span>Powered by </span>
+    <a href="https://www.rust-lang.org/" title="Rust" target="_blank">
+        <svg id="rust" height="25" width="25"
+             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <image x="0" y="0" height="25" width="25" xlink:href="img/rust.svg"></image>
+        </svg>
+    </a>
+    <a href="http://webassembly.org" title="WebAssembly" target="_blank">
+        <svg id="wasm" height="30" width="40"
+             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <image x="0" y="0" height="30" width="40" xlink:href="img/wasm.svg"></image>
+        </svg>
+    </a>
+</div>
+</body>
+
 </html>
