@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mod=production",
     "serve": "webpack-dev-server"
   },
   "devDependencies": {
@@ -9,9 +9,18 @@
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.29.4",
     "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.0"
+    "webpack-dev-server": "^3.1.0",
+    "compression-webpack-plugin": "^2.0.0",
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1"
   },
   "dependencies": {
+    "@wasm-tool/wasm-pack-plugin": "0.2.1",
+    "text-encoding": "^0.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.0",
     "compression-webpack-plugin": "^2.0.0",
     "css-loader": "^2.1.1",
     "style-loader": "^0.23.1"

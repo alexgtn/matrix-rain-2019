@@ -73,7 +73,7 @@ function handleKeyPressed(e) {
     console.log(e.key)
     console.log(e.code)
     console.log(e.keyCode)
-    if (e.key === 'Enter'){
+    if (e.key === 'Enter') {
         console.log("enter");
         // exec
 
@@ -132,10 +132,10 @@ function handleKeyPressed(e) {
             let tmpLeft = 24 + (9 * typeOffset);
             typeIndicator.style = "left:" + tmpLeft + "px";
         }
-    } else if (e.key >= 'a' && e.key <= 'z' || e.key === '-' || e.key === ' '){
-        if (e.key === ' '){
+    } else if (e.key >= 'a' && e.key <= 'z' || e.key === '-' || e.key === ' ') {
+        if (e.key === ' ') {
             console.log("space");
-            command.innerHTML+=' ';
+            command.innerHTML += ' ';
         } else if (e.key === '-') {
             console.log("-");
             command.innerHTML += '-';
@@ -156,31 +156,31 @@ window.onkeydown = handleKeyPressed;
 
 function repeatOften() {
     var dateNow = Date.now();
-    if (dateNow - previousTime > 250 && showBar === true && blinkCounter <= 3){
+    if (dateNow - previousTime > 250 && showBar === true && blinkCounter <= 3) {
         showBar = false;
         previousTime = dateNow;
-        bar.style="visibility:hidden";
-    } else if(dateNow - previousTime > 250 && showBar === false && blinkCounter <= 3) {
+        bar.style = "visibility:hidden";
+    } else if (dateNow - previousTime > 250 && showBar === false && blinkCounter <= 3) {
         // document.body.dispatchEvent(new Event('rain'));
         showBar = true;
         blinkCounter++;
         previousTime = dateNow;
-        bar.style="visibility:visible";
-    } else if (blinkCounter > 3 && containerHeight < 600){
-        containerHeight+=10;
+        bar.style = "visibility:visible";
+    } else if (blinkCounter > 3 && containerHeight < 600) {
+        containerHeight += 10;
         container.style = "display:block;height:" + containerHeight;
     } else if (blinkCounter === 3) {
-        if (rainTriggered === false){
+        if (rainTriggered === false) {
             rainTriggered = true;
             import('./pkg/canvas').then(() => console.log('rain'))
         }
 
-    } else if(containerHeight === 600 && container.innerText.length < originalLogoLength) {
+    } else if (containerHeight === 600 && container.innerText.length < originalLogoLength) {
 
-        scrollArea.innerText+= logoText.substr(0, 10);
+        scrollArea.innerText += logoText.substr(0, 10);
         logoText = logoText.substr(10);
 
-    } else if (container.innerText.length >= originalLogoLength){
+    } else if (container.innerText.length >= originalLogoLength) {
         commandArea.style = "display:block";
         showCLI = true;
     }
@@ -194,4 +194,5 @@ function repeatOften() {
     // requestAnimationFrame(repeatOften);
 
 }
+
 requestAnimationFrame(repeatOften);
