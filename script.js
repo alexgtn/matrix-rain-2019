@@ -70,7 +70,10 @@ var typeIndicator = document.getElementById("typeIndicator");
 var rainTriggered = false;
 
 function handleKeyPressed(e) {
-    if (e.keyCode === 13){
+    console.log(e.key)
+    console.log(e.code)
+    console.log(e.keyCode)
+    if (e.key === 'Enter'){
         console.log("enter");
         // exec
 
@@ -120,7 +123,7 @@ function handleKeyPressed(e) {
         let tmpLeft = 24 + (9 * typeOffset);
         typeIndicator.style = "left:" + tmpLeft + "px";
 
-    } else if (e.keyCode === 46 || e.keyCode === 8) {
+    } else if (e.key === 'Delete' || e.key === 'Backspace') {
         //delete
         console.log("delete");
         if (typeOffset > 0) {
@@ -129,11 +132,11 @@ function handleKeyPressed(e) {
             let tmpLeft = 24 + (9 * typeOffset);
             typeIndicator.style = "left:" + tmpLeft + "px";
         }
-    } else if (e.keyCode >= 65 && e.keyCode <= 90 || e.keyCode === 189 || e.keyCode === 32){
-        if (e.keyCode === 32){
+    } else if (e.key >= 'a' && e.key <= 'z' || e.key === '-' || e.key === ' '){
+        if (e.key === ' '){
             console.log("space");
             command.innerHTML+=' ';
-        } else if (e.keyCode === 189) {
+        } else if (e.key === '-') {
             console.log("-");
             command.innerHTML += '-';
         } else {
